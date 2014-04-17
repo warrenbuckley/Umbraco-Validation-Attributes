@@ -1,0 +1,42 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+@section Head {
+    <!-- JS ClientSide Validation -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script>
+
+    <script type="text/javascript">
+        // Checkbox Validation
+        jQuery.validator.addMethod("checkboxChecked", function (value, element) {
+            var checked = false;
+            checked     = $(element).is(':checked');
+
+            return checked;
+        }, '');
+
+        //Add our custom adapter
+        $.validator.unobtrusive.adapters.addBool("mustbetrue", "required");
+    </script>
+    
+    <style>
+        label {
+            display: block;    
+        }
+
+        input[type='hidden'] + label {
+            display: inline-block;
+        }
+
+         .field-validation-error {
+             color: red;
+             font-style: italic;
+         }
+    </style>
+}
+
+<h3>Contact Form Page Title</h3>
+@Html.Action("RenderContactForm", "ContactFormSurface")

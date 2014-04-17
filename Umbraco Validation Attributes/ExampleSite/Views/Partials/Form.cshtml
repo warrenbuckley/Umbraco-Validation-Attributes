@@ -1,0 +1,78 @@
+﻿@using ExampleSite.Controllers.Surface
+@model ExampleSite.ViewModels.ContactFormViewModel
+
+@{
+    //Client Side Validation
+    Html.EnableClientValidation(true);
+    Html.EnableUnobtrusiveJavaScript(true);
+
+    //Create an Umbraco Helper off the current Umbraco Context (Uppercase to match normal helper availble in Umbraco Views)
+    var Umbraco = new UmbracoHelper(UmbracoContext.Current);
+}
+
+@if (Convert.ToBoolean(TempData["IsSuccessful"]))
+{
+    <p>@Umbraco.GetDictionaryValue("Site.Contact.Thanks")</p>
+}
+else
+{
+
+    using (Html.BeginUmbracoForm<ContactFormSurfaceController>("HandleContactForm"))
+    {
+
+        <div>
+            <label for="FirstName">
+                @Umbraco.GetDictionaryValue("Site.Contact.FirstName") <span>*</span>
+            </label>
+            @Html.TextBoxFor(model => model.FirstName)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.FirstName)
+        </div>
+
+        <div>
+            <label for="Surname">
+                @Umbraco.GetDictionaryValue("Site.Contact.Surname")
+            </label>
+            @Html.TextBoxFor(model => model.Surname, new { placeholder = Umbraco.GetDictionaryValue("Site.Contact.Optional") })
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Surname)
+        </div>
+    
+        <div>
+            <label for="Email">
+                @Umbraco.GetDictionaryValue("Site.Contact.Email") <span>*</span>
+            </label>
+            @Html.TextBoxFor(model => model.Email)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+    
+        <div>
+            <label for="Message">
+                @Umbraco.GetDictionaryValue("Site.Contact.Message") <span>*</span>
+            </label>
+            @Html.TextAreaFor(model => model.Message)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Message)
+        </div>
+    
+        <div>
+            @Html.CheckBoxFor(model => model.AcceptedTerms)
+            <label for="AcceptedTerms">
+                @Umbraco.GetDictionaryValue("Site.Contact.AgreeTerms")
+            </label>
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.AcceptedTerms)
+        </div>
+
+
+        @Html.AntiForgeryToken()
+
+        <input type="submit" value="@Umbraco.GetDictionaryValue("Site.Contact.Send")" class="btn" />
+    }
+}

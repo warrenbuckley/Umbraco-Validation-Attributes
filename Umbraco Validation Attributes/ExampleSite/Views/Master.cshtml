@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+<html>
+    <head>
+        @RenderSection("Head", false)
+    </head>
+    <body>
+        <h1>Example Site</h1>
+        <h2>Current site is: @Umbraco.Field("#Site.Title")</h2>
+
+        <hr />
+
+        @RenderBody()
+    </body>
+</html>
