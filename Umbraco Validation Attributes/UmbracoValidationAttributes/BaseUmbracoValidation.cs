@@ -16,12 +16,6 @@ namespace UmbracoValidationAttributes
         /// </summary>
         public string ErrorMessageDictionaryKey { get; set; }
 
-        /// <summary>
-        /// This is a dictionary key in Umbraco for the Property name so it can be translated.
-        /// eg 'MySite.Fields.Name' for Name, Nom etc...
-        /// </summary>
-        public string PropertyDictionaryKey { get; set; }
-
         public BaseUmbracoValidation()
         {
             //Ensure we have a context
@@ -37,13 +31,13 @@ namespace UmbracoValidationAttributes
         public override string FormatErrorMessage(string name)
         {
             // Get Dictionary Value for field/property label from PropertyDictionaryKey
-            var propertyName = UmbracoHelper.GetDictionaryValue(PropertyDictionaryKey);
+            //var propertyName = UmbracoHelper.GetDictionaryValue(PropertyDictionaryKey);
 
             //Sanity checking it's not empty
-            if (string.IsNullOrEmpty(propertyName))
-            {
-                throw new Exception(string.Format("The dictionary key '{0}' for the '{1}' property is empty or does not exist", PropertyDictionaryKey, name));
-            }
+            //if (string.IsNullOrEmpty(propertyName))
+            //{
+            //    throw new Exception(string.Format("The dictionary key '{0}' for the '{1}' property is empty or does not exist", PropertyDictionaryKey, name));
+            //}
 
             //Get dictionary value for thge required error message
             var error = UmbracoHelper.GetDictionaryValue(ErrorMessageDictionaryKey);
@@ -56,7 +50,7 @@ namespace UmbracoValidationAttributes
 
             // String replacment the token wiht our localised propertyname
             // The {{Field}} field is required
-            error = error.Replace("{{Field}}", propertyName);
+            error = error.Replace("{{Field}}", name);
 
             //Return the value
             return error;

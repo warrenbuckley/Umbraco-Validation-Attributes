@@ -21,9 +21,7 @@ else
     {
 
         <div>
-            <label for="FirstName">
-                @Umbraco.GetDictionaryValue("Site.Contact.FirstName") <span>*</span>
-            </label>
+            @Html.DisplayNameFor(model => model.FirstName)
             @Html.TextBoxFor(model => model.FirstName)
         </div>
         <div>
@@ -31,9 +29,7 @@ else
         </div>
 
         <div>
-            <label for="Surname">
-                @Umbraco.GetDictionaryValue("Site.Contact.Surname")
-            </label>
+            @Html.DisplayNameFor(model => model.Surname)
             @Html.TextBoxFor(model => model.Surname, new { placeholder = Umbraco.GetDictionaryValue("Site.Contact.Optional") })
         </div>
         <div>
@@ -41,9 +37,7 @@ else
         </div>
     
         <div>
-            <label for="Email">
-                @Umbraco.GetDictionaryValue("Site.Contact.Email") <span>*</span>
-            </label>
+            @Html.DisplayNameFor(model => model.Email)
             @Html.TextBoxFor(model => model.Email)
         </div>
         <div>
@@ -51,9 +45,7 @@ else
         </div>
     
         <div>
-            <label for="Message">
-                @Umbraco.GetDictionaryValue("Site.Contact.Message") <span>*</span>
-            </label>
+            @Html.DisplayNameFor(model => model.Email)
             @Html.TextAreaFor(model => model.Message)
         </div>
         <div>
@@ -62,9 +54,7 @@ else
     
         <div>
             @Html.CheckBoxFor(model => model.AcceptedTerms)
-            <label for="AcceptedTerms">
-                @Umbraco.GetDictionaryValue("Site.Contact.AgreeTerms")
-            </label>
+            @Html.DisplayNameFor(model => model.AcceptedTerms)
         </div>
         <div>
             @Html.ValidationMessageFor(model => model.AcceptedTerms)
