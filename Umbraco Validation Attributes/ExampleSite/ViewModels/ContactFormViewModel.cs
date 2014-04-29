@@ -1,4 +1,5 @@
-﻿using UmbracoValidationAttributes;
+﻿using System.Web.Mvc;
+using UmbracoValidationAttributes;
 
 namespace ExampleSite.ViewModels
 {
@@ -10,6 +11,7 @@ namespace ExampleSite.ViewModels
         public string FirstName { get; set; }
 
         [UmbracoDisplayName("Site.Contact.Surname")]
+        [UmbracoRemote("IsValid", "RemoteValidationSurface", ErrorMessageDictionaryKey = "Site.Contact.Surname.Remote", AdditionalFields = "FirstName")]
         public string Surname { get; set; }
 
         [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]

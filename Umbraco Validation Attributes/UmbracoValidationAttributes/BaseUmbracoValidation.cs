@@ -30,15 +30,6 @@ namespace UmbracoValidationAttributes
 
         public override string FormatErrorMessage(string name)
         {
-            // Get Dictionary Value for field/property label from PropertyDictionaryKey
-            //var propertyName = UmbracoHelper.GetDictionaryValue(PropertyDictionaryKey);
-
-            //Sanity checking it's not empty
-            //if (string.IsNullOrEmpty(propertyName))
-            //{
-            //    throw new Exception(string.Format("The dictionary key '{0}' for the '{1}' property is empty or does not exist", PropertyDictionaryKey, name));
-            //}
-
             //Get dictionary value for thge required error message
             var error = UmbracoHelper.GetDictionaryValue(ErrorMessageDictionaryKey);
 
