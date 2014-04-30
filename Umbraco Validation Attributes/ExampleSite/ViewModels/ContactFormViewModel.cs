@@ -30,5 +30,14 @@ namespace ExampleSite.ViewModels
         [UmbracoRange(18,30, ErrorMessageDictionaryKey = "Site.Contact.Age.Range")]
         [UmbracoDisplayName("Site.Contact.Age")]
         public int Age { get; set; }
+
+        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoDisplayName("Site.Contact.Password")]
+        public string Password { get; set; }
+
+        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoDisplayName("Site.Contact.ConfirmPassword")]
+        [UmbracoCompare("Password", ErrorMessageDictionaryKey = "Site.Contact.Compare")]
+        public string ConfirmPassword { get; set; }
     }
 }

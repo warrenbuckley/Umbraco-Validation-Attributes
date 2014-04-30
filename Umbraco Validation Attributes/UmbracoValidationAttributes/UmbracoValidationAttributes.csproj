@@ -192,6 +192,7 @@
     <Compile Include="UmbracoDisplay.cs" />
     <Compile Include="UmbracoEmail.cs" />
     <Compile Include="UmbracoMustBeTrue.cs" />
+    <Compile Include="UmbracoCompare.cs" />
     <Compile Include="UmbracoRange.cs" />
     <Compile Include="UmbracoRemote.cs" />
     <Compile Include="UmbracoRequired.cs" />

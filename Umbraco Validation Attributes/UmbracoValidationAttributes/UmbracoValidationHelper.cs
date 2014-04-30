@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using Umbraco.Web;
 
 namespace UmbracoValidationAttributes
@@ -62,6 +63,32 @@ namespace UmbracoValidationAttributes
             return error;
         }
 
+        public static string FormatCompareErrorMessage(string name, string errorMessageDictionaryKey, string otherProperty)
+        {
+            //Get dictionary value for thge required error message
+            var error = UmbracoHelper.GetDictionaryValue(errorMessageDictionaryKey);
+
+            //Sanity checking it's not empty
+            if (string.IsNullOrEmpty(error))
+            {
+                throw new Exception(string.Format("The dictionary key '{0}' for the required error message is empty or does not exist", errorMessageDictionaryKey));
+            }
+
+            //TODO - Somehow figure out
+            //Get other property display name, but from UmbracoDisplay as getting C# property name
+            
+
+            // String replacment the token with our localised propertyname
+            //'{{Field}}' and '{0}' do not match.
+            error = error.Replace("{{Field}}", name);
+            error = string.Format(error, otherProperty);
+
+            //Return the value
+            return error;
+        }
+
+
+        
         
     }
 }

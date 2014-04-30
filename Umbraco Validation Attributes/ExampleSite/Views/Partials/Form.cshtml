@@ -69,6 +69,22 @@ else
             @Html.ValidationMessageFor(model => model.Age)
         </div>
 
+        <div>
+            @Html.DisplayNameFor(model => model.Password)
+            @Html.TextBoxFor(model => model.Password)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <div>
+            @Html.DisplayNameFor(model => model.ConfirmPassword)
+            @Html.TextBoxFor(model => model.ConfirmPassword)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.ConfirmPassword)
+        </div>
+
         @Html.AntiForgeryToken()
 
         <input type="submit" value="@Umbraco.GetDictionaryValue("Site.Contact.Send")" class="btn" />
