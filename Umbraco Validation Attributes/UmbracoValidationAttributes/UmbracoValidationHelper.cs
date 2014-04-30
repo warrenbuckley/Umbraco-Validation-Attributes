@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Umbraco.Web;
 
 namespace UmbracoValidationAttributes
@@ -21,6 +17,25 @@ namespace UmbracoValidationAttributes
 
             //Setup Umbraco Helper for our inheriting classes to use as needed
             UmbracoHelper = new UmbracoHelper(UmbracoContext.Current);
+        }
+
+        public static string FormatErrorMessage(string name, string errorMessageDictionaryKey)
+        {
+            //Get dictionary value for thge required error message
+            var error = UmbracoHelper.GetDictionaryValue(errorMessageDictionaryKey);
+
+            //Sanity checking it's not empty
+            if (string.IsNullOrEmpty(error))
+            {
+                throw new Exception(string.Format("The dictionary key '{0}' for the required error message is empty or does not exist", errorMessageDictionaryKey));
+            }
+
+            // String replacment the token wiht our localised propertyname
+            // The {{Field}} field is required
+            error = error.Replace("{{Field}}", name);
+
+            //Return the value
+            return error;
         }
     }
 }

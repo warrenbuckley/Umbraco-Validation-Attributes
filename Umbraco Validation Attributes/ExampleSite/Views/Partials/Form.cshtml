@@ -3,8 +3,8 @@
 
 @{
     //Client Side Validation
-    Html.EnableClientValidation(true);
-    Html.EnableUnobtrusiveJavaScript(true);
+    //Html.EnableClientValidation(true);
+    //Html.EnableUnobtrusiveJavaScript(true);
 
     //Create an Umbraco Helper off the current Umbraco Context (Uppercase to match normal helper availble in Umbraco Views)
     var Umbraco = new UmbracoHelper(UmbracoContext.Current);
@@ -19,6 +19,7 @@ else
 
     using (Html.BeginUmbracoForm<ContactFormSurfaceController>("HandleContactForm"))
     {
+        @Html.ValidationSummary()
 
         <div>
             @Html.DisplayNameFor(model => model.FirstName)
@@ -45,7 +46,7 @@ else
         </div>
     
         <div>
-            @Html.DisplayNameFor(model => model.Email)
+            @Html.DisplayNameFor(model => model.Message)
             @Html.TextAreaFor(model => model.Message)
         </div>
         <div>

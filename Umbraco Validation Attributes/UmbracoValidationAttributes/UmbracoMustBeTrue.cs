@@ -4,8 +4,13 @@ using System.Web.Mvc;
 
 namespace UmbracoValidationAttributes
 {
-    public class UmbracoMustBeTrue : BaseUmbracoValidation, IClientValidatable
+    public class UmbracoMustBeTrue : ValidationAttribute, IClientValidatable
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ErrorMessageDictionaryKey { get; set; }
+
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             //Convert the value to a bool & check it's true
@@ -26,8 +31,8 @@ namespace UmbracoValidationAttributes
         {
             var rule = new ModelClientValidationRule
             {
-                ErrorMessage = FormatErrorMessage(metadata.GetDisplayName()),
-                ValidationType = "mustbetrue"
+                ErrorMessage    = FormatErrorMessage(metadata.GetDisplayName()),
+                ValidationType  = "mustbetrue"
             };
 
             yield return rule;

@@ -188,12 +188,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseUmbracoValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UmbracoDisplay.cs" />
     <Compile Include="UmbracoEmail.cs" />
     <Compile Include="UmbracoMustBeTrue.cs" />
-    <Compile Include="UmbracoRemoteAttribute.cs" />
+    <Compile Include="UmbracoRemote.cs" />
     <Compile Include="UmbracoRequired.cs" />
     <Compile Include="UmbracoValidationHelper.cs" />
   </ItemGroup>
