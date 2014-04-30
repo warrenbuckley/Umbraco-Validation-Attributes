@@ -85,6 +85,14 @@ else
             @Html.ValidationMessageFor(model => model.ConfirmPassword)
         </div>
 
+        <div>
+            @Html.DisplayNameFor(model => model.StringLength)
+            @Html.TextBoxFor(model => model.StringLength)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.StringLength)
+        </div>
+
         @Html.AntiForgeryToken()
 
         <input type="submit" value="@Umbraco.GetDictionaryValue("Site.Contact.Send")" class="btn" />

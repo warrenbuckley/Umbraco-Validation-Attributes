@@ -39,5 +39,8 @@ namespace ExampleSite.ViewModels
         [UmbracoDisplayName("Site.Contact.ConfirmPassword")]
         [UmbracoCompare("Password", ErrorMessageDictionaryKey = "Site.Contact.Compare")]
         public string ConfirmPassword { get; set; }
+
+        [UmbracoStringLength(10, MinimumLength = 5, ErrorMessageDictionaryKey = "Site.Contact.StringLength")]
+        public string StringLength { get; set; }
     }
 }
