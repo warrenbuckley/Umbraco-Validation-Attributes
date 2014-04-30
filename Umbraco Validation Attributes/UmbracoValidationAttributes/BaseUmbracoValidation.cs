@@ -4,6 +4,7 @@ using Umbraco.Web;
 
 namespace UmbracoValidationAttributes
 {
+    [Obsolete("Will be moving this out to a helper, so we inherit the native .NET attributes")]
     public class BaseUmbracoValidation : ValidationAttribute
     {
 

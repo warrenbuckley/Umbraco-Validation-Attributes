@@ -1,5 +1,4 @@
-﻿using System.Web.Mvc;
-using UmbracoValidationAttributes;
+﻿using UmbracoValidationAttributes;
 
 namespace ExampleSite.ViewModels
 {

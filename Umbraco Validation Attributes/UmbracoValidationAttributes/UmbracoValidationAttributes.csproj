@@ -195,6 +195,7 @@
     <Compile Include="UmbracoMustBeTrue.cs" />
     <Compile Include="UmbracoRemoteAttribute.cs" />
     <Compile Include="UmbracoRequired.cs" />
+    <Compile Include="UmbracoValidationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

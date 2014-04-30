@@ -1,32 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Web.Mvc;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace UmbracoValidationAttributes
 {
-    public class UmbracoRequired : BaseUmbracoValidation, IClientValidatable
+    public class UmbracoRequired : RequiredAttribute
     {
-        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        public string ErrorMessageDictionaryKey { get; set; }
+
+        public override string FormatErrorMessage(string name)
         {
-            //String is empty - it's required
-            if (string.IsNullOrEmpty(Convert.ToString(value)))
-            {
-                //Get the error message to return
-                var error = FormatErrorMessage(validationContext.DisplayName);
+            //Get dictionary value for thge required error message
+            //WB: UNSURE if this will double check our UmbContext exists or not
+            ErrorMessage = UmbracoValidationHelper.UmbracoHelper.GetDictionaryValue(ErrorMessageDictionaryKey);
 
-                //Return error
-                return new ValidationResult(error);
-            }
-
-            //All good :)
-            return ValidationResult.Success;
+            return base.FormatErrorMessage(name);
         }
-
-        public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
-        {
-            yield return new ModelClientValidationRequiredRule(this.FormatErrorMessage(metadata.GetDisplayName()));
-        }
-
     }
 }
