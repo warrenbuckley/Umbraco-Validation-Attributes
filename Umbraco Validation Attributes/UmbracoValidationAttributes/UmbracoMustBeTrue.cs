@@ -21,7 +21,7 @@ namespace UmbracoValidationAttributes
             }
 
             //Get the error message to return
-            var error = FormatErrorMessage(validationContext.DisplayName);
+            var error = UmbracoValidationHelper.FormatErrorMessage(validationContext.DisplayName, ErrorMessageDictionaryKey);
 
             //Return error
             return new ValidationResult(error);
@@ -29,9 +29,10 @@ namespace UmbracoValidationAttributes
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            var rule = new ModelClientValidationRule
+            var error   = UmbracoValidationHelper.FormatErrorMessage(metadata.GetDisplayName(), ErrorMessageDictionaryKey);
+            var rule    = new ModelClientValidationRule
             {
-                ErrorMessage    = FormatErrorMessage(metadata.GetDisplayName()),
+                ErrorMessage    = error,
                 ValidationType  = "mustbetrue"
             };
 

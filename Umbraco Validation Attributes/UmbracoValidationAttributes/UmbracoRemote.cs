@@ -66,7 +66,7 @@ namespace UmbracoValidationAttributes
         /// <returns></returns>
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            var error   = FormatErrorMessage(metadata.GetDisplayName());
+            var error   = UmbracoValidationHelper.FormatErrorMessage(metadata.GetDisplayName(), ErrorMessageDictionaryKey);
             var rule    = new ModelClientValidationRemoteRule(error, GetUrl(context), HttpMethod, FormatAdditionalFieldsForClientValidation(metadata.PropertyName));
 
             yield return rule;

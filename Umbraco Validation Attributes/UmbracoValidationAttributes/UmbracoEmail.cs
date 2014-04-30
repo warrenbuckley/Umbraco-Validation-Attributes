@@ -19,7 +19,7 @@ namespace UmbracoValidationAttributes
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var email = Convert.ToString(value);
-            if (string.IsNullOrEmpty(email))
+            if (!string.IsNullOrEmpty(email))
             {
                 //Test the regex
                 var result = _regex.Match(email).Length > 0;
@@ -28,7 +28,7 @@ namespace UmbracoValidationAttributes
                 if (!result)
                 {
                     //Get the error message to return
-                    var error = FormatErrorMessage(null);
+                    var error = UmbracoValidationHelper.FormatErrorMessage(validationContext.DisplayName, ErrorMessageDictionaryKey);
 
                     //Return error
                     return new ValidationResult(error);
@@ -41,9 +41,10 @@ namespace UmbracoValidationAttributes
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            var rule = new ModelClientValidationRule
+            var error   = UmbracoValidationHelper.FormatErrorMessage(metadata.GetDisplayName(), ErrorMessageDictionaryKey);
+            var rule    = new ModelClientValidationRule
             {
-                ErrorMessage    = FormatErrorMessage(metadata.GetDisplayName()),
+                ErrorMessage    = error,
                 ValidationType  = "email"
             };
 

@@ -3,8 +3,8 @@
 
 @{
     //Client Side Validation
-    //Html.EnableClientValidation(true);
-    //Html.EnableUnobtrusiveJavaScript(true);
+    Html.EnableClientValidation(true);
+    Html.EnableUnobtrusiveJavaScript(true);
 
     //Create an Umbraco Helper off the current Umbraco Context (Uppercase to match normal helper availble in Umbraco Views)
     var Umbraco = new UmbracoHelper(UmbracoContext.Current);
