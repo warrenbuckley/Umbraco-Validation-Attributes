@@ -61,6 +61,13 @@ else
             @Html.ValidationMessageFor(model => model.AcceptedTerms)
         </div>
 
+        <div>
+            @Html.DisplayNameFor(model => model.Age)
+            @Html.TextBoxFor(model => model.Age)
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Age)
+        </div>
 
         @Html.AntiForgeryToken()
 

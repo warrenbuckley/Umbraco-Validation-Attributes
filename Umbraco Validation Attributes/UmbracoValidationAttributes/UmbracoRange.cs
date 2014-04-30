@@ -7,6 +7,11 @@ namespace UmbracoValidationAttributes
 {
     public class UmbracoRange : RangeAttribute, IClientValidatable
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ErrorMessageDictionaryKey { get; set; }
+
         public UmbracoRange(Type type, string minimum, string maximum): base(type, minimum, maximum)
         {
         }
@@ -21,13 +26,16 @@ namespace UmbracoValidationAttributes
 
         public override string FormatErrorMessage(string name)
         {
+            ErrorMessage = UmbracoValidationHelper.FormatRangeErrorMessage(name, ErrorMessageDictionaryKey, Minimum, Maximum);
             return base.FormatErrorMessage(name);
         }
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            return null;
-            //var rule = new ModelClientValidationRangeRule();
+            var error   = UmbracoValidationHelper.FormatRangeErrorMessage(metadata.GetDisplayName(), ErrorMessageDictionaryKey, Minimum, Maximum);
+            var rule    = new ModelClientValidationRangeRule(error, Minimum, Maximum);
+
+            yield return rule;
         }
     }
 }

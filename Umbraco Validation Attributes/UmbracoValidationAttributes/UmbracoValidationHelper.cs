@@ -37,5 +37,31 @@ namespace UmbracoValidationAttributes
             //Return the value
             return error;
         }
+
+        public static string FormatRangeErrorMessage(string name, string errorMessageDictionaryKey, object min, object max)
+        {
+            //Get dictionary value for thge required error message
+            var error = UmbracoHelper.GetDictionaryValue(errorMessageDictionaryKey);
+
+            //Sanity checking it's not empty
+            if (string.IsNullOrEmpty(error))
+            {
+                throw new Exception(string.Format("The dictionary key '{0}' for the required error message is empty or does not exist", errorMessageDictionaryKey));
+            }
+
+            //Convert object to int's
+            var minVal = Convert.ToInt32(min);
+            var maxVal = Convert.ToInt32(max);
+
+            // String replacment the token wiht our localised propertyname
+            // The field {{Field}} must be between {0} and {1}
+            error = error.Replace("{{Field}}", name);
+            error = string.Format(error, minVal, maxVal);
+
+            //Return the value
+            return error;
+        }
+
+        
     }
 }

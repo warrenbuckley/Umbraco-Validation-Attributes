@@ -1,4 +1,5 @@
-﻿using UmbracoValidationAttributes;
+﻿using System.ComponentModel.DataAnnotations;
+using UmbracoValidationAttributes;
 
 namespace ExampleSite.ViewModels
 {
@@ -25,5 +26,9 @@ namespace ExampleSite.ViewModels
         [UmbracoMustBeTrue(ErrorMessageDictionaryKey = "Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.AgreeTerms")]
         public bool AcceptedTerms { get; set; }
+
+        [UmbracoRange(18,30, ErrorMessageDictionaryKey = "Site.Contact.Age.Range")]
+        [UmbracoDisplayName("Site.Contact.Age")]
+        public int Age { get; set; }
     }
 }
