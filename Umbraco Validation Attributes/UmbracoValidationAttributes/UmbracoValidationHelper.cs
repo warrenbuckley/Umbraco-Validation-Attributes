@@ -20,6 +20,19 @@ namespace UmbracoValidationAttributes
             UmbracoHelper = new UmbracoHelper(UmbracoContext.Current);
         }
 
+        public static string GetDictionaryItem(string errorMessageDictionaryKey)
+        {
+            //Get dictionary value for thge required error message
+            var error = UmbracoHelper.GetDictionaryValue(errorMessageDictionaryKey);
+
+            //Sanity checking it's not empty
+            if (string.IsNullOrEmpty(error))
+            {
+                throw new Exception(string.Format("The dictionary key '{0}' for the required error message is empty or does not exist", errorMessageDictionaryKey));
+            }
+            return error;
+        }
+
         public static string FormatErrorMessage(string name, string errorMessageDictionaryKey)
         {
             //Get dictionary value for thge required error message

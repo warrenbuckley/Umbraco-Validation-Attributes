@@ -33,11 +33,13 @@ namespace ExampleSite.ViewModels
 
         [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.Password")]
+        [UmbracoRegularExpression("^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!#$%&? \"]).*$", ErrorMessageDictionaryKey = "Site.Contact.Password.Regex")]
         public string Password { get; set; }
 
         [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.ConfirmPassword")]
         [UmbracoCompare("Password", ErrorMessageDictionaryKey = "Site.Contact.Compare")]
+
         public string ConfirmPassword { get; set; }
 
         [UmbracoStringLength(10, MinimumLength = 5, ErrorMessageDictionaryKey = "Site.Contact.StringLength")]
