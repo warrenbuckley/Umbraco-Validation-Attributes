@@ -4,10 +4,10 @@ using System.ComponentModel;
 namespace UmbracoValidationAttributes
 {
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false)]
-    public sealed class UmbracoDisplayNameAttribute : DisplayNameAttribute
+    public sealed class UmbracoDisplayName : DisplayNameAttribute
     {
         // This is a positional argument
-        public UmbracoDisplayNameAttribute(string dictionaryKey) : base(dictionaryKey)
+        public UmbracoDisplayName(string dictionaryKey) : base(dictionaryKey)
         {
         }
 

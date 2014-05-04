@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Web;
 using UmbracoValidationAttributes;
 
 namespace ExampleSite.ViewModels
@@ -39,10 +40,10 @@ namespace ExampleSite.ViewModels
         [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.ConfirmPassword")]
         [UmbracoCompare("Password", ErrorMessageDictionaryKey = "Site.Contact.Compare")]
-
         public string ConfirmPassword { get; set; }
 
         [UmbracoStringLength(10, MinimumLength = 5, ErrorMessageDictionaryKey = "Site.Contact.StringLength")]
         public string StringLength { get; set; }
+
     }
 }
