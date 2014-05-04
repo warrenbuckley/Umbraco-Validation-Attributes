@@ -24,7 +24,7 @@ namespace UmbracoValidationAttributes
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            var error   = UmbracoValidationHelper.FormatLengthErrorMessage(metadata.GetDisplayName(), ErrorMessageDictionaryKey, MaximumLength, MinimumLength);
+            var error   = FormatErrorMessage(metadata.DisplayName);
             var rule    = new ModelClientValidationStringLengthRule(error, MinimumLength, MaximumLength);
 
             yield return rule;

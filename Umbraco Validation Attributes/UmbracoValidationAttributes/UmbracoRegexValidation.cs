@@ -8,10 +8,8 @@ namespace UmbracoValidationAttributes
     {
         public string ErrorMessageDictionaryKey { get; set; }
 
-        public UmbracoRegularExpression(string pattern)
-            : base(pattern)
+        public UmbracoRegularExpression(string pattern): base(pattern)
         {
-
         }
 
         public override string FormatErrorMessage(string name)
@@ -21,13 +19,12 @@ namespace UmbracoValidationAttributes
             return ErrorMessage;
         }
 
-        public IEnumerable<ModelClientValidationRule> GetClientValidationRules(System.Web.Mvc.ModelMetadata metadata, ControllerContext context)
+        public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            var rule = new ModelClientValidationRule
-           {
-               ErrorMessage = FormatErrorMessage(metadata.DisplayName),
-               ValidationType = "regex"
-           };
+            var error           = FormatErrorMessage(metadata.DisplayName);
+            var rule            = new ModelClientValidationRule();
+            rule.ErrorMessage   = error;
+            rule.ValidationType = "regex";
 
             rule.ValidationParameters.Add("pattern", this.Pattern);
 

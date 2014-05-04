@@ -32,7 +32,7 @@ namespace UmbracoValidationAttributes
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            var error   = UmbracoValidationHelper.FormatRangeErrorMessage(metadata.GetDisplayName(), ErrorMessageDictionaryKey, Minimum, Maximum);
+            var error   = FormatErrorMessage(metadata.DisplayName);
             var rule    = new ModelClientValidationRangeRule(error, Minimum, Maximum);
 
             yield return rule;
