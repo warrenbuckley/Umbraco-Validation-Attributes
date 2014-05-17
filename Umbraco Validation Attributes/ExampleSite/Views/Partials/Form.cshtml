@@ -38,6 +38,14 @@ else
         </div>
     
         <div>
+            @Html.DisplayNameFor(model => model.Phone)
+            @Html.EditorFor(model => model.Phone, new { placeholder = Umbraco.GetDictionaryValue("Site.Contact.Optional") })
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Phone)
+        </div>
+    
+        <div>
             @Html.DisplayNameFor(model => model.Email)
             @Html.TextBoxFor(model => model.Email)
         </div>

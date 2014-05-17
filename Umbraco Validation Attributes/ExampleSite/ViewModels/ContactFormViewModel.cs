@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 using System.Web;
 using UmbracoValidationAttributes;
 
@@ -7,7 +8,7 @@ namespace ExampleSite.ViewModels
     public class ContactFormViewModel
     {
 
-        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoRequired("Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.FirstName")]
         public string FirstName { get; set; }
 
@@ -15,12 +16,16 @@ namespace ExampleSite.ViewModels
         [UmbracoRemote("IsValid", "RemoteValidationSurface", ErrorMessageDictionaryKey = "Site.Contact.Surname.Remote", AdditionalFields = "FirstName")]
         public string Surname { get; set; }
 
-        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoDataType(DataType.PhoneNumber, "Site.Contact.Phone.Type")]
+        [UmbracoDisplayName("Site.Contact.Phone")]
+        public string Phone { get; set; }
+
+        [UmbracoRequired("Site.Contact.Required")]
         [UmbracoEmail(ErrorMessageDictionaryKey = "Site.Contact.InvalidEmail")]
         [UmbracoDisplayName("Site.Contact.Email")]
         public string Email { get; set; }
 
-        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoRequired("Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.Message")]
         public string Message { get; set; }
 
@@ -28,21 +33,21 @@ namespace ExampleSite.ViewModels
         [UmbracoDisplayName("Site.Contact.AgreeTerms")]
         public bool AcceptedTerms { get; set; }
 
-        [UmbracoRange(18,30, ErrorMessageDictionaryKey = "Site.Contact.Age.Range")]
+        [UmbracoRange("Site.Contact.Age.Range",18,30)]
         [UmbracoDisplayName("Site.Contact.Age")]
         public int Age { get; set; }
 
-        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoRequired("Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.Password")]
-        [UmbracoRegularExpression("^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!#$%&? \"]).*$", ErrorMessageDictionaryKey = "Site.Contact.Password.Regex")]
+        [UmbracoRegularExpression("Site.Contact.Password.Regex", "^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!#$%&? \"]).*$")]
         public string Password { get; set; }
 
-        [UmbracoRequired(ErrorMessageDictionaryKey = "Site.Contact.Required")]
+        [UmbracoRequired("Site.Contact.Required")]
         [UmbracoDisplayName("Site.Contact.ConfirmPassword")]
-        [UmbracoCompare("Password", ErrorMessageDictionaryKey = "Site.Contact.Compare")]
+        [UmbracoCompare("Site.Contact.Compare", "Password")]
         public string ConfirmPassword { get; set; }
 
-        [UmbracoStringLength(10, MinimumLength = 5, ErrorMessageDictionaryKey = "Site.Contact.StringLength")]
+        [UmbracoStringLength("Site.Contact.StringLength",10, MinimumLength = 5)]
         public string StringLength { get; set; }
 
     }

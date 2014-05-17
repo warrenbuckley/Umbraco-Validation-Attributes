@@ -7,16 +7,10 @@ namespace UmbracoValidationAttributes
     public sealed class UmbracoDisplayName : DisplayNameAttribute
     {
         // This is a positional argument
-        public UmbracoDisplayName(string dictionaryKey) : base(dictionaryKey)
+        public UmbracoDisplayName(string dictionaryKey)
+            : base(UmbracoValidationHelper.UmbracoHelper.GetDictionaryValue(dictionaryKey))
         {
-        }
-
-        public override string DisplayName
-        {
-            get
-            {
-                return UmbracoValidationHelper.UmbracoHelper.GetDictionaryValue(base.DisplayName);
-            }
+            
         }
     }
 }

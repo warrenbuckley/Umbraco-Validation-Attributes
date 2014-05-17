@@ -8,25 +8,10 @@ namespace UmbracoValidationAttributes
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false)]
     public class UmbracoRequired : RequiredAttribute, IClientValidatable
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ErrorMessageDictionaryKey { get; set; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        public override string FormatErrorMessage(string name)
+        public UmbracoRequired(string errorMessageDictionaryKey)
         {
-            //Get dictionary value for thge required error message
-            //WB: UNSURE if this will double check our UmbContext exists or not
-            ErrorMessage = UmbracoValidationHelper.FormatErrorMessage(name, ErrorMessageDictionaryKey);
-           
-            return base.FormatErrorMessage(name);
+            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
         }
-
         /// <summary>
         /// 
         /// </summary>

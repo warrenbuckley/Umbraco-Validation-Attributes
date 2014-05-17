@@ -6,21 +6,12 @@ namespace UmbracoValidationAttributes
 {
     public class UmbracoStringLength : StringLengthAttribute, IClientValidatable
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ErrorMessageDictionaryKey { get; set; }
 
-        public UmbracoStringLength(int maximumLength) : base(maximumLength)
+        public UmbracoStringLength(string errorMessageDictionaryKey, int maximumLength) : base(maximumLength)
         {
+            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
         }
 
-
-        public override string FormatErrorMessage(string name)
-        {
-            ErrorMessage = UmbracoValidationHelper.FormatLengthErrorMessage(name, ErrorMessageDictionaryKey, MaximumLength, MinimumLength);
-            return base.FormatErrorMessage(name);
-        }
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
