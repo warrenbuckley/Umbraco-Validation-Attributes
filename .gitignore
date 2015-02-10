@@ -1,6 +1,14 @@
+_ReSharper.*
+[Bb]in
+[Bb]uild
+[Oo]bj
+*.suo
+*.user
+*.cache
+*.orig
+Thumbs.db
+.DS_Store
+
 Umbraco Validation Attributes/ExampleSite/App_Data/TEMP/
 Umbraco Validation Attributes/ExampleSite/App_Data/Logs/
-Umbraco Validation Attributes/packages/UmbracoCms.7.1.1/build/UmbracoCms.targets
-Umbraco Validation Attributes/packages/UmbracoCms.7.1.1/tools/Readme.txt
-Umbraco Validation Attributes/packages/
-Umbraco Validation Attributes/UmbracoValidationAttributes/obj/
+Umbraco Validation Attributes/packages/*/**
