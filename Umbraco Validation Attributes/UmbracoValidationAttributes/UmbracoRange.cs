@@ -15,22 +15,24 @@ namespace UmbracoValidationAttributes
         public UmbracoRange(string errorMessageDictionaryKey, Type type, string minimum, string maximum)
             : base(type, minimum, maximum)
         {
-            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
+            ErrorMessageDictionaryKey = errorMessageDictionaryKey;
         }
 
         public UmbracoRange(string errorMessageDictionaryKey,double minimum, double maximum): base(minimum, maximum)
         {
-            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
+            ErrorMessageDictionaryKey = errorMessageDictionaryKey;
         }
 
         public UmbracoRange(string errorMessageDictionaryKey, int minimum, int maximum)
             : base(minimum, maximum)
         {
-            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
+            ErrorMessageDictionaryKey = errorMessageDictionaryKey;
         }
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
+            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(ErrorMessageDictionaryKey);
+
             var error   = FormatErrorMessage(metadata.DisplayName);
             var rule    = new ModelClientValidationRangeRule(error, Minimum, Maximum);
 

@@ -29,7 +29,7 @@
 
 					 <a href style="margin:auto; text-align: center; font-size: 11px;" class="btn btn-link red"
 					 		ng-click="currentCrop.coordinates = undefined; done()">
-					 		Reset
+                            <localize key="imagecropper_reset">Reset</localize>
 					 </a>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 
 				<ul class="umb-sortable-thumbnails" >
 					<li ng-repeat="(key,value) in model.value.crops">
-						<a href title="{{value.alias}}: {{value.height}}px x {{value.width}}px" ng-click="crop(value)">
+						<a href title="{{value.alias}}: {{value.width}}px x {{value.height}}px" ng-click="crop(value)">
 							<umb-image-thumbnail
 								center="model.value.focalPoint"
 								crop="value.coordinates"
@@ -57,7 +57,7 @@
 					</li>
 				</ul>
 
-				<a href class="btn btn-link" ng-click="clear()"><i class="icon-delete red"></i> Remove file</a>
+				<a href class="btn btn-link" ng-click="clear()"><i class="icon-delete red"></i> <localize key="content_uploadClear">Remove file</localize></a>
 			</div>
 	</div>
 </div>
