@@ -16,6 +16,7 @@ namespace UmbracoValidationAttributes
         /// </summary>
         public string ErrorMessageDictionaryKey { get; set; }
 
+
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var email = Convert.ToString(value);

@@ -1,0 +1,51 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 22 April 2015 10:23:18
+   Source : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Config\
+     Dest : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\App_Data\NuGetBackup\20150422-102318\Config\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Config\
+	    New File  		     305	404handlers.config  0%  100%  
+	    New File  		     681	applications.config  0%  100%  
+	    New File  		     739	BaseRestExtensions.config  0%  100%  
+	    New File  		    3981	ClientDependency.config  0%  100%  
+	    New File  		    2393	Dashboard.config  0%  100%  
+	    New File  		    4032	EmbeddedMedia.config  0%  100%  
+	    New File  		    1260	ExamineIndex.config  0%  100%  
+	    New File  		    1833	ExamineSettings.config  0%  100%  
+	    New File  		     429	feedProxy.config  0%  100%  
+	    New File  		     286	FileSystemProviders.config  0%  100%  
+	    New File  		    1070	grid.editors.config.js  0%  100%  
+	    New File  		     879	log4net.config  0%  100%  
+	    New File  		      72	metablogConfig.config  0%  100%  
+	    New File  		     837	scripting.config  0%  100%  
+	    New File  		   11921	tinyMceConfig.config  0%  100%  
+	    New File  		    5721	trees.config  0%  100%  
+	    New File  		    7745	umbracoSettings.config  0%  100%  
+	    New File  		    1337	UrlRewriting.config  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Config\splashes\
+	    New File  		    1145	booting.aspx  0%  100%  
+	    New File  		    6787	noNodes.aspx  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         1         0         0         0         0
+   Files :        20        20         0         0         0         0
+   Bytes :    52.2 k    52.2 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             3340812 Bytes/sec.
+   Speed :             191.162 MegaBytes/min.
+   Ended : 22 April 2015 10:23:18
+

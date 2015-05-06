@@ -7,8 +7,7 @@ namespace ExampleSite.ViewModels
 {
     public class ContactFormViewModel
     {
-
-        [UmbracoRequired("Site.Contact.Required")]
+        [UmbracoRequired("Site.Contact.FirstName.Required")]
         [UmbracoDisplayName("Site.Contact.FirstName")]
         public string FirstName { get; set; }
 
@@ -49,6 +48,5 @@ namespace ExampleSite.ViewModels
 
         [UmbracoStringLength("Site.Contact.StringLength",10, MinimumLength = 5)]
         public string StringLength { get; set; }
-
     }
 }

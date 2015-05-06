@@ -1,0 +1,1656 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 22 April 2015 10:23:18
+   Source : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\
+     Dest : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\App_Data\NuGetBackup\20150422-102318\Umbraco\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  13	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\
+	    New File  		     786	ClientRedirect.aspx  0%  100%  
+	    New File  		    1442	create.aspx  0%  100%  
+	    New File  		     478	endPreview.aspx  0%  100%  
+	    New File  		     420	helpRedirect.aspx  0%  100%  
+	    New File  		     817	installer.html  0%  100%  
+	    New File  		    1624	Logout.aspx  0%  100%  
+	    New File  		     492	macroResultWrapper.aspx  0%  100%  
+	    New File  		      61	ping.aspx  0%  100%  
+	    New File  		     891	publishStatus.aspx  0%  100%  
+	    New File  		     179	tree.aspx  0%  100%  
+	    New File  		    1887	treeInit.aspx  0%  100%  
+	    New File  		     126	umbraco.aspx  0%  100%  
+	    New File  		      92	webService.asmx  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Actions\
+	    New File  		    1155	delete.aspx  0%  100%  
+	    New File  		     480	editContent.aspx  0%  100%  
+	    New File  		     471	preview.aspx  0%  100%  
+	    New File  		    1203	publish.aspx  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\css\
+	    New File  		   52186	installer.css  0%  100%  
+	    New File  		  165396	umbraco.css  0%   79%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\fonts\
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\fonts\helveticons\
+	    New File  		  117324	helveticons.eot  0%  100%  
+	    New File  		  793966	helveticons.svg  0%   33%   66%   99%  100%  
+	    New File  		  117160	helveticons.ttf  0%  100%  
+	    New File  		  294540	helveticons.woff  0%   44%   89%  100%  
+	  New Dir          9	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\fonts\opensans\
+	    New File  		   19836	OpenSans-Regular-webfont.eot  0%  100%  
+	    New File  		  121229	OpenSans-Regular-webfont.svg  0%  100%  
+	    New File  		   38232	OpenSans-Regular-webfont.ttf  0%  100%  
+	    New File  		   22660	OpenSans-Regular-webfont.woff  0%  100%  
+	    New File  		  217360	OpenSans-Regular.ttf  0%   60%  100%  
+	    New File  		   20028	OpenSans-Semibold-webfont.eot  0%  100%  
+	    New File  		  120293	OpenSans-Semibold-webfont.svg  0%  100%  
+	    New File  		   39476	OpenSans-Semibold-webfont.ttf  0%  100%  
+	    New File  		   22908	OpenSans-Semibold-webfont.woff  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\img\
+	    New File  		     165	checkered-background.png  0%  100%  
+	    New File  		  781354	installer.jpg  0%   33%   67%  100%  
+	    New File  		   23155	loader.gif  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\img\application\
+	    New File  		    1409	logo.png  0%  100%  
+	    New File  		    1280	logo_black.png  0%  100%  
+	    New File  		    1333	logo_white.png  0%  100%  
+	  New Dir         11	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\img\applicationIcons\
+	    New File  		    1139	content.png  0%  100%  
+	    New File  		    1581	default.png  0%  100%  
+	    New File  		    1376	developer.png  0%  100%  
+	    New File  		    1702	help.svg  0%  100%  
+	    New File  		    7364	hlvticons-umbraco.svg  0%  100%  
+	    New File  		    1386	media.png  0%  100%  
+	    New File  		    1342	members.png  0%  100%  
+	    New File  		    1179	search.png  0%  100%  
+	    New File  		    1612	settings.png  0%  100%  
+	    New File  		    2828	tree-arrow.png  0%  100%  
+	    New File  		    1304	users.png  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\img\mocks\
+	    New File  		  316178	big-image.jpg  0%   41%   82%  100%  
+	    New File  		    5093	big-thumb.jpg  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Channels\
+	    New File  		     963	rsd.aspx  0%  100%  
+	    New File  		    1912	wlwmanifest.aspx  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Config\
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Config\Create\
+	    New File  		   11087	UI.xml  0%  100%  
+	  New Dir         17	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Config\Lang\
+	    New File  		   55519	da.xml  0%  100%  
+	    New File  		   63375	de.xml  0%  100%  
+	    New File  		   60511	en.xml  0%  100%  
+	    New File  		   60568	en_us.xml  0%  100%  
+	    New File  		   57152	es.xml  0%  100%  
+	    New File  		   60201	fr.xml  0%  100%  
+	    New File  		   59775	he.xml  0%  100%  
+	    New File  		   59880	it.xml  0%  100%  
+	    New File  		   63807	ja.xml  0%  100%  
+	    New File  		   56267	ko.xml  0%  100%  
+	    New File  		   62442	nl.xml  0%  100%  
+	    New File  		   55700	no.xml  0%  100%  
+	    New File  		   55595	pl.xml  0%  100%  
+	    New File  		   54845	pt.xml  0%  100%  
+	    New File  		   83517	ru.xml  0%  100%  
+	    New File  		   62421	sv.xml  0%  100%  
+	    New File  		   50729	zh.xml  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Controls\
+	    New File  		    8482	ContentTypeControlNew.ascx  0%  100%  
+	    New File  		    7254	passwordChanger.ascx  0%  100%  
+	    New File  		     315	ProgressBar.ascx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Controls\GenericProperties\
+	    New File  		    4195	GenericProperty.ascx  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Controls\Images\
+	    New File  		    2224	ImageViewer.ascx  0%  100%  
+	    New File  		    6000	ImageViewer.js  0%  100%  
+	    New File  		     127	ImageViewerUpdater.asmx  0%  100%  
+	    New File  		    1826	UploadMediaImage.ascx  0%  100%  
+	    New File  		    2618	UploadMediaImage.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Controls\Tree\
+	    New File  		      82	CustomTreeService.asmx  0%  100%  
+	    New File  		    2725	TreeControl.ascx  0%  100%  
+	  New Dir         12	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Create\
+	    New File  		    1680	content.ascx  0%  100%  
+	    New File  		    2412	DlrScripting.ascx  0%  100%  
+	    New File  		    1039	language.ascx  0%  100%  
+	    New File  		    1185	media.ascx  0%  100%  
+	    New File  		    3095	member.ascx  0%  100%  
+	    New File  		    2087	nodeType.ascx  0%  100%  
+	    New File  		    1552	PartialView.ascx  0%  100%  
+	    New File  		    2033	PartialViewMacro.ascx  0%  100%  
+	    New File  		    1204	script.ascx  0%  100%  
+	    New File  		    1279	simple.ascx  0%  100%  
+	    New File  		    2316	User.ascx  0%  100%  
+	    New File  		    1696	xslt.ascx  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Css\
+	    New File  		     151	background.gif  0%  100%  
+	    New File  		     674	permissionsEditor.css  0%  100%  
+	    New File  		      88	splitter.gif  0%  100%  
+	    New File  		    7686	umbracoGui.css  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Dashboard\
+	    New File  		   13245	ExamineManagement.ascx  0%  100%  
+	    New File  		     178	FeedProxy.aspx  0%  100%  
+	    New File  		     565	LatestEdits.ascx  0%  100%  
+	    New File  		    1615	UserControlProxy.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\
+	    New File  		     995	autoDoc.aspx  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\Macros\
+	    New File  		    1674	assemblyBrowser.aspx  0%  100%  
+	    New File  		   11227	editMacro.aspx  0%  100%  
+	  New Dir          9	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\Packages\
+	    New File  		     995	BrowseRepository.aspx  0%  100%  
+	    New File  		    1171	directoryBrowser.aspx  0%  100%  
+	    New File  		   11673	editPackage.aspx  0%  100%  
+	    New File  		    7159	installedPackage.aspx  0%  100%  
+	    New File  		   17888	installer.aspx  0%  100%  
+	    New File  		    1142	LoadNitros.ascx  0%  100%  
+	    New File  		     361	proxy.htm  0%  100%  
+	    New File  		    3122	StarterKits.aspx  0%  100%  
+	    New File  		    5521	SubmitPackage.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\Python\
+	    New File  		    2755	editPython.aspx  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\RelationTypes\
+	    New File  		    6540	EditRelationType.aspx  0%  100%  
+	    New File  		    3013	NewRelationType.aspx  0%  100%  
+	    New File  		     162	RelationTypesWebService.asmx  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\RelationTypes\Images\
+	    New File  		     421	Bidirectional.png  0%  100%  
+	    New File  		     434	ParentToChild.png  0%  100%  
+	    New File  		    1053	Refresh.gif  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\RelationTypes\TreeMenu\
+	    New File  		     740	ActionDeleteRelationType.js  0%  100%  
+	    New File  		     172	ActionNewRelationType.js  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Developer\Xslt\
+	    New File  		    3615	editXslt.aspx  0%  100%  
+	    New File  		     108	getXsltStatus.asmx  0%  100%  
+	    New File  		    2160	xsltChooseExtension.aspx  0%  100%  
+	    New File  		    2588	xsltInsertValueOf.aspx  0%  100%  
+	    New File  		    2895	xsltVisualize.aspx  0%  100%  
+	  New Dir         33	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Dialogs\
+	    New File  		    1518	about.aspx  0%  100%  
+	    New File  		    2115	AssignDomain.aspx  0%  100%  
+	    New File  		    4191	AssignDomain2.aspx  0%  100%  
+	    New File  		    6381	ChangeDocType.aspx  0%  100%  
+	    New File  		    3217	create.aspx  0%  100%  
+	    New File  		    1149	cruds.aspx  0%  100%  
+	    New File  		    3617	EditMacro.aspx  0%  100%  
+	    New File  		     262	empty.htm  0%  100%  
+	    New File  		    3606	emptyTrashcan.aspx  0%  100%  
+	    New File  		     150	exportDocumenttype.aspx  0%  100%  
+	    New File  		     402	imageViewer.aspx  0%  100%  
+	    New File  		    2031	importDocumenttype.aspx  0%  100%  
+	    New File  		    4415	insertMacro.aspx  0%  100%  
+	    New File  		    1651	insertMasterpageContent.aspx  0%  100%  
+	    New File  		    1622	insertMasterpagePlaceholder.aspx  0%  100%  
+	    New File  		    7962	insertTable.aspx  0%  100%  
+	    New File  		    4127	mediaPicker.aspx  0%  100%  
+	    New File  		    4415	moveOrCopy.aspx  0%  100%  
+	    New File  		     815	notifications.aspx  0%  100%  
+	    New File  		     748	Preview.aspx  0%  100%  
+	    New File  		   10004	protectPage.aspx  0%  100%  
+	    New File  		    4197	publish.aspx  0%  100%  
+	    New File  		    2300	RegexWs.aspx  0%  100%  
+	    New File  		    1721	republish.aspx  0%  100%  
+	    New File  		    4233	rollBack.aspx  0%  100%  
+	    New File  		    1856	search.aspx  0%  100%  
+	    New File  		     809	SendPublish.aspx  0%  100%  
+	    New File  		    1638	sendToTranslation.aspx  0%  100%  
+	    New File  		    3862	sort.aspx  0%  100%  
+	    New File  		    1076	treePicker.aspx  0%  100%  
+	    New File  		    6939	umbracoField.aspx  0%  100%  
+	    New File  		    1170	uploadImage.aspx  0%  100%  
+	    New File  		    3076	viewAuditTrail.aspx  0%  100%  
+	  New Dir         98	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\
+	    New File  		    1178	aboutNew.png  0%  100%  
+	    New File  		     834	arrawBack.gif  0%  100%  
+	    New File  		     832	arrowDown.gif  0%  100%  
+	    New File  		     834	arrowForward.gif  0%  100%  
+	    New File  		     897	audit.png  0%  100%  
+	    New File  		     422	back.png  0%  100%  
+	    New File  		     144	blank.png  0%  100%  
+	    New File  		     389	close.png  0%  100%  
+	    New File  		     388	collapse.png  0%  100%  
+	    New File  		     489	copy.small.png  0%  100%  
+	    New File  		     472	cut.small.png  0%  100%  
+	    New File  		      92	c_b.gif  0%  100%  
+	    New File  		     211	c_bl.gif  0%  100%  
+	    New File  		     948	c_bl_label.gif  0%  100%  
+	    New File  		     240	c_br.gif  0%  100%  
+	    New File  		    1031	c_br_label.gif  0%  100%  
+	    New File  		      96	c_b_label.gif  0%  100%  
+	    New File  		      93	c_r.gif  0%  100%  
+	    New File  		      96	c_t.gif  0%  100%  
+	    New File  		     242	c_tl.gif  0%  100%  
+	    New File  		     434	c_tr.gif  0%  100%  
+	    New File  		     253	date.gif  0%  100%  
+	    New File  		     512	delete.gif  0%  100%  
+	    New File  		     715	delete.png  0%  100%  
+	    New File  		     374	delete.small.png  0%  100%  
+	    New File  		     582	delete_button.png  0%  100%  
+	    New File  		     255	dialogBg.png  0%  100%  
+	    New File  		     362	domain.gif  0%  100%  
+	    New File  		     472	domain_on.png  0%  100%  
+	    New File  		    1420	download.png  0%  100%  
+	    New File  		    1487	errorLayerBackground.gif  0%  100%  
+	    New File  		     400	expand.png  0%  100%  
+	    New File  		     617	exportDocumenttype.png  0%  100%  
+	    New File  		     894	false.png  0%  100%  
+	    New File  		     251	file.png  0%  100%  
+	    New File  		     390	find.small.png  0%  100%  
+	    New File  		     967	findDocument.gif  0%  100%  
+	    New File  		     617	findDocument.png  0%  100%  
+	    New File  		     413	folder.small.png  0%  100%  
+	    New File  		     229	foldericon.png  0%  100%  
+	    New File  		     418	forward.png  0%  100%  
+	    New File  		    1321	gradientBackground.png  0%  100%  
+	    New File  		    1482	gradientLine.gif  0%  100%  
+	    New File  		    1013	help.gif  0%  100%  
+	    New File  		    1018	help.png  0%  100%  
+	    New File  		     507	htmldoc.small.png  0%  100%  
+	    New File  		     601	importDocumenttype.png  0%  100%  
+	    New File  		     725	information.png  0%  100%  
+	    New File  		     114	listItemOrange.gif  0%  100%  
+	    New File  		     219	Lminus.png  0%  100%  
+	    New File  		   17566	loginBg.png  0%  100%  
+	    New File  		    1011	logout.png  0%  100%  
+	    New File  		     996	logout_small.gif  0%  100%  
+	    New File  		     592	logout_small.png  0%  100%  
+	    New File  		     224	Lplus.png  0%  100%  
+	    New File  		     115	macro.gif  0%  100%  
+	    New File  		      45	nada.gif  0%  100%  
+	    New File  		     246	new.gif  0%  100%  
+	    New File  		    1035	new.png  0%  100%  
+	    New File  		     989	newStar.gif  0%  100%  
+	    New File  		     489	notepad.png  0%  100%  
+	    New File  		    1003	notify.gif  0%  100%  
+	    New File  		    1003	notifyOld.gif  0%  100%  
+	    New File  		    1469	okLayerBackground.gif  0%  100%  
+	    New File  		     232	openfoldericon.png  0%  100%  
+	    New File  		     396	options.small.png  0%  100%  
+	    New File  		    1012	package.png  0%  100%  
+	    New File  		     966	package2.png  0%  100%  
+	    New File  		     632	paste.small.png  0%  100%  
+	    New File  		     450	pencil.png  0%  100%  
+	    New File  		    1009	permission.gif  0%  100%  
+	    New File  		     581	permission.png  0%  100%  
+	    New File  		    1023	protect.gif  0%  100%  
+	    New File  		     628	protect.png  0%  100%  
+	    New File  		     554	publish.gif  0%  100%  
+	    New File  		     717	publish.png  0%  100%  
+	    New File  		     502	refresh.png  0%  100%  
+	    New File  		     588	rollback.gif  0%  100%  
+	    New File  		     626	rollback.png  0%  100%  
+	    New File  		     549	save.png  0%  100%  
+	    New File  		    1047	sendToTranslate.png  0%  100%  
+	    New File  		     232	small_minus.png  0%  100%  
+	    New File  		     257	small_plus.png  0%  100%  
+	    New File  		     388	sort.gif  0%  100%  
+	    New File  		     400	sort.png  0%  100%  
+	    New File  		     400	sort.small.png  0%  100%  
+	    New File  		     152	T.png  0%  100%  
+	    New File  		    1844	throbber.gif  0%  100%  
+	    New File  		     959	thumbs_lrg.png  0%  100%  
+	    New File  		     967	thumbs_med.png  0%  100%  
+	    New File  		     957	thumbs_smll.png  0%  100%  
+	    New File  		     207	Tminus.png  0%  100%  
+	    New File  		     266	toggleTreeOff.png  0%  100%  
+	    New File  		     271	toggleTreeOn.png  0%  100%  
+	    New File  		     304	topGradient.gif  0%  100%  
+	    New File  		     222	Tplus.png  0%  100%  
+	    New File  		     612	true.png  0%  100%  
+	    New File  		    3134	umbracoSplash.png  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\Actions\
+	    New File  		   12301	sprites.png  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\Developer\
+	    New File  		     842	customControlIcon.png  0%  100%  
+	    New File  		   30235	pythonIcon.png  0%  100%  
+	    New File  		     775	usercontrolIcon.png  0%  100%  
+	    New File  		     776	xsltIcon.png  0%  100%  
+	  New Dir        137	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\Editor\
+	    New File  		     171	anchor.gif  0%  100%  
+	    New File  		    1152	anchor.png  0%  100%  
+	    New File  		      70	anchor_symbol.gif  0%  100%  
+	    New File  		     174	backcolor.gif  0%  100%  
+	    New File  		      76	Bold.GIF  0%  100%  
+	    New File  		      73	bold_de_se.gif  0%  100%  
+	    New File  		      80	bold_es.gif  0%  100%  
+	    New File  		      78	bold_fr.gif  0%  100%  
+	    New File  		      77	bold_ru.gif  0%  100%  
+	    New File  		     207	bold_tw.gif  0%  100%  
+	    New File  		     113	browse.gif  0%  100%  
+	    New File  		     108	bullist.GIF  0%  100%  
+	    New File  		    8399	buttons.gif  0%  100%  
+	    New File  		      57	button_menu.gif  0%  100%  
+	    New File  		     394	calendar.gif  0%  100%  
+	    New File  		     108	calendarButton.gif  0%  100%  
+	    New File  		     677	cancel_button_bg.gif  0%  100%  
+	    New File  		      73	Center.GIF  0%  100%  
+	    New File  		     245	charmap.gif  0%  100%  
+	    New File  		     256	cleanup.gif  0%  100%  
+	    New File  		     102	close.gif  0%  100%  
+	    New File  		     110	code.gif  0%  100%  
+	    New File  		     125	color.gif  0%  100%  
+	    New File  		     263	Copy.GIF  0%  100%  
+	    New File  		      76	custom_1.gif  0%  100%  
+	    New File  		     187	Cut.GIF  0%  100%  
+	    New File  		     199	DeIndent.GIF  0%  100%  
+	    New File  		     123	delcell.GIF  0%  100%  
+	    New File  		     121	delcol.GIF  0%  100%  
+	    New File  		     124	delrow.GIF  0%  100%  
+	    New File  		     294	dezoom.gif  0%  100%  
+	    New File  		    1040	dictionaryItem.gif  0%  100%  
+	    New File  		     616	doc.gif  0%  100%  
+	    New File  		     607	documentType.gif  0%  100%  
+	    New File  		     272	forecolor.gif  0%  100%  
+	    New File  		    1085	form.gif  0%  100%  
+	    New File  		     109	formButton.gif  0%  100%  
+	    New File  		     118	formCheckbox.gif  0%  100%  
+	    New File  		     131	formHidden.gif  0%  100%  
+	    New File  		     111	formRadio.gif  0%  100%  
+	    New File  		     126	formSelect.gif  0%  100%  
+	    New File  		     132	formText.gif  0%  100%  
+	    New File  		     118	formTextarea.gif  0%  100%  
+	    New File  		     134	fullscrn.GIF  0%  100%  
+	    New File  		     295	help.gif  0%  100%  
+	    New File  		     377	help.png  0%  100%  
+	    New File  		      63	hr.gif  0%  100%  
+	    New File  		     321	html.gif  0%  100%  
+	    New File  		     194	image.GIF  0%  100%  
+	    New File  		     112	indent.gif  0%  100%  
+	    New File  		     199	inindent.GIF  0%  100%  
+	    New File  		     382	insBreadcrum.gif  0%  100%  
+	    New File  		     123	inscell.GIF  0%  100%  
+	    New File  		     914	insChildTemplate.gif  0%  100%  
+	    New File  		     914	insChildTemplateNew.gif  0%  100%  
+	    New File  		     120	inscol.GIF  0%  100%  
+	    New File  		     703	insert_button_bg.gif  0%  100%  
+	    New File  		     648	insField.gif  0%  100%  
+	    New File  		     626	insFieldByLevel.gif  0%  100%  
+	    New File  		     621	insFieldByTree.gif  0%  100%  
+	    New File  		     119	insform.gif  0%  100%  
+	    New File  		     191	inshtml.GIF  0%  100%  
+	    New File  		     610	insMacro.gif  0%  100%  
+	    New File  		     474	insMacroSB.png  0%  100%  
+	    New File  		     627	insMemberItem.gif  0%  100%  
+	    New File  		     529	insRazorMacro.png  0%  100%  
+	    New File  		     124	insrow.GIF  0%  100%  
+	    New File  		     612	instable.GIF  0%  100%  
+	    New File  		      79	Italic.GIF  0%  100%  
+	    New File  		      75	italic_de_se.gif  0%  100%  
+	    New File  		      74	italic_es.gif  0%  100%  
+	    New File  		      78	italic_ru.gif  0%  100%  
+	    New File  		     274	italic_tw.gif  0%  100%  
+	    New File  		      70	justifycenter.gif  0%  100%  
+	    New File  		      71	justifyfull.gif  0%  100%  
+	    New File  		      71	justifyleft.gif  0%  100%  
+	    New File  		      70	justifyright.gif  0%  100%  
+	    New File  		      73	left.GIF  0%  100%  
+	    New File  		     175	Link.GIF  0%  100%  
+	    New File  		      87	Lock.GIF  0%  100%  
+	    New File  		     132	masterpageContent.gif  0%  100%  
+	    New File  		     286	masterpagePlaceHolder.gif  0%  100%  
+	    New File  		     260	media.gif  0%  100%  
+	    New File  		      51	menu_check.gif  0%  100%  
+	    New File  		     142	mrgcell.GIF  0%  100%  
+	    New File  		     102	newdoc.GIF  0%  100%  
+	    New File  		     170	newdocument.gif  0%  100%  
+	    New File  		     111	numlist.GIF  0%  100%  
+	    New File  		     147	opacity.png  0%  100%  
+	    New File  		     132	Open.GIF  0%  100%  
+	    New File  		     110	outdent.gif  0%  100%  
+	    New File  		     286	Paste.GIF  0%  100%  
+	    New File  		     149	project.GIF  0%  100%  
+	    New File  		     139	properties.gif  0%  100%  
+	    New File  		     983	propertiesNew.gif  0%  100%  
+	    New File  		     122	props.GIF  0%  100%  
+	    New File  		     169	Redo.GIF  0%  100%  
+	    New File  		     327	rel.gif  0%  100%  
+	    New File  		     168	removeformat.gif  0%  100%  
+	    New File  		      73	right.GIF  0%  100%  
+	    New File  		     633	Save.GIF  0%  100%  
+	    New File  		    1094	SaveAndPublish.gif  0%  100%  
+	    New File  		    1196	SaveAndPublish.png  0%  100%  
+	    New File  		     610	SaveToPublish.gif  0%  100%  
+	    New File  		     861	saveToPublish.png  0%  100%  
+	    New File  		      57	separator.gif  0%  100%  
+	    New File  		     197	showStyles.gif  0%  100%  
+	    New File  		     628	showStyles.png  0%  100%  
+	    New File  		    1684	skin.gif  0%  100%  
+	    New File  		      43	spacer.gif  0%  100%  
+	    New File  		     591	spellchecker.gif  0%  100%  
+	    New File  		      73	split.gif  0%  100%  
+	    New File  		     137	spltcell.GIF  0%  100%  
+	    New File  		      79	statusbar_resize.gif  0%  100%  
+	    New File  		      83	strikethrough.gif  0%  100%  
+	    New File  		     968	styleMarkEnd.gif  0%  100%  
+	    New File  		     157	styleMarkStart.gif  0%  100%  
+	    New File  		     148	sub.gif  0%  100%  
+	    New File  		     147	sup.gif  0%  100%  
+	    New File  		     287	table.gif  0%  100%  
+	    New File  		     137	TaskList.GIF  0%  100%  
+	    New File  		     120	umbracoField.gif  0%  100%  
+	    New File  		     146	umbracoScriptlet.gif  0%  100%  
+	    New File  		     560	umbracoTextGen.gif  0%  100%  
+	    New File  		      91	under.GIF  0%  100%  
+	    New File  		      88	underline.gif  0%  100%  
+	    New File  		      79	underline_es.gif  0%  100%  
+	    New File  		      79	underline_fr.gif  0%  100%  
+	    New File  		      77	underline_ru.gif  0%  100%  
+	    New File  		     245	underline_tw.gif  0%  100%  
+	    New File  		     175	Undo.GIF  0%  100%  
+	    New File  		     190	unlink.gif  0%  100%  
+	    New File  		    3113	upload.png  0%  100%  
+	    New File  		     589	vis.gif  0%  100%  
+	    New File  		     206	visualaid.gif  0%  100%  
+	    New File  		     663	xslVisualize.gif  0%  100%  
+	    New File  		     302	zoom.gif  0%  100%  
+	  New Dir          8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\PinnedIcons\
+	    New File  		    1150	task_content.ico  0%  100%  
+	    New File  		    1150	task_default.ico  0%  100%  
+	    New File  		    1150	task_developer.ico  0%  100%  
+	    New File  		    1150	task_media.ico  0%  100%  
+	    New File  		    1150	task_member.ico  0%  100%  
+	    New File  		    1150	task_settings.ico  0%  100%  
+	    New File  		    1150	task_users.ico  0%  100%  
+	    New File  		   17542	umb.ico  0%  100%  
+	  New Dir         18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\SpeechBubble\
+	    New File  		     582	error.gif  0%  100%  
+	    New File  		    1915	error.png  0%  100%  
+	    New File  		     630	info.gif  0%  100%  
+	    New File  		    1542	info.png  0%  100%  
+	    New File  		     562	save.gif  0%  100%  
+	    New File  		    1036	save.png  0%  100%  
+	    New File  		    9439	speechbubble.gif  0%  100%  
+	    New File  		   12444	speechbubble.png  0%  100%  
+	    New File  		     916	speechbubbleShadow.png  0%  100%  
+	    New File  		    1774	speechbubbleShadowNew.gif  0%  100%  
+	    New File  		   10694	speechbubble_body.png  0%  100%  
+	    New File  		    2891	speechbubble_bottom.png  0%  100%  
+	    New File  		     169	speechbubble_close.gif  0%  100%  
+	    New File  		     696	speechbubble_close_over.gif  0%  100%  
+	    New File  		     660	speechbubble_shadow.gif  0%  100%  
+	    New File  		    1045	speechbubble_top.png  0%  100%  
+	    New File  		    1036	success.png  0%  100%  
+	    New File  		    1188	warning.png  0%  100%  
+	  New Dir         12	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\Thumbnails\
+	    New File  		   19431	developer.png  0%  100%  
+	    New File  		    8311	doc.png  0%  100%  
+	    New File  		   21725	docWithImage.png  0%  100%  
+	    New File  		   21034	folder.png  0%  100%  
+	    New File  		   28459	folder_media.png  0%  100%  
+	    New File  		    8311	mediaFile.png  0%  100%  
+	    New File  		   21725	mediaPhoto.png  0%  100%  
+	    New File  		   15119	member.png  0%  100%  
+	    New File  		   19497	memberGroup.png  0%  100%  
+	    New File  		   19684	members.png  0%  100%  
+	    New File  		   11883	template.png  0%  100%  
+	    New File  		   12153	xml.png  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\Tray\
+	    New File  		   11965	traySprites.png  0%  100%  
+	  New Dir         54	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Images\Umbraco\
+	    New File  		    3435	bin.png  0%  100%  
+	    New File  		     363	bin_closed.png  0%  100%  
+	    New File  		     659	bin_empty.png  0%  100%  
+	    New File  		     577	developerCacheItem.gif  0%  100%  
+	    New File  		     578	developerCacheTypes.gif  0%  100%  
+	    New File  		     125	developerDatatype.gif  0%  100%  
+	    New File  		     604	developerMacro.gif  0%  100%  
+	    New File  		     618	developerPython.gif  0%  100%  
+	    New File  		     118	developerRegistry.gif  0%  100%  
+	    New File  		     123	developerRegistryItem.gif  0%  100%  
+	    New File  		     616	developerRuby.gif  0%  100%  
+	    New File  		     399	developerScript.gif  0%  100%  
+	    New File  		     410	developerXslt.gif  0%  100%  
+	    New File  		     616	doc.gif  0%  100%  
+	    New File  		     604	doc2.gif  0%  100%  
+	    New File  		     616	doc3.gif  0%  100%  
+	    New File  		     597	doc4.gif  0%  100%  
+	    New File  		     609	doc5.gif  0%  100%  
+	    New File  		     607	docPic.gif  0%  100%  
+	    New File  		    1030	folder.gif  0%  100%  
+	    New File  		    1030	folder_o.gif  0%  100%  
+	    New File  		     621	mediaFile.gif  0%  100%  
+	    New File  		     619	mediaMovie.gif  0%  100%  
+	    New File  		     618	mediaMulti.gif  0%  100%  
+	    New File  		     561	mediaPhoto.gif  0%  100%  
+	    New File  		     998	member.gif  0%  100%  
+	    New File  		    1000	memberGroup.gif  0%  100%  
+	    New File  		    1012	memberType.gif  0%  100%  
+	    New File  		    1013	newsletter.gif  0%  100%  
+	    New File  		     525	nitros.gif  0%  100%  
+	    New File  		    1021	package.gif  0%  100%  
+	    New File  		     810	package.png  0%  100%  
+	    New File  		    1062	repository.gif  0%  100%  
+	    New File  		     145	settingAgent.gif  0%  100%  
+	    New File  		     607	settingCss.gif  0%  100%  
+	    New File  		     299	settingCssItem.gif  0%  100%  
+	    New File  		     607	settingDatatype.gif  0%  100%  
+	    New File  		     144	settingDataTypeChild.gif  0%  100%  
+	    New File  		    1034	settingDomain.gif  0%  100%  
+	    New File  		     387	settingLanguage.gif  0%  100%  
+	    New File  		     587	settingMasterDatatype.gif  0%  100%  
+	    New File  		     235	settingMasterTemplate.gif  0%  100%  
+	    New File  		    1655	settingSkin.gif  0%  100%  
+	    New File  		     553	settingsScript.gif  0%  100%  
+	    New File  		     252	settingTemplate.gif  0%  100%  
+	    New File  		    1644	settingView.gif  0%  100%  
+	    New File  		     268	settingXML.gif  0%  100%  
+	    New File  		   14538	sprites.png  0%  100%  
+	    New File  		    7307	sprites_ie6.gif  0%  100%  
+	    New File  		     305	statistik.gif  0%  100%  
+	    New File  		    1035	uploadpackage.gif  0%  100%  
+	    New File  		     998	user.gif  0%  100%  
+	    New File  		    1000	userGroup.gif  0%  100%  
+	    New File  		    1012	userType.gif  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Install\
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Install\Legacy\
+	    New File  		    4538	loadStarterKits.ascx  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Install\Views\
+	    New File  		    2177	Index.cshtml  0%  100%  
+	    New File  		    2873	Web.config  0%  100%  
+	  New Dir         26	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Js\
+	    New File  		     395	app.dev.js  0%  100%  
+	    New File  		     290	app.js  0%  100%  
+	    New File  		    1249	dualSelectBox.js  0%  100%  
+	    New File  		    2929	guiFunctions.js  0%  100%  
+	    New File  		    3516	init.js  0%  100%  
+	    New File  		     600	install.loader.js  0%  100%  
+	    New File  		     111	language.aspx  0%  100%  
+	    New File  		    1790	loader.js  0%  100%  
+	    New File  		    7678	routes.js  0%  100%  
+	    New File  		  210942	umbraco.controllers.js  0%   62%  100%  
+	    New File  		  120297	umbraco.directives.js  0%  100%  
+	    New File  		     776	umbraco.filters.js  0%  100%  
+	    New File  		    1032	umbraco.httpbackend.js  0%  100%  
+	    New File  		   15375	umbraco.installer.js  0%  100%  
+	    New File  		   89831	umbraco.resources.js  0%  100%  
+	    New File  		    7311	umbraco.security.js  0%  100%  
+	    New File  		    1836	umbraco.servervariables.js  0%  100%  
+	    New File  		  309957	umbraco.services.js  0%   42%   84%  100%  
+	    New File  		  135100	umbraco.testing.js  0%   97%  100%  
+	    New File  		    2926	umbracoCheckKeys.js  0%  100%  
+	    New File  		    3833	UmbracoSpeechBubble.js  0%  100%  
+	    New File  		    2738	UmbracoSpeechBubbleBackEnd.js  0%  100%  
+	    New File  		     201	UmbracoSpeechBubbleInit.js  0%  100%  
+	    New File  		     586	umbracoUpgradeChecker.js  0%  100%  
+	    New File  		    4102	xmlextras.js  0%  100%  
+	    New File  		    1951	xmlRequest.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\
+	    New File  		   18058	moment.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\angular\
+	    New File  		    1331	angular-ui-sortable.js  0%  100%  
+	  New Dir         14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\angular\1.1.5\
+	    New File  		    5399	angular-cookies.js  0%  100%  
+	    New File  		     806	angular-cookies.min.js  0%  100%  
+	    New File  		   10645	angular-loader.js  0%  100%  
+	    New File  		     933	angular-loader.min.js  0%  100%  
+	    New File  		   17504	angular-mobile.js  0%  100%  
+	    New File  		    2875	angular-mobile.min.js  0%  100%  
+	    New File  		   61335	angular-mocks.js  0%  100%  
+	    New File  		   22149	angular-resource.js  0%  100%  
+	    New File  		    2787	angular-resource.min.js  0%  100%  
+	    New File  		   18873	angular-sanitize.js  0%  100%  
+	    New File  		    3942	angular-sanitize.min.js  0%  100%  
+	    New File  		  934395	angular-scenario.js  0%   28%   56%   84%  100%  
+	    New File  		  590539	angular.js  0%   44%   88%  100%  
+	    New File  		   88980	angular.min.js  0%  100%  
+	  New Dir        287	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\angular\1.1.5\i18n\
+	    New File  		    2218	angular-locale_af-na.js  0%  100%  
+	    New File  		    2226	angular-locale_af-za.js  0%  100%  
+	    New File  		    2223	angular-locale_af.js  0%  100%  
+	    New File  		    2836	angular-locale_am-et.js  0%  100%  
+	    New File  		    2833	angular-locale_am.js  0%  100%  
+	    New File  		    3706	angular-locale_ar-001.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-ae.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-bh.js  0%  100%  
+	    New File  		    3657	angular-locale_ar-dz.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-eg.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-iq.js  0%  100%  
+	    New File  		    3869	angular-locale_ar-jo.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-kw.js  0%  100%  
+	    New File  		    3869	angular-locale_ar-lb.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-ly.js  0%  100%  
+	    New File  		    3657	angular-locale_ar-ma.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-om.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-qa.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-sa.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-sd.js  0%  100%  
+	    New File  		    3869	angular-locale_ar-sy.js  0%  100%  
+	    New File  		    3657	angular-locale_ar-tn.js  0%  100%  
+	    New File  		    3705	angular-locale_ar-ye.js  0%  100%  
+	    New File  		    3702	angular-locale_ar.js  0%  100%  
+	    New File  		    3137	angular-locale_bg-bg.js  0%  100%  
+	    New File  		    3134	angular-locale_bg.js  0%  100%  
+	    New File  		    3458	angular-locale_bn-bd.js  0%  100%  
+	    New File  		    3458	angular-locale_bn-in.js  0%  100%  
+	    New File  		    3455	angular-locale_bn.js  0%  100%  
+	    New File  		    2345	angular-locale_ca-ad.js  0%  100%  
+	    New File  		    2345	angular-locale_ca-es.js  0%  100%  
+	    New File  		    2342	angular-locale_ca.js  0%  100%  
+	    New File  		    1144	angular-locale_chr.js  0%  100%  
+	    New File  		    2445	angular-locale_cs-cz.js  0%  100%  
+	    New File  		    2442	angular-locale_cs.js  0%  100%  
+	    New File  		     938	angular-locale_cy.js  0%  100%  
+	    New File  		    2259	angular-locale_da-dk.js  0%  100%  
+	    New File  		    2256	angular-locale_da.js  0%  100%  
+	    New File  		    2261	angular-locale_de-at.js  0%  100%  
+	    New File  		    2249	angular-locale_de-be.js  0%  100%  
+	    New File  		    2240	angular-locale_de-ch.js  0%  100%  
+	    New File  		    2249	angular-locale_de-de.js  0%  100%  
+	    New File  		    2249	angular-locale_de-li.js  0%  100%  
+	    New File  		    2249	angular-locale_de-lu.js  0%  100%  
+	    New File  		    2246	angular-locale_de.js  0%  100%  
+	    New File  		    3327	angular-locale_el-cy.js  0%  100%  
+	    New File  		    3327	angular-locale_el-gr.js  0%  100%  
+	    New File  		    1495	angular-locale_el-polyton.js  0%  100%  
+	    New File  		    3324	angular-locale_el.js  0%  100%  
+	    New File  		    2212	angular-locale_en-as.js  0%  100%  
+	    New File  		    2216	angular-locale_en-au.js  0%  100%  
+	    New File  		    2212	angular-locale_en-bb.js  0%  100%  
+	    New File  		    2208	angular-locale_en-be.js  0%  100%  
+	    New File  		    2212	angular-locale_en-bm.js  0%  100%  
+	    New File  		    2215	angular-locale_en-bw.js  0%  100%  
+	    New File  		    2206	angular-locale_en-bz.js  0%  100%  
+	    New File  		    2220	angular-locale_en-ca.js  0%  100%  
+	    New File  		    4060	angular-locale_en-dsrt-us.js  0%  100%  
+	    New File  		    4057	angular-locale_en-dsrt.js  0%  100%  
+	    New File  		    2212	angular-locale_en-fm.js  0%  100%  
+	    New File  		    2216	angular-locale_en-gb.js  0%  100%  
+	    New File  		    2212	angular-locale_en-gu.js  0%  100%  
+	    New File  		    2212	angular-locale_en-gy.js  0%  100%  
+	    New File  		    2212	angular-locale_en-hk.js  0%  100%  
+	    New File  		    2224	angular-locale_en-ie.js  0%  100%  
+	    New File  		    2229	angular-locale_en-in.js  0%  100%  
+	    New File  		    2214	angular-locale_en-iso.js  0%  100%  
+	    New File  		    2212	angular-locale_en-jm.js  0%  100%  
+	    New File  		    2212	angular-locale_en-mh.js  0%  100%  
+	    New File  		    2212	angular-locale_en-mp.js  0%  100%  
+	    New File  		    2219	angular-locale_en-mt.js  0%  100%  
+	    New File  		    2212	angular-locale_en-mu.js  0%  100%  
+	    New File  		    2212	angular-locale_en-na.js  0%  100%  
+	    New File  		    2214	angular-locale_en-nz.js  0%  100%  
+	    New File  		    2212	angular-locale_en-ph.js  0%  100%  
+	    New File  		    2213	angular-locale_en-pk.js  0%  100%  
+	    New File  		    2212	angular-locale_en-pr.js  0%  100%  
+	    New File  		    2212	angular-locale_en-pw.js  0%  100%  
+	    New File  		    2212	angular-locale_en-sg.js  0%  100%  
+	    New File  		    2212	angular-locale_en-tc.js  0%  100%  
+	    New File  		    2212	angular-locale_en-tt.js  0%  100%  
+	    New File  		    2212	angular-locale_en-um.js  0%  100%  
+	    New File  		    2212	angular-locale_en-us.js  0%  100%  
+	    New File  		    2212	angular-locale_en-vg.js  0%  100%  
+	    New File  		    2212	angular-locale_en-vi.js  0%  100%  
+	    New File  		    2224	angular-locale_en-za.js  0%  100%  
+	    New File  		    2215	angular-locale_en-zw.js  0%  100%  
+	    New File  		    1242	angular-locale_en-zz.js  0%  100%  
+	    New File  		    2209	angular-locale_en.js  0%  100%  
+	    New File  		    2257	angular-locale_es-419.js  0%  100%  
+	    New File  		    2273	angular-locale_es-ar.js  0%  100%  
+	    New File  		    2273	angular-locale_es-bo.js  0%  100%  
+	    New File  		    2269	angular-locale_es-cl.js  0%  100%  
+	    New File  		    2265	angular-locale_es-co.js  0%  100%  
+	    New File  		    2273	angular-locale_es-cr.js  0%  100%  
+	    New File  		    2273	angular-locale_es-do.js  0%  100%  
+	    New File  		    2273	angular-locale_es-ea.js  0%  100%  
+	    New File  		    2269	angular-locale_es-ec.js  0%  100%  
+	    New File  		    2273	angular-locale_es-es.js  0%  100%  
+	    New File  		    2273	angular-locale_es-gq.js  0%  100%  
+	    New File  		    2269	angular-locale_es-gt.js  0%  100%  
+	    New File  		    2274	angular-locale_es-hn.js  0%  100%  
+	    New File  		    2273	angular-locale_es-ic.js  0%  100%  
+	    New File  		    2273	angular-locale_es-mx.js  0%  100%  
+	    New File  		    2273	angular-locale_es-ni.js  0%  100%  
+	    New File  		    2273	angular-locale_es-pa.js  0%  100%  
+	    New File  		    2271	angular-locale_es-pe.js  0%  100%  
+	    New File  		    2273	angular-locale_es-pr.js  0%  100%  
+	    New File  		    2273	angular-locale_es-py.js  0%  100%  
+	    New File  		    2273	angular-locale_es-sv.js  0%  100%  
+	    New File  		    2269	angular-locale_es-us.js  0%  100%  
+	    New File  		    2273	angular-locale_es-uy.js  0%  100%  
+	    New File  		    2273	angular-locale_es-ve.js  0%  100%  
+	    New File  		    2270	angular-locale_es.js  0%  100%  
+	    New File  		    2316	angular-locale_et-ee.js  0%  100%  
+	    New File  		    2313	angular-locale_et.js  0%  100%  
+	    New File  		    2267	angular-locale_eu-es.js  0%  100%  
+	    New File  		    2264	angular-locale_eu.js  0%  100%  
+	    New File  		    3249	angular-locale_fa-af.js  0%  100%  
+	    New File  		    3345	angular-locale_fa-ir.js  0%  100%  
+	    New File  		    3342	angular-locale_fa.js  0%  100%  
+	    New File  		    2392	angular-locale_fi-fi.js  0%  100%  
+	    New File  		    2389	angular-locale_fi.js  0%  100%  
+	    New File  		    2224	angular-locale_fil-ph.js  0%  100%  
+	    New File  		    2221	angular-locale_fil.js  0%  100%  
+	    New File  		    2293	angular-locale_fr-be.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-bf.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-bi.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-bj.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-bl.js  0%  100%  
+	    New File  		    2296	angular-locale_fr-ca.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-cd.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-cf.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-cg.js  0%  100%  
+	    New File  		    2296	angular-locale_fr-ch.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-ci.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-cm.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-dj.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-fr.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-ga.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-gf.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-gn.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-gp.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-gq.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-km.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-lu.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-mc.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-mf.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-mg.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-ml.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-mq.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-ne.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-re.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-rw.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-sn.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-td.js  0%  100%  
+	    New File  		    2256	angular-locale_fr-tg.js  0%  100%  
+	    New File  		    2295	angular-locale_fr-yt.js  0%  100%  
+	    New File  		    2292	angular-locale_fr.js  0%  100%  
+	    New File  		    2243	angular-locale_gl-es.js  0%  100%  
+	    New File  		    2240	angular-locale_gl.js  0%  100%  
+	    New File  		    2286	angular-locale_gsw-ch.js  0%  100%  
+	    New File  		    2283	angular-locale_gsw.js  0%  100%  
+	    New File  		    3248	angular-locale_gu-in.js  0%  100%  
+	    New File  		    3245	angular-locale_gu.js  0%  100%  
+	    New File  		     926	angular-locale_haw.js  0%  100%  
+	    New File  		    3228	angular-locale_he-il.js  0%  100%  
+	    New File  		    3225	angular-locale_he.js  0%  100%  
+	    New File  		    3266	angular-locale_hi-in.js  0%  100%  
+	    New File  		    3263	angular-locale_hi.js  0%  100%  
+	    New File  		    2556	angular-locale_hr-hr.js  0%  100%  
+	    New File  		    2553	angular-locale_hr.js  0%  100%  
+	    New File  		    2307	angular-locale_hu-hu.js  0%  100%  
+	    New File  		    2304	angular-locale_hu.js  0%  100%  
+	    New File  		    2160	angular-locale_id-id.js  0%  100%  
+	    New File  		    2157	angular-locale_id.js  0%  100%  
+	    New File  		    2157	angular-locale_in.js  0%  100%  
+	    New File  		    2372	angular-locale_is-is.js  0%  100%  
+	    New File  		    2369	angular-locale_is.js  0%  100%  
+	    New File  		    2226	angular-locale_it-ch.js  0%  100%  
+	    New File  		    2259	angular-locale_it-it.js  0%  100%  
+	    New File  		    2259	angular-locale_it-sm.js  0%  100%  
+	    New File  		    2256	angular-locale_it.js  0%  100%  
+	    New File  		    3177	angular-locale_iw.js  0%  100%  
+	    New File  		    2375	angular-locale_ja-jp.js  0%  100%  
+	    New File  		    2372	angular-locale_ja.js  0%  100%  
+	    New File  		    3242	angular-locale_kn-in.js  0%  100%  
+	    New File  		    3239	angular-locale_kn.js  0%  100%  
+	    New File  		    2389	angular-locale_ko-kr.js  0%  100%  
+	    New File  		    2386	angular-locale_ko.js  0%  100%  
+	    New File  		    2746	angular-locale_ln-cd.js  0%  100%  
+	    New File  		    2462	angular-locale_ln-cg.js  0%  100%  
+	    New File  		    2743	angular-locale_ln.js  0%  100%  
+	    New File  		    2522	angular-locale_lt-lt.js  0%  100%  
+	    New File  		    2519	angular-locale_lt.js  0%  100%  
+	    New File  		    2447	angular-locale_lv-lv.js  0%  100%  
+	    New File  		    2444	angular-locale_lv.js  0%  100%  
+	    New File  		    3515	angular-locale_ml-in.js  0%  100%  
+	    New File  		    3512	angular-locale_ml.js  0%  100%  
+	    New File  		    1387	angular-locale_mo.js  0%  100%  
+	    New File  		    3243	angular-locale_mr-in.js  0%  100%  
+	    New File  		    3240	angular-locale_mr.js  0%  100%  
+	    New File  		    2148	angular-locale_ms-bn.js  0%  100%  
+	    New File  		    2153	angular-locale_ms-my.js  0%  100%  
+	    New File  		    2150	angular-locale_ms.js  0%  100%  
+	    New File  		    2492	angular-locale_mt-mt.js  0%  100%  
+	    New File  		    2489	angular-locale_mt.js  0%  100%  
+	    New File  		    2220	angular-locale_nl-aw.js  0%  100%  
+	    New File  		    2218	angular-locale_nl-be.js  0%  100%  
+	    New File  		    2231	angular-locale_nl-cw.js  0%  100%  
+	    New File  		    2231	angular-locale_nl-nl.js  0%  100%  
+	    New File  		    2231	angular-locale_nl-sx.js  0%  100%  
+	    New File  		    2228	angular-locale_nl.js  0%  100%  
+	    New File  		    2254	angular-locale_no.js  0%  100%  
+	    New File  		    3405	angular-locale_or-in.js  0%  100%  
+	    New File  		    3402	angular-locale_or.js  0%  100%  
+	    New File  		    2586	angular-locale_pl-pl.js  0%  100%  
+	    New File  		    2583	angular-locale_pl.js  0%  100%  
+	    New File  		    2264	angular-locale_pt-ao.js  0%  100%  
+	    New File  		    2280	angular-locale_pt-br.js  0%  100%  
+	    New File  		    2264	angular-locale_pt-gw.js  0%  100%  
+	    New File  		    2264	angular-locale_pt-mz.js  0%  100%  
+	    New File  		    2304	angular-locale_pt-pt.js  0%  100%  
+	    New File  		    2264	angular-locale_pt-st.js  0%  100%  
+	    New File  		    2277	angular-locale_pt.js  0%  100%  
+	    New File  		    2344	angular-locale_ro-md.js  0%  100%  
+	    New File  		    2376	angular-locale_ro-ro.js  0%  100%  
+	    New File  		    2373	angular-locale_ro.js  0%  100%  
+	    New File  		    2755	angular-locale_ru-md.js  0%  100%  
+	    New File  		    3607	angular-locale_ru-ru.js  0%  100%  
+	    New File  		    2746	angular-locale_ru-ua.js  0%  100%  
+	    New File  		    3604	angular-locale_ru.js  0%  100%  
+	    New File  		    2379	angular-locale_sk-sk.js  0%  100%  
+	    New File  		    2376	angular-locale_sk.js  0%  100%  
+	    New File  		    2384	angular-locale_sl-si.js  0%  100%  
+	    New File  		    2381	angular-locale_sl.js  0%  100%  
+	    New File  		    2269	angular-locale_sq-al.js  0%  100%  
+	    New File  		    2266	angular-locale_sq.js  0%  100%  
+	    New File  		    2716	angular-locale_sr-cyrl-ba.js  0%  100%  
+	    New File  		    2702	angular-locale_sr-cyrl-me.js  0%  100%  
+	    New File  		    3454	angular-locale_sr-cyrl-rs.js  0%  100%  
+	    New File  		    2699	angular-locale_sr-cyrl.js  0%  100%  
+	    New File  		    2520	angular-locale_sr-latn-ba.js  0%  100%  
+	    New File  		    2519	angular-locale_sr-latn-me.js  0%  100%  
+	    New File  		    2536	angular-locale_sr-latn-rs.js  0%  100%  
+	    New File  		    2517	angular-locale_sr-latn.js  0%  100%  
+	    New File  		    1764	angular-locale_sr-rs.js  0%  100%  
+	    New File  		    3446	angular-locale_sr.js  0%  100%  
+	    New File  		    2230	angular-locale_sv-fi.js  0%  100%  
+	    New File  		    2266	angular-locale_sv-se.js  0%  100%  
+	    New File  		    2263	angular-locale_sv.js  0%  100%  
+	    New File  		    2223	angular-locale_sw-ke.js  0%  100%  
+	    New File  		    2223	angular-locale_sw-tz.js  0%  100%  
+	    New File  		    2220	angular-locale_sw.js  0%  100%  
+	    New File  		    3052	angular-locale_ta-in.js  0%  100%  
+	    New File  		    2543	angular-locale_ta-lk.js  0%  100%  
+	    New File  		    3049	angular-locale_ta.js  0%  100%  
+	    New File  		    3343	angular-locale_te-in.js  0%  100%  
+	    New File  		    3340	angular-locale_te.js  0%  100%  
+	    New File  		    3244	angular-locale_th-th.js  0%  100%  
+	    New File  		    3241	angular-locale_th.js  0%  100%  
+	    New File  		    1251	angular-locale_tl-ph.js  0%  100%  
+	    New File  		    2220	angular-locale_tl.js  0%  100%  
+	    New File  		    2227	angular-locale_tr-tr.js  0%  100%  
+	    New File  		    2224	angular-locale_tr.js  0%  100%  
+	    New File  		    3476	angular-locale_uk-ua.js  0%  100%  
+	    New File  		    3473	angular-locale_uk.js  0%  100%  
+	    New File  		    2374	angular-locale_ur-in.js  0%  100%  
+	    New File  		    3078	angular-locale_ur-pk.js  0%  100%  
+	    New File  		    3075	angular-locale_ur.js  0%  100%  
+	    New File  		    2508	angular-locale_vi-vn.js  0%  100%  
+	    New File  		    2505	angular-locale_vi.js  0%  100%  
+	    New File  		    2410	angular-locale_zh-cn.js  0%  100%  
+	    New File  		    2415	angular-locale_zh-hans-cn.js  0%  100%  
+	    New File  		    2239	angular-locale_zh-hans-hk.js  0%  100%  
+	    New File  		    2239	angular-locale_zh-hans-mo.js  0%  100%  
+	    New File  		    2245	angular-locale_zh-hans-sg.js  0%  100%  
+	    New File  		    2201	angular-locale_zh-hans.js  0%  100%  
+	    New File  		    2228	angular-locale_zh-hant-hk.js  0%  100%  
+	    New File  		    2232	angular-locale_zh-hant-mo.js  0%  100%  
+	    New File  		    2202	angular-locale_zh-hant-tw.js  0%  100%  
+	    New File  		    2199	angular-locale_zh-hant.js  0%  100%  
+	    New File  		    2465	angular-locale_zh-hk.js  0%  100%  
+	    New File  		    2404	angular-locale_zh-tw.js  0%  100%  
+	    New File  		    2407	angular-locale_zh.js  0%  100%  
+	    New File  		    2231	angular-locale_zu-za.js  0%  100%  
+	    New File  		    2228	angular-locale_zu.js  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\bootstrap\
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\bootstrap\css\
+	    New File  		   22057	bootstrap-responsive.css  0%  100%  
+	    New File  		   16858	bootstrap-responsive.min.css  0%  100%  
+	    New File  		  114358	bootstrap.cosmo.min.css  0%  100%  
+	    New File  		  105909	bootstrap.css  0%  100%  
+	    New File  		  105948	bootstrap.min.css  0%  100%  
+	    New File  		   16850	responsive.css  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\bootstrap\img\
+	    New File  		    8777	glyphicons-halflings-white.png  0%  100%  
+	    New File  		   12799	glyphicons-halflings.png  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\bootstrap\js\
+	    New File  		   64245	bootstrap.2.3.2.js  0%  100%  
+	    New File  		   28636	bootstrap.2.3.2.min.js  0%  100%  
+	  New Dir         41	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\bootstrap\less\
+	    New File  		     670	accordion.less  0%  100%  
+	    New File  		    1448	alerts.less  0%  100%  
+	    New File  		    1552	bootstrap.less  0%  100%  
+	    New File  		     455	breadcrumbs.less  0%  100%  
+	    New File  		    5938	button-groups.less  0%  100%  
+	    New File  		    4994	buttons.less  0%  100%  
+	    New File  		    2640	carousel.less  0%  100%  
+	    New File  		     675	close.less  0%  100%  
+	    New File  		    1342	code.less  0%  100%  
+	    New File  		     328	component-animations.less  0%  100%  
+	    New File  		    5730	dropdowns.less  0%  100%  
+	    New File  		   16556	forms.less  0%  100%  
+	    New File  		     450	grid.less  0%  100%  
+	    New File  		     546	hero-unit.less  0%  100%  
+	    New File  		    1968	labels-badges.less  0%  100%  
+	    New File  		     344	layouts.less  0%  100%  
+	    New File  		     915	media.less  0%  100%  
+	    New File  		   23744	mixins.less  0%  100%  
+	    New File  		    2073	modals.less  0%  100%  
+	    New File  		   12499	navbar.less  0%  100%  
+	    New File  		    8572	navs.less  0%  100%  
+	    New File  		     802	pager.less  0%  100%  
+	    New File  		    2801	pagination.less  0%  100%  
+	    New File  		    3210	popovers.less  0%  100%  
+	    New File  		    2980	progress-bars.less  0%  100%  
+	    New File  		    4417	reset.less  0%  100%  
+	    New File  		     593	responsive-1200px-min.less  0%  100%  
+	    New File  		    4113	responsive-767px-max.less  0%  100%  
+	    New File  		     482	responsive-768px-979px.less  0%  100%  
+	    New File  		    4517	responsive-navbar.less  0%  100%  
+	    New File  		    1661	responsive-utilities.less  0%  100%  
+	    New File  		    1117	responsive.less  0%  100%  
+	    New File  		     938	scaffolding.less  0%  100%  
+	    New File  		   11038	sprites.less  0%  100%  
+	    New File  		    6499	tables.less  0%  100%  
+	    New File  		    1289	thumbnails.less  0%  100%  
+	    New File  		    1754	tooltip.less  0%  100%  
+	    New File  		    5104	type.less  0%  100%  
+	    New File  		     365	utilities.less  0%  100%  
+	    New File  		    9443	variables.less  0%  100%  
+	    New File  		     581	wells.less  0%  100%  
+	  New Dir          8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\bootstrap\less\tests\
+	    New File  		    6550	buttons.html  0%  100%  
+	    New File  		    5625	css-tests.css  0%  100%  
+	    New File  		   41537	css-tests.html  0%  100%  
+	    New File  		    2433	forms-responsive.html  0%  100%  
+	    New File  		    4258	forms.html  0%  100%  
+	    New File  		    4796	navbar-fixed-top.html  0%  100%  
+	    New File  		    4818	navbar-static-top.html  0%  100%  
+	    New File  		    4904	navbar.html  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\datetimepicker\
+	    New File  		   45241	bootstrap-datetimepicker.js  0%  100%  
+	    New File  		    6466	bootstrap-datetimepicker.min.css  0%  100%  
+	    New File  		   30098	bootstrap-datetimepicker.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\datetimepicker\langs\
+	    New File  		     708	datetimepicker.pt-BR.js  0%  100%  
+	  New Dir          9	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\
+	    New File  		  100978	jquery-2.0.3.min.js  0%  100%  
+	    New File  		   89016	jquery-ui-1.10.3.custom.min.js  0%  100%  
+	    New File  		    4292	jquery.ui.core.min.js  0%  100%  
+	    New File  		   32310	jquery.ui.draggable.js  0%  100%  
+	    New File  		     596	jquery.ui.effect-highlight.min.js  0%  100%  
+	    New File  		   12975	jquery.ui.effect.min.js  0%  100%  
+	    New File  		    2844	jquery.ui.mouse.min.js  0%  100%  
+	    New File  		   24181	jquery.ui.sortable.min.js  0%  100%  
+	    New File  		    6491	jquery.ui.widget.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.sortable\
+	    New File  		    8378	jquery.sortable.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\
+	    New File  		    7900	README.md  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\cors\
+	    New File  		    2123	postmessage.html  0%  100%  
+	    New File  		     561	result.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\css\
+	    New File  		    1371	jquery.fileupload-ui.css  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\img\
+	    New File  		    3897	loading.gif  0%  100%  
+	    New File  		    3323	progressbar.gif  0%  100%  
+	  New Dir         13	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\js\
+	    New File  		    3701	app.js  0%  100%  
+	    New File  		   16234	jquery.fileupload-angular.js  0%  100%  
+	    New File  		    3497	jquery.fileupload-audio.js  0%  100%  
+	    New File  		   11247	jquery.fileupload-image.js  0%  100%  
+	    New File  		    4792	jquery.fileupload-jquery-ui.js  0%  100%  
+	    New File  		    5737	jquery.fileupload-process.js  0%  100%  
+	    New File  		   26153	jquery.fileupload-ui.js  0%  100%  
+	    New File  		    4129	jquery.fileupload-validate.js  0%  100%  
+	    New File  		    3497	jquery.fileupload-video.js  0%  100%  
+	    New File  		   58641	jquery.fileupload.js  0%  100%  
+	    New File  		   10254	jquery.iframe-transport.js  0%  100%  
+	    New File  		   16242	load-image.min.js  0%  100%  
+	    New File  		    2595	main.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\js\cors\
+	    New File  		    4147	jquery.postmessage-transport.js  0%  100%  
+	    New File  		    3417	jquery.xdr-transport.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\js\vendor\
+	    New File  		   15854	jquery.ui.widget.js  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\markdown\
+	    New File  		   46410	markdown.converter.js  0%  100%  
+	    New File  		    1658	markdown.css  0%  100%  
+	    New File  		   78546	markdown.editor.js  0%  100%  
+	    New File  		    4188	markdown.sanitizer.js  0%  100%  
+	    New File  		      95	red.css  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\slider\
+	    New File  		    4302	slider.css  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\slider\js\
+	    New File  		   11246	bootstrap-slider.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\spectrum\
+	    New File  		   15122	spectrum.css  0%  100%  
+	    New File  		   40684	spectrum.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\
+	    New File  		   26931	license.txt  0%  100%  
+	    New File  		  278479	tinymce.min.js  0%   47%   94%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\langs\
+	    New File  		     154	readme.md  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\advlist\
+	    New File  		    1260	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\anchor\
+	    New File  		     477	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\autolink\
+	    New File  		    1741	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\autoresize\
+	    New File  		    1234	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\autosave\
+	    New File  		    2114	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\bbcode\
+	    New File  		    3146	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\charmap\
+	    New File  		    6960	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\code\
+	    New File  		     698	plugin.min.js  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\compat3x\
+	    New File  		    2029	editable_selects.js  0%  100%  
+	    New File  		    5974	form_utils.js  0%  100%  
+	    New File  		    4038	mctabs.js  0%  100%  
+	    New File  		   12837	tiny_mce_popup.js  0%  100%  
+	    New File  		    6083	validate.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\contextmenu\
+	    New File  		     773	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\directionality\
+	    New File  		     726	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\emoticons\
+	    New File  		     783	plugin.min.js  0%  100%  
+	  New Dir         16	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\emoticons\img\
+	    New File  		     354	smiley-cool.gif  0%  100%  
+	    New File  		     329	smiley-cry.gif  0%  100%  
+	    New File  		     331	smiley-embarassed.gif  0%  100%  
+	    New File  		     342	smiley-foot-in-mouth.gif  0%  100%  
+	    New File  		     340	smiley-frown.gif  0%  100%  
+	    New File  		     336	smiley-innocent.gif  0%  100%  
+	    New File  		     338	smiley-kiss.gif  0%  100%  
+	    New File  		     343	smiley-laughing.gif  0%  100%  
+	    New File  		     321	smiley-money-mouth.gif  0%  100%  
+	    New File  		     323	smiley-sealed.gif  0%  100%  
+	    New File  		     344	smiley-smile.gif  0%  100%  
+	    New File  		     338	smiley-surprised.gif  0%  100%  
+	    New File  		     328	smiley-tongue-out.gif  0%  100%  
+	    New File  		     337	smiley-undecided.gif  0%  100%  
+	    New File  		     350	smiley-wink.gif  0%  100%  
+	    New File  		     336	smiley-yell.gif  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\example\
+	    New File  		     501	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\example_dependency\
+	    New File  		      73	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\fullpage\
+	    New File  		    6177	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\fullscreen\
+	    New File  		    1540	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\hr\
+	    New File  		     322	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\image\
+	    New File  		    4181	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\importcss\
+	    New File  		    1814	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\insertdatetime\
+	    New File  		    1972	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\layer\
+	    New File  		    2857	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\legacyoutput\
+	    New File  		    1479	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\link\
+	    New File  		    3566	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\lists\
+	    New File  		    7240	plugin.min.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\media\
+	    New File  		   20017	moxieplayer.swf  0%  100%  
+	    New File  		    8048	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\nonbreaking\
+	    New File  		     613	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\noneditable\
+	    New File  		    4667	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\pagebreak\
+	    New File  		    1209	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\paste\
+	    New File  		    9284	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\preview\
+	    New File  		    1108	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\print\
+	    New File  		     293	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\save\
+	    New File  		    1186	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\searchreplace\
+	    New File  		    6296	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\spellchecker\
+	    New File  		    6689	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\tabfocus\
+	    New File  		    1209	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\table\
+	    New File  		   22434	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\template\
+	    New File  		    4242	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\textcolor\
+	    New File  		    1987	plugin.min.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracocontextmenu\
+	    New File  		    2561	editor_plugin_src.js  0%  100%  
+	    New File  		    2561	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracocss\
+	    New File  		    8362	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracocss\img\
+	    New File  		      87	example.gif  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracocss\js\
+	    New File  		     609	dialog.js  0%  100%  
+	  New Dir         14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracocss\langs\
+	    New File  		      79	en.js  0%  100%  
+	    New File  		      82	en_dlg.js  0%  100%  
+	    New File  		      82	en_us.js  0%  100%  
+	    New File  		      85	en_us_dlg.js  0%  100%  
+	    New File  		      67	it.js  0%  100%  
+	    New File  		      71	it_dlg.js  0%  100%  
+	    New File  		      92	ja.js  0%  100%  
+	    New File  		      84	ja_dlg.js  0%  100%  
+	    New File  		      96	ru.js  0%  100%  
+	    New File  		     105	ru_dlg.js  0%  100%  
+	    New File  		      76	sv.js  0%  100%  
+	    New File  		      93	sv_dlg.js  0%  100%  
+	    New File  		      67	zh.js  0%  100%  
+	    New File  		      72	zh_dlg.js  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoembed\
+	    New File  		    3816	dialog.htm  0%  100%  
+	    New File  		     860	editor_plugin.js  0%  100%  
+	    New File  		    2984	editor_plugin_src.js  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoembed\img\
+	    New File  		    1928	ajax-loader.gif  0%  100%  
+	    New File  		     260	embed.gif  0%  100%  
+	    New File  		     537	embed.png  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoembed\js\
+	    New File  		    3260	dialog.js  0%  100%  
+	  New Dir         18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoembed\langs\
+	    New File  		      85	da.js  0%  100%  
+	    New File  		     251	da_dlg.js  0%  100%  
+	    New File  		     272	de.js  0%  100%  
+	    New File  		     272	de_dlg.js  0%  100%  
+	    New File  		      78	en.js  0%  100%  
+	    New File  		     232	en_dlg.js  0%  100%  
+	    New File  		      81	en_us.js  0%  100%  
+	    New File  		     235	en_us_dlg.js  0%  100%  
+	    New File  		     236	it.js  0%  100%  
+	    New File  		     244	it_dlg.js  0%  100%  
+	    New File  		     267	ja.js  0%  100%  
+	    New File  		     268	ja_dlg.js  0%  100%  
+	    New File  		     329	ru.js  0%  100%  
+	    New File  		     329	ru_dlg.js  0%  100%  
+	    New File  		     260	sv.js  0%  100%  
+	    New File  		     260	sv_dlg.js  0%  100%  
+	    New File  		     235	zh.js  0%  100%  
+	    New File  		     235	zh_dlg.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoimg\
+	    New File  		    1739	editor_plugin_src.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoimg\js\
+	    New File  		   10412	image.js  0%  100%  
+	  New Dir          8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoimg\langs\
+	    New File  		    1495	en_dlg.js  0%  100%  
+	    New File  		    1498	en_us_dlg.js  0%  100%  
+	    New File  		    1495	he_dlg.js  0%  100%  
+	    New File  		    1583	it_dlg.js  0%  100%  
+	    New File  		    1694	ja_dlg.js  0%  100%  
+	    New File  		    2314	ru_dlg.js  0%  100%  
+	    New File  		    1536	sv_dlg.js  0%  100%  
+	    New File  		    1346	zh_dlg.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracolink\
+	    New File  		    6920	plugin.min.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracomacro\
+	    New File  		     991	dialog.htm  0%  100%  
+	    New File  		    6151	editor_plugin_src.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracomacro\img\
+	    New File  		     603	insMacro.gif  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracomacro\js\
+	    New File  		     609	dialog.js  0%  100%  
+	  New Dir         14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracomacro\langs\
+	    New File  		      69	en.js  0%  100%  
+	    New File  		      82	en_dlg.js  0%  100%  
+	    New File  		      72	en_us.js  0%  100%  
+	    New File  		      85	en_us_dlg.js  0%  100%  
+	    New File  		      79	he.js  0%  100%  
+	    New File  		      82	he_dlg.js  0%  100%  
+	    New File  		      75	ja.js  0%  100%  
+	    New File  		      90	ja_dlg.js  0%  100%  
+	    New File  		      86	ru.js  0%  100%  
+	    New File  		      81	ru_dlg.js  0%  100%  
+	    New File  		      69	sv.js  0%  100%  
+	    New File  		      92	sv_dlg.js  0%  100%  
+	    New File  		      66	zh.js  0%  100%  
+	    New File  		      72	zh_dlg.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracopaste\
+	    New File  		    1753	editor_plugin_src.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\umbracoshortcut\
+	    New File  		    1255	editor_plugin_src.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\visualblocks\
+	    New File  		    1153	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\visualblocks\css\
+	    New File  		    4952	visualblocks.css  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\visualchars\
+	    New File  		    1055	plugin.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\plugins\wordcount\
+	    New File  		     899	plugin.min.js  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\lightgray\
+	    New File  		     980	content.inline.min.css  0%  100%  
+	    New File  		    1404	content.min.css  0%  100%  
+	    New File  		   30581	skin.classic.min.css  0%  100%  
+	    New File  		   32768	skin.ie7.min.css  0%  100%  
+	    New File  		   32961	skin.min.css  0%  100%  
+	  New Dir         17	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\lightgray\fonts\
+	    New File  		    8344	icomoon-small.eot  0%  100%  
+	    New File  		   26060	icomoon-small.svg  0%  100%  
+	    New File  		    8160	icomoon-small.ttf  0%  100%  
+	    New File  		    8336	icomoon-small.woff  0%  100%  
+	    New File  		    8268	icomoon.eot  0%  100%  
+	    New File  		   26229	icomoon.svg  0%  100%  
+	    New File  		    8104	icomoon.ttf  0%  100%  
+	    New File  		    8400	icomoon.woff  0%  100%  
+	    New File  		      68	readme.md  0%  100%  
+	    New File  		    8348	tinymce-small.eot  0%  100%  
+	    New File  		   26060	tinymce-small.svg  0%  100%  
+	    New File  		    8164	tinymce-small.ttf  0%  100%  
+	    New File  		    8340	tinymce-small.woff  0%  100%  
+	    New File  		    8276	tinymce.eot  0%  100%  
+	    New File  		   26229	tinymce.svg  0%  100%  
+	    New File  		    8112	tinymce.ttf  0%  100%  
+	    New File  		    8408	tinymce.woff  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\lightgray\img\
+	    New File  		      53	anchor.gif  0%  100%  
+	    New File  		    2608	loader.gif  0%  100%  
+	    New File  		     152	object.gif  0%  100%  
+	    New File  		      43	trans.gif  0%  100%  
+	    New File  		      46	wline.gif  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\umbraco\
+	    New File  		    2364	content.min.css  0%  100%  
+	    New File  		   30581	skin.classic.min.css  0%  100%  
+	    New File  		   30438	skin.ie7.min.css  0%  100%  
+	    New File  		   30581	skin.min.css  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\umbraco\fonts\
+	    New File  		    8196	icomoon.eot  0%  100%  
+	    New File  		   33681	icomoon.svg  0%  100%  
+	    New File  		    8032	icomoon.ttf  0%  100%  
+	    New File  		    8340	icomoon.woff  0%  100%  
+	    New File  		      68	readme.md  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\skins\umbraco\img\
+	    New File  		      53	anchor.gif  0%  100%  
+	    New File  		    2608	loader.gif  0%  100%  
+	    New File  		     152	object.gif  0%  100%  
+	    New File  		      43	trans.gif  0%  100%  
+	    New File  		      46	wline.gif  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\themes\
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\themes\modern\
+	    New File  		    6069	theme.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\tinymce\themes\umbraco\
+	    New File  		    4762	theme.min.js  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\umbraco\
+	    New File  		    1223	compat.js  0%  100%  
+	    New File  		   10978	Extensions.js  0%  100%  
+	    New File  		    2438	LegacySpeechBubble.js  0%  100%  
+	    New File  		   17019	LegacyUmbClientMgr.js  0%  100%  
+	    New File  		     839	NamespaceManager.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\underscore\
+	    New File  		   13434	underscore-min.js  0%  100%  
+	    New File  		   41778	underscore.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\yepnope\
+	    New File  		      61	empty.js  0%  100%  
+	    New File  		    3762	yepnope.min.js  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Masterpages\
+	    New File  		     234	default.Master  0%  100%  
+	    New File  		    1767	umbracoDialog.Master  0%  100%  
+	    New File  		    2281	umbracoPage.Master  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Members\
+	    New File  		    1010	EditMemberGroup.aspx  0%  100%  
+	    New File  		    1806	EditMemberType.aspx  0%  100%  
+	    New File  		    1838	MemberSearch.ascx  0%  100%  
+	    New File  		     798	search.aspx  0%  100%  
+	    New File  		    1913	ViewMembers.aspx  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\PartialViewMacros\
+	  New Dir         20	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\PartialViewMacros\Templates\
+	    New File  		     865	Breadcrumb.cshtml  0%  100%  
+	    New File  		    2658	EditProfile.cshtml  0%  100%  
+	    New File  		      53	Empty (ForUseWithCustomViews).cshtml  0%  100%  
+	    New File  		      49	Empty.cshtml  0%  100%  
+	    New File  		    1056	Gallery.cshtml  0%  100%  
+	    New File  		     563	ListAncestorsFromCurrentPage.cshtml  0%  100%  
+	    New File  		     604	ListChildPagesFromChangeableSource.cshtml  0%  100%  
+	    New File  		     539	ListChildPagesFromCurrentPage.cshtml  0%  100%  
+	    New File  		     308	ListChildPagesOrderedByDate.cshtml  0%  100%  
+	    New File  		     258	ListChildPagesOrderedByName.cshtml  0%  100%  
+	    New File  		     529	ListChildPagesOrderedByProperty.cshtml  0%  100%  
+	    New File  		     983	ListChildPagesWithDoctype.cshtml  0%  100%  
+	    New File  		    2059	ListDescendantsFromCurrentPage.cshtml  0%  100%  
+	    New File  		     704	ListImagesFromMediaFolder.cshtml  0%  100%  
+	    New File  		    1310	Login.cshtml  0%  100%  
+	    New File  		    1402	LoginStatus.cshtml  0%  100%  
+	    New File  		     690	MultinodeTree-picker.cshtml  0%  100%  
+	    New File  		     569	Navigation.cshtml  0%  100%  
+	    New File  		    4381	RegisterMember.cshtml  0%  100%  
+	    New File  		     949	SiteMap.cshtml  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Plugins\
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Plugins\Tinymce3\
+	    New File  		    1621	InsertAnchor.aspx  0%  100%  
+	    New File  		    2962	insertChar.aspx  0%  100%  
+	    New File  		    9412	insertImage.aspx  0%  100%  
+	    New File  		    6194	insertLink.aspx  0%  100%  
+	    New File  		    6617	insertMacro.aspx  0%  100%  
+	    New File  		     171	tinymce3tinymceCompress.aspx  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Scripting\
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Scripting\templates\
+	  New Dir         15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Scripting\templates\cshtml\
+	    New File  		     822	Breadcrumb.cshtml  0%  100%  
+	    New File  		     340	EmptyTemplate.cshtml  0%  100%  
+	    New File  		    1058	Gallery.cshtml  0%  100%  
+	    New File  		     545	ListAncestorsFromCurrentPage.cshtml  0%  100%  
+	    New File  		     607	ListChildPagesFromChangeableSource.cshtml  0%  100%  
+	    New File  		     529	ListChildPagesFromCurrentPage.cshtml  0%  100%  
+	    New File  		     301	ListChildPagesOrderedByDate.cshtml  0%  100%  
+	    New File  		     258	ListChildPagesOrderedByName.cshtml  0%  100%  
+	    New File  		     516	ListChildPagesOrderedByProperty.cshtml  0%  100%  
+	    New File  		     979	ListChildPagesWithDoctype.cshtml  0%  100%  
+	    New File  		    2045	ListDescendantsFromCurrentPage.cshtml  0%  100%  
+	    New File  		     679	ListImagesFromMediaFolder.cshtml  0%  100%  
+	    New File  		     647	MultinodeTree-picker.cshtml  0%  100%  
+	    New File  		     539	Navigation.cshtml  0%  100%  
+	    New File  		    1062	SiteMap.cshtml  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Search\
+	    New File  		    1100	QuickSearch.ascx  0%  100%  
+	    New File  		    3887	quickSearch.js  0%  100%  
+	    New File  		     139	QuickSearchHandler.ashx  0%  100%  
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Settings\
+	    New File  		     688	DictionaryItemList.aspx  0%  100%  
+	    New File  		     726	EditDictionaryItem.aspx  0%  100%  
+	    New File  		     935	editLanguage.aspx  0%  100%  
+	    New File  		     783	EditMediaType.aspx  0%  100%  
+	    New File  		    2967	EditNodeTypeNew.aspx  0%  100%  
+	    New File  		    8578	editTemplate.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Settings\Modals\
+	    New File  		    3355	ShowUmbracoTags.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Settings\Scripts\
+	    New File  		    2988	editScript.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Settings\Stylesheet\
+	    New File  		    2888	editstylesheet.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Settings\Stylesheet\Property\
+	    New File  		    2658	EditStyleSheetProperty.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Settings\Views\
+	    New File  		    3662	EditView.aspx  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Translation\
+	    New File  		    2595	default.aspx  0%  100%  
+	    New File  		    1856	details.aspx  0%  100%  
+	    New File  		    1325	preview.aspx  0%  100%  
+	    New File  		     220	xml.aspx  0%  100%  
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Users\
+	    New File  		     723	EditUser.aspx  0%  100%  
+	    New File  		    1445	EditUserType.aspx  0%  100%  
+	    New File  		    1572	NodePermissions.ascx  0%  100%  
+	    New File  		    2296	PermissionEditor.aspx  0%  100%  
+	    New File  		    6683	PermissionsEditor.js  0%  100%  
+	    New File  		     130	PermissionsHandler.asmx  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\
+	    New File  		    2122	AuthorizeUpgrade.cshtml  0%  100%  
+	    New File  		    2365	Default.cshtml  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\common\
+	    New File  		    1275	dashboard.html  0%  100%  
+	    New File  		     198	legacy.html  0%  100%  
+	    New File  		      62	login.html  0%  100%  
+	  New Dir         16	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\common\dialogs\
+	    New File  		    2240	contentpicker.html  0%  100%  
+	    New File  		    2158	help.html  0%  100%  
+	    New File  		    2380	iconpicker.html  0%  100%  
+	    New File  		    2005	insertmacro.html  0%  100%  
+	    New File  		     405	legacydelete.html  0%  100%  
+	    New File  		    1846	linkpicker.html  0%  100%  
+	    New File  		    1403	login.html  0%  100%  
+	    New File  		    1324	macropicker.html  0%  100%  
+	    New File  		    4198	mediapicker.html  0%  100%  
+	    New File  		     956	membergrouppicker.html  0%  100%  
+	    New File  		    2338	memberpicker.html  0%  100%  
+	    New File  		      24	property.html  0%  100%  
+	    New File  		    1697	rteembed.html  0%  100%  
+	    New File  		    2822	treepicker.html  0%  100%  
+	    New File  		    1520	user.html  0%  100%  
+	    New File  		     923	ysod.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\common\dialogs\content\
+	    New File  		    2194	edit.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\common\notifications\
+	    New File  		     367	confirmroutechange.html  0%  100%  
+	  New Dir          7	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\content\
+	    New File  		    2037	copy.html  0%  100%  
+	    New File  		    1503	create.html  0%  100%  
+	    New File  		     404	delete.html  0%  100%  
+	    New File  		    3643	edit.html  0%  100%  
+	    New File  		     272	emptyrecyclebin.html  0%  100%  
+	    New File  		    1109	move.html  0%  100%  
+	    New File  		     255	recyclebin.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\contenttype\
+	    New File  		    2902	edit.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\dashboard\
+	    New File  		     555	ChangePassword.html  0%  100%  
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\dashboard\default\
+	    New File  		   75730	ourumbraco.png  0%  100%  
+	    New File  		    2466	StartupDashboardIntro.html  0%  100%  
+	    New File  		    1251	StartupDashboardKits.html  0%  100%  
+	    New File  		       0	StartupDashboardLastEdits.html100%  
+	    New File  		     829	StartupDashboardVideos.html  0%  100%  
+	    New File  		  106574	umbracotv.png  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\dashboard\developer\
+	    New File  		    1108	developerdashboardintro.html  0%  100%  
+	    New File  		     948	developerdashboardvideos.html  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\dashboard\media\
+	    New File  		    1756	desktopmediauploader.html  0%  100%  
+	    New File  		     895	mediadashboardintro.html  0%  100%  
+	    New File  		     829	mediadashboardvideos.html  0%  100%  
+	    New File  		     977	mediafolderbrowser.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\dashboard\members\
+	    New File  		     366	membersdashboardintro.html  0%  100%  
+	    New File  		     813	membersdashboardvideos.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\dashboard\settings\
+	    New File  		    1100	settingsdashboardintro.html  0%  100%  
+	    New File  		     829	settingsdashboardvideos.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\datatype\
+	    New File  		     389	delete.html  0%  100%  
+	    New File  		    2679	edit.html  0%  100%  
+	  New Dir         16	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\directives\
+	    New File  		     859	button-group.html  0%  100%  
+	    New File  		      70	umb-avatar.html  0%  100%  
+	    New File  		     433	umb-confirm.html  0%  100%  
+	    New File  		     736	umb-content-name.html  0%  100%  
+	    New File  		     579	umb-contextmenu.html  0%  100%  
+	    New File  		      51	umb-editor.html  0%  100%  
+	    New File  		     434	umb-header.html  0%  100%  
+	    New File  		    1472	umb-item-sorter.html  0%  100%  
+	    New File  		     572	umb-login.html  0%  100%  
+	    New File  		    4575	umb-navigation.html  0%  100%  
+	    New File  		     789	umb-notifications.html  0%  100%  
+	    New File  		     873	umb-optionsmenu.html  0%  100%  
+	    New File  		     680	umb-property.html  0%  100%  
+	    New File  		    2067	umb-sections.html  0%  100%  
+	    New File  		     146	umb-tab-view.html  0%  100%  
+	    New File  		     130	umb-tab.html  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\directives\html\
+	    New File  		     432	umb-control-group.html  0%  100%  
+	    New File  		      47	umb-pane.html  0%  100%  
+	    New File  		      58	umb-panel.html  0%  100%  
+	    New File  		     994	umb-photo-folder.html  0%  100%  
+	    New File  		     447	umb-upload-dropzone.html  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\directives\imaging\
+	    New File  		     571	umb-image-crop.html  0%  100%  
+	    New File  		     260	umb-image-gravity.html  0%  100%  
+	    New File  		     210	umb-image-thumbnail.html  0%  100%  
+	  New Dir          8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\install\
+	    New File  		     404	continueinstall.html  0%  100%  
+	    New File  		    4512	database.html  0%  100%  
+	    New File  		     329	error.html  0%  100%  
+	    New File  		    1009	permissionsreport.html  0%  100%  
+	    New File  		     740	starterkit.html  0%  100%  
+	    New File  		     516	upgrade.html  0%  100%  
+	    New File  		    2823	user.html  0%  100%  
+	    New File  		    1018	version7upgradereport.html  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\media\
+	    New File  		    1629	create.html  0%  100%  
+	    New File  		     386	delete.html  0%  100%  
+	    New File  		    2322	edit.html  0%  100%  
+	    New File  		     254	emptyrecyclebin.html  0%  100%  
+	    New File  		    1072	move.html  0%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\member\
+	    New File  		     872	create.html  0%  100%  
+	    New File  		     403	delete.html  0%  100%  
+	    New File  		    2061	edit.html  0%  100%  
+	  New Dir         12	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\prevalueeditors\
+	    New File  		     101	boolean.html  0%  100%  
+	    New File  		      84	hidden.html  0%  100%  
+	    New File  		     709	mediapicker.html  0%  100%  
+	    New File  		     698	multivalues.html  0%  100%  
+	    New File  		     166	nodetype.html  0%  100%  
+	    New File  		     435	number.html  0%  100%  
+	    New File  		     222	readonlykeyvalues.html  0%  100%  
+	    New File  		     414	requiredfield.html  0%  100%  
+	    New File  		     101	textarea.html  0%  100%  
+	    New File  		      78	textstring.html  0%  100%  
+	    New File  		     726	treepicker.html  0%  100%  
+	    New File  		    2750	treesource.html  0%  100%  
+	  New Dir          0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\boolean\
+	    New File  		     189	boolean.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\changepassword\
+	    New File  		    3342	changepassword.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\checkboxlist\
+	    New File  		     468	checkboxlist.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\colorpicker\
+	    New File  		     481	colorpicker.html  0%  100%  
+	    New File  		     680	colorpicker.prevalues.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\contentpicker\
+	    New File  		    1705	contentpicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\datepicker\
+	    New File  		     828	datepicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\dropdown\
+	    New File  		     763	dropdown.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\email\
+	    New File  		     540	email.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\entitypicker\
+	    New File  		     661	entitypicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\fileupload\
+	    New File  		    1186	fileupload.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\folderbrowser\
+	    New File  		    1005	folderbrowser.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\googlemaps\
+	    New File  		     185	googlemaps.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\grid\
+	    New File  		     212	grid.html  0%  100%  
+	    New File  		    1850	iframe.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\grid\css\
+	    New File  		     152	iframe.css  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\grid\js\
+	    New File  		     432	iframe.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\imagecropper\
+	    New File  		    1925	imagecropper.html  0%  100%  
+	    New File  		    1975	imagecropper.prevalues.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\integer\
+	    New File  		     440	integer.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\listview\
+	    New File  		    5558	listview.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\macrocontainer\
+	    New File  		     973	macrocontainer.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\markdowneditor\
+	    New File  		     378	markdowneditor.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\mediapicker\
+	    New File  		     867	mediapicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\membergrouppicker\
+	    New File  		     691	membergrouppicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\membergroups\
+	    New File  		     598	membergroups.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\memberpicker\
+	    New File  		     835	memberpicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\multipletextbox\
+	    New File  		     730	multipletextbox.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\radiobuttons\
+	    New File  		     477	radiobuttons.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\readonlyvalue\
+	    New File  		     136	readonlyvalue.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\relatedlinks\
+	    New File  		    4318	relatedlinks.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\rte\
+	    New File  		     179	rte.html  0%  100%  
+	    New File  		    1118	rte.prevalues.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\slider\
+	    New File  		     309	orientation.prevalues.html  0%  100%  
+	    New File  		     469	slider.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\tags\
+	    New File  		     368	tags.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\templatepicker\
+	    New File  		     113	templatepicker.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\test\
+	    New File  		     476	test.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\textarea\
+	    New File  		     241	textarea.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\textbox\
+	    New File  		     430	textbox.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\ultrasimple\
+	    New File  		     243	ultrasimple.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\urllist\
+	    New File  		     349	urllist.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\validationtest\
+	    New File  		     561	validationtest.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\templates\
+	    New File  		     464	edit.html  0%  100%  
+	  New Dir         20	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Webservices\
+	    New File  		   26403	ajax.js  0%  100%  
+	    New File  		     125	CacheRefresher.asmx  0%  100%  
+	    New File  		     130	CheckForUpgrade.asmx  0%  100%  
+	    New File  		     111	CMSNode.asmx  0%  100%  
+	    New File  		     125	codeEditorSave.asmx  0%  100%  
+	    New File  		     102	Developer.asmx  0%  100%  
+	    New File  		     127	legacyAjaxCalls.asmx  0%  100%  
+	    New File  		     142	MacroContainerService.asmx  0%  100%  
+	    New File  		     134	MediaUploader.ashx  0%  100%  
+	    New File  		     117	nodeSorter.asmx  0%  100%  
+	    New File  		     125	progressStatus.asmx  0%  100%  
+	    New File  		     106	publication.asmx  0%  100%  
+	    New File  		     100	Settings.asmx  0%  100%  
+	    New File  		     154	TagsAutoCompleteHandler.ashx  0%  100%  
+	    New File  		     102	templates.asmx  0%  100%  
+	    New File  		     113	trashcan.asmx  0%  100%  
+	    New File  		     134	TreeClientService.asmx  0%  100%  
+	    New File  		     130	TreeDataService.ashx  0%  100%  
+	    New File  		     174	UltimatePickerAutoCompleteHandler.ashx  0%  100%  
+	    New File  		    8404	wsdl.xslt  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Xslt\
+	    New File  		     667	macroGetCurrent.xsl  0%  100%  
+	    New File  		    1178	macroGetSubs.xsl  0%  100%  
+	    New File  		    1114	searchResult.xslt  0%  100%  
+	    New File  		    1756	sqlNodeHierachy.xslt  0%  100%  
+	    New File  		     594	Web.config  0%  100%  
+	  New Dir         15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Xslt\Templates\
+	    New File  		    1085	Breadcrumb.xslt  0%  100%  
+	    New File  		     527	Clean.xslt  0%  100%  
+	    New File  		    1264	ListSubPagesAsThumbnails.xslt  0%  100%  
+	    New File  		    1063	ListSubPagesByDateAndLimit.xslt  0%  100%  
+	    New File  		     918	ListSubPagesByDocumentType.xslt  0%  100%  
+	    New File  		     886	ListSubPagesByLevel.xslt  0%  100%  
+	    New File  		     956	ListSubPagesFromAChangableSource.xslt  0%  100%  
+	    New File  		     756	ListSubPagesFromCurrentPage.xslt  0%  100%  
+	    New File  		    1151	ListThumbnailsFromCurrentPage.xslt  0%  100%  
+	    New File  		     771	ListWholeStructureFromCurrentPage.xslt  0%  100%  
+	    New File  		    1280	NavigationPrototype.xslt  0%  100%  
+	    New File  		    1701	RelatedLinks.xslt  0%  100%  
+	    New File  		    3263	RSSFeed.xslt  0%  100%  
+	    New File  		    1579	Sitemap.xslt  0%  100%  
+	    New File  		    1586	TablePrototype.xslt  0%  100%  
+	  New Dir         15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Xslt\Templates\Schema2\
+	    New File  		    1066	Breadcrumb.xslt  0%  100%  
+	    New File  		     527	Clean.xslt  0%  100%  
+	    New File  		    1015	ListSubPagesAsThumbnails.xslt  0%  100%  
+	    New File  		    1055	ListSubPagesByDateAndLimit.xslt  0%  100%  
+	    New File  		     891	ListSubPagesByDocumentType.xslt  0%  100%  
+	    New File  		     875	ListSubPagesByLevel.xslt  0%  100%  
+	    New File  		     948	ListSubPagesFromAChangableSource.xslt  0%  100%  
+	    New File  		     748	ListSubPagesFromCurrentPage.xslt  0%  100%  
+	    New File  		     893	ListThumbnailsFromCurrentPage.xslt  0%  100%  
+	    New File  		     763	ListWholeStructureFromCurrentPage.xslt  0%  100%  
+	    New File  		    1267	NavigationPrototype.xslt  0%  100%  
+	    New File  		    1714	RelatedLinks.xslt  0%  100%  
+	    New File  		    3251	RSSFeed.xslt  0%  100%  
+	    New File  		    1567	Sitemap.xslt  0%  100%  
+	    New File  		    1560	TablePrototype.xslt  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       230       229         0         0         0         0
+   Files :      1397      1397         0         0         0         0
+   Bytes :   11.22 m   11.22 m         0         0         0         0
+   Times :   0:00:01   0:00:01                       0:00:00   0:00:00
+
+
+   Speed :             6886190 Bytes/sec.
+   Speed :             394.030 MegaBytes/min.
+   Ended : 22 April 2015 10:23:20
+

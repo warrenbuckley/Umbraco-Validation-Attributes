@@ -6,14 +6,19 @@ namespace UmbracoValidationAttributes
 {
     public class UmbracoRegularExpression : RegularExpressionAttribute, IClientValidatable
     {
+        private readonly string _errorMessageDictionaryKey;
+
+
         public UmbracoRegularExpression(string errorMessageDictionaryKey,string pattern): base(pattern)
         {
-            UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
+            _errorMessageDictionaryKey = errorMessageDictionaryKey;
         }
 
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
+            UmbracoValidationHelper.GetDictionaryItem(_errorMessageDictionaryKey);
+
             var error           = FormatErrorMessage(metadata.DisplayName);
             var rule            = new ModelClientValidationRule();
             rule.ErrorMessage   = error;
