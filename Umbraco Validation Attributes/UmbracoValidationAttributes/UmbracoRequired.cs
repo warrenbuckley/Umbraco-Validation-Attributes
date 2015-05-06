@@ -15,6 +15,8 @@ namespace UmbracoValidationAttributes
         {
             _errorMessageDictionaryKey = errorMessageDictionaryKey;   
         }
+
+
         /// <summary>
         /// 
         /// </summary>
