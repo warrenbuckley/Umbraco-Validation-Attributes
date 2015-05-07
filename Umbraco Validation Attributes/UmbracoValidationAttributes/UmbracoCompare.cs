@@ -11,11 +11,26 @@ namespace UmbracoValidationAttributes
 {
     public class UmbracoCompare : System.Web.Mvc.CompareAttribute, IClientValidatable
     {
+        private readonly string _otherProperty;
+        private readonly string _errorMessageDictionaryKey;
+
 
         public UmbracoCompare(string errorMessageDictionaryKey,string otherProperty)
             : base(otherProperty)
         {
-            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
+            _otherProperty = otherProperty;
+            _errorMessageDictionaryKey = errorMessageDictionaryKey;  
+        }
+
+
+        public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
+        {
+            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(_errorMessageDictionaryKey);
+
+            var error = FormatErrorMessage(metadata.DisplayName);
+            var rule = new ModelClientValidationEqualToRule(error, _otherProperty);
+
+            yield return rule;
         }
     }
 }
