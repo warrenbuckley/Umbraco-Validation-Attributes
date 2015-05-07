@@ -1,0 +1,1729 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 07 May 2015 13:10:23
+   Source : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\
+     Dest : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\
+
+    Files : *.*
+	    
+Exc Files : UI.xml
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  13	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\
+	    Newer     		    1940	ClientRedirect.aspx  0%  100%  
+	    Newer     		    1442	create.aspx  0%  100%  
+	    Newer     		     673	endPreview.aspx  0%  100%  
+	    Newer     		     420	helpRedirect.aspx  0%  100%  
+	    Newer     		     826	installer.html  0%  100%  
+	    Newer     		    1624	Logout.aspx  0%  100%  
+	    Newer     		     492	macroResultWrapper.aspx  0%  100%  
+	    Newer     		      61	ping.aspx  0%  100%  
+	    Newer     		     891	publishStatus.aspx  0%  100%  
+	    Newer     		     179	tree.aspx  0%  100%  
+	    Newer     		    1887	treeInit.aspx  0%  100%  
+	    Newer     		     126	umbraco.aspx  0%  100%  
+	    Newer     		      92	webService.asmx  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Actions\
+	    Newer     		    1155	delete.aspx  0%  100%  
+	    Newer     		     480	editContent.aspx  0%  100%  
+	    Newer     		     471	preview.aspx  0%  100%  
+	    Newer     		    1203	publish.aspx  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\css\
+	    New File  		   51495	canvasdesigner.css  0%  100%  
+	    Newer     		   51942	installer.css  0%  100%  
+	    New File  		    3431	nonodes.style.min.css  0%  100%  
+	    Newer     		  185839	umbraco.css  0%   70%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\fonts\
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\fonts\helveticons\
+	    Newer     		  117324	helveticons.eot  0%  100%  
+	    Newer     		  793966	helveticons.svg  0%   33%   66%   99%  100%  
+	    Newer     		  117160	helveticons.ttf  0%  100%  
+	    Newer     		  294540	helveticons.woff  0%   44%   89%  100%  
+	                   9	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\fonts\opensans\
+	    Newer     		   19836	OpenSans-Regular-webfont.eot  0%  100%  
+	    Newer     		  121229	OpenSans-Regular-webfont.svg  0%  100%  
+	    Newer     		   38232	OpenSans-Regular-webfont.ttf  0%  100%  
+	    Newer     		   22660	OpenSans-Regular-webfont.woff  0%  100%  
+	    Newer     		  217360	OpenSans-Regular.ttf  0%   60%  100%  
+	    Newer     		   20028	OpenSans-Semibold-webfont.eot  0%  100%  
+	    Newer     		  120293	OpenSans-Semibold-webfont.svg  0%  100%  
+	    Newer     		   39476	OpenSans-Semibold-webfont.ttf  0%  100%  
+	    Newer     		   22908	OpenSans-Semibold-webfont.woff  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\img\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\assets\img\mocks\
+	    Newer     		     165	checkered-background.png  0%  100%  
+	    Newer     		  701737	installer.jpg  0%   37%   74%  100%  
+	    Newer     		   23155	loader.gif  0%  100%  
+	    New File  		    1746	logo.png  0%  100%  
+	    New File  		  237538	nonodesbg.jpg  0%   55%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\img\application\
+	    Newer     		    1409	logo.png  0%  100%  
+	    Newer     		    1280	logo_black.png  0%  100%  
+	    Newer     		    1333	logo_white.png  0%  100%  
+	                  11	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\img\applicationIcons\
+	    Newer     		    1139	content.png  0%  100%  
+	    Newer     		    1581	default.png  0%  100%  
+	    Newer     		    1376	developer.png  0%  100%  
+	    Newer     		    1702	help.svg  0%  100%  
+	    Newer     		    7364	hlvticons-umbraco.svg  0%  100%  
+	    Newer     		    1386	media.png  0%  100%  
+	    Newer     		    1342	members.png  0%  100%  
+	    Newer     		    1179	search.png  0%  100%  
+	    Newer     		    1612	settings.png  0%  100%  
+	    Newer     		    2828	tree-arrow.png  0%  100%  
+	    Newer     		    1304	users.png  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\img\forms\
+	    New File  		   37864	installer-background.png  0%  100%  
+	  New Dir         11	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\assets\less\
+	    New File  		     718	background.less  0%  100%  
+	    New File  		    1897	border.less  0%  100%  
+	    New File  		     373	color.less  0%  100%  
+	    New File  		     820	googlefontpicker.less  0%  100%  
+	    New File  		     834	gridRow.less  0%  100%  
+	    New File  		    1875	layout.less  0%  100%  
+	    New File  		    1138	margin.less  0%  100%  
+	    New File  		    1159	padding.less  0%  100%  
+	    New File  		    2250	radius.less  0%  100%  
+	    New File  		     642	shadow.less  0%  100%  
+	    New File  		     476	slider.less  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Channels\
+	    Newer     		     963	rsd.aspx  0%  100%  
+	    Newer     		    1912	wlwmanifest.aspx  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Config\
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Config\Create\
+	                  18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Config\Lang\
+	    New File  		   64105	cs.xml  0%  100%  
+	    Newer     		   61813	da.xml  0%  100%  
+	    Newer     		   63411	de.xml  0%  100%  
+	    Newer     		   64038	en.xml  0%  100%  
+	    Newer     		   63724	en_us.xml  0%  100%  
+	    Newer     		   65608	es.xml  0%  100%  
+	    Newer     		   66206	fr.xml  0%  100%  
+	    Newer     		   59861	he.xml  0%  100%  
+	    Newer     		   59935	it.xml  0%  100%  
+	    Newer     		   63905	ja.xml  0%  100%  
+	    Newer     		   56322	ko.xml  0%  100%  
+	    Newer     		   64260	nl.xml  0%  100%  
+	    Newer     		   55755	no.xml  0%  100%  
+	    Newer     		   55650	pl.xml  0%  100%  
+	    Newer     		   54930	pt.xml  0%  100%  
+	    Newer     		   89925	ru.xml  0%  100%  
+	    Newer     		   63457	sv.xml  0%  100%  
+	    Newer     		   50831	zh.xml  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Controls\
+	    Newer     		   12434	ContentTypeControlNew.ascx  0%  100%  
+	    Newer     		    7254	passwordChanger.ascx  0%  100%  
+	    Newer     		     309	ProgressBar.ascx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Controls\GenericProperties\
+	    Newer     		    4091	GenericProperty.ascx  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Controls\Images\
+	    Newer     		    2224	ImageViewer.ascx  0%  100%  
+	    Newer     		    6000	ImageViewer.js  0%  100%  
+	    Newer     		     127	ImageViewerUpdater.asmx  0%  100%  
+	    Newer     		    1826	UploadMediaImage.ascx  0%  100%  
+	    Newer     		    2618	UploadMediaImage.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Controls\Tree\
+	    Newer     		      82	CustomTreeService.asmx  0%  100%  
+	    Newer     		    2725	TreeControl.ascx  0%  100%  
+	                  12	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Create\
+	    Newer     		    1680	content.ascx  0%  100%  
+	    Newer     		    2412	DlrScripting.ascx  0%  100%  
+	    Newer     		    1039	language.ascx  0%  100%  
+	    Newer     		    1185	media.ascx  0%  100%  
+	    Newer     		    3095	member.ascx  0%  100%  
+	    Newer     		    2126	nodeType.ascx  0%  100%  
+	    Newer     		    1867	PartialView.ascx  0%  100%  
+	    Newer     		    2450	PartialViewMacro.ascx  0%  100%  
+	    Newer     		    1984	script.ascx  0%  100%  
+	    Newer     		    1279	simple.ascx  0%  100%  
+	    Newer     		    2316	User.ascx  0%  100%  
+	    Newer     		    1696	xslt.ascx  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Css\
+	    Newer     		     151	background.gif  0%  100%  
+	    Newer     		     674	permissionsEditor.css  0%  100%  
+	    Newer     		      88	splitter.gif  0%  100%  
+	    Newer     		    7686	umbracoGui.css  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Dashboard\
+	    Newer     		   13245	ExamineManagement.ascx  0%  100%  
+	    Newer     		     178	FeedProxy.aspx  0%  100%  
+	    Newer     		     565	LatestEdits.ascx  0%  100%  
+	    Newer     		    1615	UserControlProxy.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\
+	    Newer     		     995	autoDoc.aspx  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\Macros\
+	    Newer     		    1674	assemblyBrowser.aspx  0%  100%  
+	    Newer     		   10720	editMacro.aspx  0%  100%  
+	                   9	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\Packages\
+	    Newer     		     995	BrowseRepository.aspx  0%  100%  
+	    Newer     		    1171	directoryBrowser.aspx  0%  100%  
+	    Newer     		   11673	editPackage.aspx  0%  100%  
+	    Newer     		    7181	installedPackage.aspx  0%  100%  
+	    Newer     		   18099	installer.aspx  0%  100%  
+	    Newer     		    1142	LoadNitros.ascx  0%  100%  
+	    Newer     		    1923	proxy.htm  0%  100%  
+	    Newer     		    3122	StarterKits.aspx  0%  100%  
+	    Newer     		    5521	SubmitPackage.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\Python\
+	    Newer     		    2701	editPython.aspx  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\RelationTypes\
+	    Newer     		    6540	EditRelationType.aspx  0%  100%  
+	    Newer     		    3013	NewRelationType.aspx  0%  100%  
+	    Newer     		     162	RelationTypesWebService.asmx  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\RelationTypes\Images\
+	    Newer     		     421	Bidirectional.png  0%  100%  
+	    Newer     		     434	ParentToChild.png  0%  100%  
+	    Newer     		    1053	Refresh.gif  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\RelationTypes\TreeMenu\
+	    Newer     		     740	ActionDeleteRelationType.js  0%  100%  
+	    Newer     		     172	ActionNewRelationType.js  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Developer\Xslt\
+	    Newer     		    3579	editXslt.aspx  0%  100%  
+	    Newer     		     108	getXsltStatus.asmx  0%  100%  
+	    Newer     		    2160	xsltChooseExtension.aspx  0%  100%  
+	    Newer     		    2588	xsltInsertValueOf.aspx  0%  100%  
+	    Newer     		    2895	xsltVisualize.aspx  0%  100%  
+	                  33	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Dialogs\
+	    Newer     		    1518	about.aspx  0%  100%  
+	    Newer     		    2115	AssignDomain.aspx  0%  100%  
+	    Newer     		    4319	AssignDomain2.aspx  0%  100%  
+	    Newer     		    6299	ChangeDocType.aspx  0%  100%  
+	    Newer     		    3217	create.aspx  0%  100%  
+	    Newer     		    1149	cruds.aspx  0%  100%  
+	    Newer     		    3617	EditMacro.aspx  0%  100%  
+	    Newer     		     262	empty.htm  0%  100%  
+	    Newer     		    3606	emptyTrashcan.aspx  0%  100%  
+	    Newer     		     150	exportDocumenttype.aspx  0%  100%  
+	    Newer     		     402	imageViewer.aspx  0%  100%  
+	    Newer     		    2031	importDocumenttype.aspx  0%  100%  
+	    Newer     		    4415	insertMacro.aspx  0%  100%  
+	    Newer     		    1651	insertMasterpageContent.aspx  0%  100%  
+	    Newer     		    1622	insertMasterpagePlaceholder.aspx  0%  100%  
+	    Newer     		    7962	insertTable.aspx  0%  100%  
+	    Newer     		    4127	mediaPicker.aspx  0%  100%  
+	    Newer     		    4415	moveOrCopy.aspx  0%  100%  
+	    Newer     		     815	notifications.aspx  0%  100%  
+	    Newer     		     748	Preview.aspx  0%  100%  
+	    Newer     		   10046	protectPage.aspx  0%  100%  
+	    Newer     		    4197	publish.aspx  0%  100%  
+	    Newer     		    2300	RegexWs.aspx  0%  100%  
+	    Newer     		    1779	republish.aspx  0%  100%  
+	    Newer     		    4233	rollBack.aspx  0%  100%  
+	    Newer     		    1856	search.aspx  0%  100%  
+	    Newer     		     809	SendPublish.aspx  0%  100%  
+	    Newer     		    1638	sendToTranslation.aspx  0%  100%  
+	    Newer     		    3955	sort.aspx  0%  100%  
+	    Newer     		    1076	treePicker.aspx  0%  100%  
+	    Newer     		    6939	umbracoField.aspx  0%  100%  
+	    Newer     		    1170	uploadImage.aspx  0%  100%  
+	    Newer     		    3076	viewAuditTrail.aspx  0%  100%  
+	                  98	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\
+	    Newer     		    1178	aboutNew.png  0%  100%  
+	    Newer     		     834	arrawBack.gif  0%  100%  
+	    Newer     		     832	arrowDown.gif  0%  100%  
+	    Newer     		     834	arrowForward.gif  0%  100%  
+	    Newer     		     897	audit.png  0%  100%  
+	    Newer     		     422	back.png  0%  100%  
+	    Newer     		     144	blank.png  0%  100%  
+	    Newer     		     389	close.png  0%  100%  
+	    Newer     		     388	collapse.png  0%  100%  
+	    Newer     		     489	copy.small.png  0%  100%  
+	    Newer     		     472	cut.small.png  0%  100%  
+	    Newer     		      92	c_b.gif  0%  100%  
+	    Newer     		     211	c_bl.gif  0%  100%  
+	    Newer     		     948	c_bl_label.gif  0%  100%  
+	    Newer     		     240	c_br.gif  0%  100%  
+	    Newer     		    1031	c_br_label.gif  0%  100%  
+	    Newer     		      96	c_b_label.gif  0%  100%  
+	    Newer     		      93	c_r.gif  0%  100%  
+	    Newer     		      96	c_t.gif  0%  100%  
+	    Newer     		     242	c_tl.gif  0%  100%  
+	    Newer     		     434	c_tr.gif  0%  100%  
+	    Newer     		     253	date.gif  0%  100%  
+	    Newer     		     512	delete.gif  0%  100%  
+	    Newer     		     715	delete.png  0%  100%  
+	    Newer     		     374	delete.small.png  0%  100%  
+	    Newer     		     582	delete_button.png  0%  100%  
+	    Newer     		     255	dialogBg.png  0%  100%  
+	    Newer     		     362	domain.gif  0%  100%  
+	    Newer     		     472	domain_on.png  0%  100%  
+	    Newer     		    1420	download.png  0%  100%  
+	    Newer     		    1487	errorLayerBackground.gif  0%  100%  
+	    Newer     		     400	expand.png  0%  100%  
+	    Newer     		     617	exportDocumenttype.png  0%  100%  
+	    Newer     		     894	false.png  0%  100%  
+	    Newer     		     251	file.png  0%  100%  
+	    Newer     		     390	find.small.png  0%  100%  
+	    Newer     		     967	findDocument.gif  0%  100%  
+	    Newer     		     617	findDocument.png  0%  100%  
+	    Newer     		     413	folder.small.png  0%  100%  
+	    Newer     		     229	foldericon.png  0%  100%  
+	    Newer     		     418	forward.png  0%  100%  
+	    Newer     		    1321	gradientBackground.png  0%  100%  
+	    Newer     		    1482	gradientLine.gif  0%  100%  
+	    Newer     		    1013	help.gif  0%  100%  
+	    Newer     		    1018	help.png  0%  100%  
+	    Newer     		     507	htmldoc.small.png  0%  100%  
+	    Newer     		     601	importDocumenttype.png  0%  100%  
+	    Newer     		     725	information.png  0%  100%  
+	    Newer     		     114	listItemOrange.gif  0%  100%  
+	    Newer     		     219	Lminus.png  0%  100%  
+	    Newer     		   17566	loginBg.png  0%  100%  
+	    Newer     		    1011	logout.png  0%  100%  
+	    Newer     		     996	logout_small.gif  0%  100%  
+	    Newer     		     592	logout_small.png  0%  100%  
+	    Newer     		     224	Lplus.png  0%  100%  
+	    Newer     		     115	macro.gif  0%  100%  
+	    Newer     		      45	nada.gif  0%  100%  
+	    Newer     		     246	new.gif  0%  100%  
+	    Newer     		    1035	new.png  0%  100%  
+	    Newer     		     989	newStar.gif  0%  100%  
+	    Newer     		     489	notepad.png  0%  100%  
+	    Newer     		    1003	notify.gif  0%  100%  
+	    Newer     		    1003	notifyOld.gif  0%  100%  
+	    Newer     		    1469	okLayerBackground.gif  0%  100%  
+	    Newer     		     232	openfoldericon.png  0%  100%  
+	    Newer     		     396	options.small.png  0%  100%  
+	    Newer     		    1012	package.png  0%  100%  
+	    Newer     		     966	package2.png  0%  100%  
+	    Newer     		     632	paste.small.png  0%  100%  
+	    Newer     		     450	pencil.png  0%  100%  
+	    Newer     		    1009	permission.gif  0%  100%  
+	    Newer     		     581	permission.png  0%  100%  
+	    Newer     		    1023	protect.gif  0%  100%  
+	    Newer     		     628	protect.png  0%  100%  
+	    Newer     		     554	publish.gif  0%  100%  
+	    Newer     		     717	publish.png  0%  100%  
+	    Newer     		     502	refresh.png  0%  100%  
+	    Newer     		     588	rollback.gif  0%  100%  
+	    Newer     		     626	rollback.png  0%  100%  
+	    Newer     		     549	save.png  0%  100%  
+	    Newer     		    1047	sendToTranslate.png  0%  100%  
+	    Newer     		     232	small_minus.png  0%  100%  
+	    Newer     		     257	small_plus.png  0%  100%  
+	    Newer     		     388	sort.gif  0%  100%  
+	    Newer     		     400	sort.png  0%  100%  
+	    Newer     		     400	sort.small.png  0%  100%  
+	    Newer     		     152	T.png  0%  100%  
+	    Newer     		    1844	throbber.gif  0%  100%  
+	    Newer     		     959	thumbs_lrg.png  0%  100%  
+	    Newer     		     967	thumbs_med.png  0%  100%  
+	    Newer     		     957	thumbs_smll.png  0%  100%  
+	    Newer     		     207	Tminus.png  0%  100%  
+	    Newer     		     266	toggleTreeOff.png  0%  100%  
+	    Newer     		     271	toggleTreeOn.png  0%  100%  
+	    Newer     		     304	topGradient.gif  0%  100%  
+	    Newer     		     222	Tplus.png  0%  100%  
+	    Newer     		     612	true.png  0%  100%  
+	    Newer     		    3134	umbracoSplash.png  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\Actions\
+	    Newer     		   12301	sprites.png  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\Developer\
+	    Newer     		     842	customControlIcon.png  0%  100%  
+	    Newer     		   30235	pythonIcon.png  0%  100%  
+	    Newer     		     775	usercontrolIcon.png  0%  100%  
+	    Newer     		     776	xsltIcon.png  0%  100%  
+	                 137	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\Editor\
+	    Newer     		     171	anchor.gif  0%  100%  
+	    Newer     		    1152	anchor.png  0%  100%  
+	    Newer     		      70	anchor_symbol.gif  0%  100%  
+	    Newer     		     174	backcolor.gif  0%  100%  
+	    Newer     		      76	Bold.GIF  0%  100%  
+	    Newer     		      73	bold_de_se.gif  0%  100%  
+	    Newer     		      80	bold_es.gif  0%  100%  
+	    Newer     		      78	bold_fr.gif  0%  100%  
+	    Newer     		      77	bold_ru.gif  0%  100%  
+	    Newer     		     207	bold_tw.gif  0%  100%  
+	    Newer     		     113	browse.gif  0%  100%  
+	    Newer     		     108	bullist.GIF  0%  100%  
+	    Newer     		    8399	buttons.gif  0%  100%  
+	    Newer     		      57	button_menu.gif  0%  100%  
+	    Newer     		     394	calendar.gif  0%  100%  
+	    Newer     		     108	calendarButton.gif  0%  100%  
+	    Newer     		     677	cancel_button_bg.gif  0%  100%  
+	    Newer     		      73	Center.GIF  0%  100%  
+	    Newer     		     245	charmap.gif  0%  100%  
+	    Newer     		     256	cleanup.gif  0%  100%  
+	    Newer     		     102	close.gif  0%  100%  
+	    Newer     		     110	code.gif  0%  100%  
+	    Newer     		     125	color.gif  0%  100%  
+	    Newer     		     263	Copy.GIF  0%  100%  
+	    Newer     		      76	custom_1.gif  0%  100%  
+	    Newer     		     187	Cut.GIF  0%  100%  
+	    Newer     		     199	DeIndent.GIF  0%  100%  
+	    Newer     		     123	delcell.GIF  0%  100%  
+	    Newer     		     121	delcol.GIF  0%  100%  
+	    Newer     		     124	delrow.GIF  0%  100%  
+	    Newer     		     294	dezoom.gif  0%  100%  
+	    Newer     		    1040	dictionaryItem.gif  0%  100%  
+	    Newer     		     616	doc.gif  0%  100%  
+	    Newer     		     607	documentType.gif  0%  100%  
+	    Newer     		     272	forecolor.gif  0%  100%  
+	    Newer     		    1085	form.gif  0%  100%  
+	    Newer     		     109	formButton.gif  0%  100%  
+	    Newer     		     118	formCheckbox.gif  0%  100%  
+	    Newer     		     131	formHidden.gif  0%  100%  
+	    Newer     		     111	formRadio.gif  0%  100%  
+	    Newer     		     126	formSelect.gif  0%  100%  
+	    Newer     		     132	formText.gif  0%  100%  
+	    Newer     		     118	formTextarea.gif  0%  100%  
+	    Newer     		     134	fullscrn.GIF  0%  100%  
+	    Newer     		     295	help.gif  0%  100%  
+	    Newer     		     377	help.png  0%  100%  
+	    Newer     		      63	hr.gif  0%  100%  
+	    Newer     		     321	html.gif  0%  100%  
+	    Newer     		     194	image.GIF  0%  100%  
+	    Newer     		     112	indent.gif  0%  100%  
+	    Newer     		     199	inindent.GIF  0%  100%  
+	    Newer     		     382	insBreadcrum.gif  0%  100%  
+	    Newer     		     123	inscell.GIF  0%  100%  
+	    Newer     		     914	insChildTemplate.gif  0%  100%  
+	    Newer     		     914	insChildTemplateNew.gif  0%  100%  
+	    Newer     		     120	inscol.GIF  0%  100%  
+	    Newer     		     703	insert_button_bg.gif  0%  100%  
+	    Newer     		     648	insField.gif  0%  100%  
+	    Newer     		     626	insFieldByLevel.gif  0%  100%  
+	    Newer     		     621	insFieldByTree.gif  0%  100%  
+	    Newer     		     119	insform.gif  0%  100%  
+	    Newer     		     191	inshtml.GIF  0%  100%  
+	    Newer     		     610	insMacro.gif  0%  100%  
+	    Newer     		     474	insMacroSB.png  0%  100%  
+	    Newer     		     627	insMemberItem.gif  0%  100%  
+	    Newer     		     529	insRazorMacro.png  0%  100%  
+	    Newer     		     124	insrow.GIF  0%  100%  
+	    Newer     		     612	instable.GIF  0%  100%  
+	    Newer     		      79	Italic.GIF  0%  100%  
+	    Newer     		      75	italic_de_se.gif  0%  100%  
+	    Newer     		      74	italic_es.gif  0%  100%  
+	    Newer     		      78	italic_ru.gif  0%  100%  
+	    Newer     		     274	italic_tw.gif  0%  100%  
+	    Newer     		      70	justifycenter.gif  0%  100%  
+	    Newer     		      71	justifyfull.gif  0%  100%  
+	    Newer     		      71	justifyleft.gif  0%  100%  
+	    Newer     		      70	justifyright.gif  0%  100%  
+	    Newer     		      73	left.GIF  0%  100%  
+	    Newer     		     175	Link.GIF  0%  100%  
+	    Newer     		      87	Lock.GIF  0%  100%  
+	    Newer     		     132	masterpageContent.gif  0%  100%  
+	    Newer     		     286	masterpagePlaceHolder.gif  0%  100%  
+	    Newer     		     260	media.gif  0%  100%  
+	    Newer     		      51	menu_check.gif  0%  100%  
+	    Newer     		     142	mrgcell.GIF  0%  100%  
+	    Newer     		     102	newdoc.GIF  0%  100%  
+	    Newer     		     170	newdocument.gif  0%  100%  
+	    Newer     		     111	numlist.GIF  0%  100%  
+	    Newer     		     147	opacity.png  0%  100%  
+	    Newer     		     132	Open.GIF  0%  100%  
+	    Newer     		     110	outdent.gif  0%  100%  
+	    Newer     		     286	Paste.GIF  0%  100%  
+	    Newer     		     149	project.GIF  0%  100%  
+	    Newer     		     139	properties.gif  0%  100%  
+	    Newer     		     983	propertiesNew.gif  0%  100%  
+	    Newer     		     122	props.GIF  0%  100%  
+	    Newer     		     169	Redo.GIF  0%  100%  
+	    Newer     		     327	rel.gif  0%  100%  
+	    Newer     		     168	removeformat.gif  0%  100%  
+	    Newer     		      73	right.GIF  0%  100%  
+	    Newer     		     633	Save.GIF  0%  100%  
+	    Newer     		    1094	SaveAndPublish.gif  0%  100%  
+	    Newer     		    1196	SaveAndPublish.png  0%  100%  
+	    Newer     		     610	SaveToPublish.gif  0%  100%  
+	    Newer     		     861	saveToPublish.png  0%  100%  
+	    Newer     		      57	separator.gif  0%  100%  
+	    Newer     		     197	showStyles.gif  0%  100%  
+	    Newer     		     628	showStyles.png  0%  100%  
+	    Newer     		    1684	skin.gif  0%  100%  
+	    Newer     		      43	spacer.gif  0%  100%  
+	    Newer     		     591	spellchecker.gif  0%  100%  
+	    Newer     		      73	split.gif  0%  100%  
+	    Newer     		     137	spltcell.GIF  0%  100%  
+	    Newer     		      79	statusbar_resize.gif  0%  100%  
+	    Newer     		      83	strikethrough.gif  0%  100%  
+	    Newer     		     968	styleMarkEnd.gif  0%  100%  
+	    Newer     		     157	styleMarkStart.gif  0%  100%  
+	    Newer     		     148	sub.gif  0%  100%  
+	    Newer     		     147	sup.gif  0%  100%  
+	    Newer     		     287	table.gif  0%  100%  
+	    Newer     		     137	TaskList.GIF  0%  100%  
+	    Newer     		     120	umbracoField.gif  0%  100%  
+	    Newer     		     146	umbracoScriptlet.gif  0%  100%  
+	    Newer     		     560	umbracoTextGen.gif  0%  100%  
+	    Newer     		      91	under.GIF  0%  100%  
+	    Newer     		      88	underline.gif  0%  100%  
+	    Newer     		      79	underline_es.gif  0%  100%  
+	    Newer     		      79	underline_fr.gif  0%  100%  
+	    Newer     		      77	underline_ru.gif  0%  100%  
+	    Newer     		     245	underline_tw.gif  0%  100%  
+	    Newer     		     175	Undo.GIF  0%  100%  
+	    Newer     		     190	unlink.gif  0%  100%  
+	    Newer     		    3113	upload.png  0%  100%  
+	    Newer     		     589	vis.gif  0%  100%  
+	    Newer     		     206	visualaid.gif  0%  100%  
+	    Newer     		     663	xslVisualize.gif  0%  100%  
+	    Newer     		     302	zoom.gif  0%  100%  
+	                   8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\PinnedIcons\
+	    Newer     		    1150	task_content.ico  0%  100%  
+	    Newer     		    1150	task_default.ico  0%  100%  
+	    Newer     		    1150	task_developer.ico  0%  100%  
+	    Newer     		    1150	task_media.ico  0%  100%  
+	    Newer     		    1150	task_member.ico  0%  100%  
+	    Newer     		    1150	task_settings.ico  0%  100%  
+	    Newer     		    1150	task_users.ico  0%  100%  
+	    Newer     		   17542	umb.ico  0%  100%  
+	                  18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\SpeechBubble\
+	    Newer     		     582	error.gif  0%  100%  
+	    Newer     		    1915	error.png  0%  100%  
+	    Newer     		     630	info.gif  0%  100%  
+	    Newer     		    1542	info.png  0%  100%  
+	    Newer     		     562	save.gif  0%  100%  
+	    Newer     		    1036	save.png  0%  100%  
+	    Newer     		    9439	speechbubble.gif  0%  100%  
+	    Newer     		   12444	speechbubble.png  0%  100%  
+	    Newer     		     916	speechbubbleShadow.png  0%  100%  
+	    Newer     		    1774	speechbubbleShadowNew.gif  0%  100%  
+	    Newer     		   10694	speechbubble_body.png  0%  100%  
+	    Newer     		    2891	speechbubble_bottom.png  0%  100%  
+	    Newer     		     169	speechbubble_close.gif  0%  100%  
+	    Newer     		     696	speechbubble_close_over.gif  0%  100%  
+	    Newer     		     660	speechbubble_shadow.gif  0%  100%  
+	    Newer     		    1045	speechbubble_top.png  0%  100%  
+	    Newer     		    1036	success.png  0%  100%  
+	    Newer     		    1188	warning.png  0%  100%  
+	                  12	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\Thumbnails\
+	    Newer     		   19431	developer.png  0%  100%  
+	    Newer     		    8311	doc.png  0%  100%  
+	    Newer     		   21725	docWithImage.png  0%  100%  
+	    Newer     		   21034	folder.png  0%  100%  
+	    Newer     		   28459	folder_media.png  0%  100%  
+	    Newer     		    8311	mediaFile.png  0%  100%  
+	    Newer     		   21725	mediaPhoto.png  0%  100%  
+	    Newer     		   15119	member.png  0%  100%  
+	    Newer     		   19497	memberGroup.png  0%  100%  
+	    Newer     		   19684	members.png  0%  100%  
+	    Newer     		   11883	template.png  0%  100%  
+	    Newer     		   12153	xml.png  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\Tray\
+	    Newer     		   11965	traySprites.png  0%  100%  
+	                  54	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Images\Umbraco\
+	    Newer     		    3435	bin.png  0%  100%  
+	    Newer     		     363	bin_closed.png  0%  100%  
+	    Newer     		     659	bin_empty.png  0%  100%  
+	    Newer     		     577	developerCacheItem.gif  0%  100%  
+	    Newer     		     578	developerCacheTypes.gif  0%  100%  
+	    Newer     		     125	developerDatatype.gif  0%  100%  
+	    Newer     		     604	developerMacro.gif  0%  100%  
+	    Newer     		     618	developerPython.gif  0%  100%  
+	    Newer     		     118	developerRegistry.gif  0%  100%  
+	    Newer     		     123	developerRegistryItem.gif  0%  100%  
+	    Newer     		     616	developerRuby.gif  0%  100%  
+	    Newer     		     399	developerScript.gif  0%  100%  
+	    Newer     		     410	developerXslt.gif  0%  100%  
+	    Newer     		     616	doc.gif  0%  100%  
+	    Newer     		     604	doc2.gif  0%  100%  
+	    Newer     		     616	doc3.gif  0%  100%  
+	    Newer     		     597	doc4.gif  0%  100%  
+	    Newer     		     609	doc5.gif  0%  100%  
+	    Newer     		     607	docPic.gif  0%  100%  
+	    Newer     		    1030	folder.gif  0%  100%  
+	    Newer     		    1030	folder_o.gif  0%  100%  
+	    Newer     		     621	mediaFile.gif  0%  100%  
+	    Newer     		     619	mediaMovie.gif  0%  100%  
+	    Newer     		     618	mediaMulti.gif  0%  100%  
+	    Newer     		     561	mediaPhoto.gif  0%  100%  
+	    Newer     		     998	member.gif  0%  100%  
+	    Newer     		    1000	memberGroup.gif  0%  100%  
+	    Newer     		    1012	memberType.gif  0%  100%  
+	    Newer     		    1013	newsletter.gif  0%  100%  
+	    Newer     		     525	nitros.gif  0%  100%  
+	    Newer     		    1021	package.gif  0%  100%  
+	    Newer     		     810	package.png  0%  100%  
+	    Newer     		    1062	repository.gif  0%  100%  
+	    Newer     		     145	settingAgent.gif  0%  100%  
+	    Newer     		     607	settingCss.gif  0%  100%  
+	    Newer     		     299	settingCssItem.gif  0%  100%  
+	    Newer     		     607	settingDatatype.gif  0%  100%  
+	    Newer     		     144	settingDataTypeChild.gif  0%  100%  
+	    Newer     		    1034	settingDomain.gif  0%  100%  
+	    Newer     		     387	settingLanguage.gif  0%  100%  
+	    Newer     		     587	settingMasterDatatype.gif  0%  100%  
+	    Newer     		     235	settingMasterTemplate.gif  0%  100%  
+	    Newer     		    1655	settingSkin.gif  0%  100%  
+	    Newer     		     553	settingsScript.gif  0%  100%  
+	    Newer     		     252	settingTemplate.gif  0%  100%  
+	    Newer     		    1644	settingView.gif  0%  100%  
+	    Newer     		     268	settingXML.gif  0%  100%  
+	    Newer     		   14538	sprites.png  0%  100%  
+	    Newer     		    7307	sprites_ie6.gif  0%  100%  
+	    Newer     		     305	statistik.gif  0%  100%  
+	    Newer     		    1035	uploadpackage.gif  0%  100%  
+	    Newer     		     998	user.gif  0%  100%  
+	    Newer     		    1000	userGroup.gif  0%  100%  
+	    Newer     		    1012	userType.gif  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Install\
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Install\Legacy\
+	    Newer     		    4538	loadStarterKits.ascx  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Install\Views\
+	    Newer     		    2182	Index.cshtml  0%  100%  
+	    Newer     		    2873	Web.config  0%  100%  
+	                  31	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Js\
+	    Newer     		     421	app.dev.js  0%  100%  
+	    Newer     		     316	app.js  0%  100%  
+	    New File  		    8488	canvasdesigner.config.js  0%  100%  
+	    New File  		   10587	canvasdesigner.front.js  0%  100%  
+	    New File  		     704	canvasdesigner.loader.js  0%  100%  
+	    New File  		   32560	canvasdesigner.palettes.js  0%  100%  
+	    New File  		   67753	canvasdesigner.panel.js  0%  100%  
+	    Newer     		    1249	dualSelectBox.js  0%  100%  
+	    Newer     		    2929	guiFunctions.js  0%  100%  
+	    Newer     		    3516	init.js  0%  100%  
+	    Newer     		     622	install.loader.js  0%  100%  
+	    Newer     		     111	language.aspx  0%  100%  
+	    Newer     		    1455	loader.js  0%  100%  
+	    Newer     		    8797	routes.js  0%  100%  
+	    Newer     		  329176	umbraco.controllers.js  0%   39%   79%  100%  
+	    Newer     		  177730	umbraco.directives.js  0%   73%  100%  
+	    Newer     		     739	umbraco.filters.js  0%  100%  
+	    Newer     		    1090	umbraco.httpbackend.js  0%  100%  
+	    Newer     		   15485	umbraco.installer.js  0%  100%  
+	    Newer     		  100332	umbraco.resources.js  0%  100%  
+	    Newer     		    7274	umbraco.security.js  0%  100%  
+	    Newer     		    1838	umbraco.servervariables.js  0%  100%  
+	    Newer     		  327289	umbraco.services.js  0%   40%   80%  100%  
+	    Newer     		  139500	umbraco.testing.js  0%   93%  100%  
+	    Newer     		    2926	umbracoCheckKeys.js  0%  100%  
+	    Newer     		    3833	UmbracoSpeechBubble.js  0%  100%  
+	    Newer     		    2738	UmbracoSpeechBubbleBackEnd.js  0%  100%  
+	    Newer     		     201	UmbracoSpeechBubbleInit.js  0%  100%  
+	    Newer     		     586	umbracoUpgradeChecker.js  0%  100%  
+	    Newer     		    4102	xmlextras.js  0%  100%  
+	    Newer     		    1951	xmlRequest.js  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\yepnope\
+	  *EXTRA File 		   18058	moment.min.js
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\angular\
+	    Newer     		   12521	angular-ui-sortable.js  0%  100%  
+	                  14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\angular\1.1.5\
+	    Newer     		    5399	angular-cookies.js  0%  100%  
+	    Newer     		     806	angular-cookies.min.js  0%  100%  
+	    Newer     		   10645	angular-loader.js  0%  100%  
+	    Newer     		     933	angular-loader.min.js  0%  100%  
+	    Newer     		   17504	angular-mobile.js  0%  100%  
+	    Newer     		    2875	angular-mobile.min.js  0%  100%  
+	    Newer     		   61335	angular-mocks.js  0%  100%  
+	    Newer     		   22149	angular-resource.js  0%  100%  
+	    Newer     		    2787	angular-resource.min.js  0%  100%  
+	    Newer     		   18873	angular-sanitize.js  0%  100%  
+	    Newer     		    3942	angular-sanitize.min.js  0%  100%  
+	    Newer     		  934395	angular-scenario.js  0%   28%   56%   84%  100%  
+	    Newer     		  590539	angular.js  0%   44%   88%  100%  
+	    Newer     		   88980	angular.min.js  0%  100%  
+	                 287	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\angular\1.1.5\i18n\
+	    Newer     		    2218	angular-locale_af-na.js  0%  100%  
+	    Newer     		    2226	angular-locale_af-za.js  0%  100%  
+	    Newer     		    2223	angular-locale_af.js  0%  100%  
+	    Newer     		    2836	angular-locale_am-et.js  0%  100%  
+	    Newer     		    2833	angular-locale_am.js  0%  100%  
+	    Newer     		    3706	angular-locale_ar-001.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-ae.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-bh.js  0%  100%  
+	    Newer     		    3657	angular-locale_ar-dz.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-eg.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-iq.js  0%  100%  
+	    Newer     		    3869	angular-locale_ar-jo.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-kw.js  0%  100%  
+	    Newer     		    3869	angular-locale_ar-lb.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-ly.js  0%  100%  
+	    Newer     		    3657	angular-locale_ar-ma.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-om.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-qa.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-sa.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-sd.js  0%  100%  
+	    Newer     		    3869	angular-locale_ar-sy.js  0%  100%  
+	    Newer     		    3657	angular-locale_ar-tn.js  0%  100%  
+	    Newer     		    3705	angular-locale_ar-ye.js  0%  100%  
+	    Newer     		    3702	angular-locale_ar.js  0%  100%  
+	    Newer     		    3137	angular-locale_bg-bg.js  0%  100%  
+	    Newer     		    3134	angular-locale_bg.js  0%  100%  
+	    Newer     		    3458	angular-locale_bn-bd.js  0%  100%  
+	    Newer     		    3458	angular-locale_bn-in.js  0%  100%  
+	    Newer     		    3455	angular-locale_bn.js  0%  100%  
+	    Newer     		    2345	angular-locale_ca-ad.js  0%  100%  
+	    Newer     		    2345	angular-locale_ca-es.js  0%  100%  
+	    Newer     		    2342	angular-locale_ca.js  0%  100%  
+	    Newer     		    1144	angular-locale_chr.js  0%  100%  
+	    Newer     		    2445	angular-locale_cs-cz.js  0%  100%  
+	    Newer     		    2442	angular-locale_cs.js  0%  100%  
+	    Newer     		     938	angular-locale_cy.js  0%  100%  
+	    Newer     		    2259	angular-locale_da-dk.js  0%  100%  
+	    Newer     		    2256	angular-locale_da.js  0%  100%  
+	    Newer     		    2261	angular-locale_de-at.js  0%  100%  
+	    Newer     		    2249	angular-locale_de-be.js  0%  100%  
+	    Newer     		    2240	angular-locale_de-ch.js  0%  100%  
+	    Newer     		    2249	angular-locale_de-de.js  0%  100%  
+	    Newer     		    2249	angular-locale_de-li.js  0%  100%  
+	    Newer     		    2249	angular-locale_de-lu.js  0%  100%  
+	    Newer     		    2246	angular-locale_de.js  0%  100%  
+	    Newer     		    3327	angular-locale_el-cy.js  0%  100%  
+	    Newer     		    3327	angular-locale_el-gr.js  0%  100%  
+	    Newer     		    1495	angular-locale_el-polyton.js  0%  100%  
+	    Newer     		    3324	angular-locale_el.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-as.js  0%  100%  
+	    Newer     		    2216	angular-locale_en-au.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-bb.js  0%  100%  
+	    Newer     		    2208	angular-locale_en-be.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-bm.js  0%  100%  
+	    Newer     		    2215	angular-locale_en-bw.js  0%  100%  
+	    Newer     		    2206	angular-locale_en-bz.js  0%  100%  
+	    Newer     		    2220	angular-locale_en-ca.js  0%  100%  
+	    Newer     		    4060	angular-locale_en-dsrt-us.js  0%  100%  
+	    Newer     		    4057	angular-locale_en-dsrt.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-fm.js  0%  100%  
+	    Newer     		    2216	angular-locale_en-gb.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-gu.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-gy.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-hk.js  0%  100%  
+	    Newer     		    2224	angular-locale_en-ie.js  0%  100%  
+	    Newer     		    2229	angular-locale_en-in.js  0%  100%  
+	    Newer     		    2214	angular-locale_en-iso.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-jm.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-mh.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-mp.js  0%  100%  
+	    Newer     		    2219	angular-locale_en-mt.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-mu.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-na.js  0%  100%  
+	    Newer     		    2214	angular-locale_en-nz.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-ph.js  0%  100%  
+	    Newer     		    2213	angular-locale_en-pk.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-pr.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-pw.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-sg.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-tc.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-tt.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-um.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-us.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-vg.js  0%  100%  
+	    Newer     		    2212	angular-locale_en-vi.js  0%  100%  
+	    Newer     		    2224	angular-locale_en-za.js  0%  100%  
+	    Newer     		    2215	angular-locale_en-zw.js  0%  100%  
+	    Newer     		    1242	angular-locale_en-zz.js  0%  100%  
+	    Newer     		    2209	angular-locale_en.js  0%  100%  
+	    Newer     		    2257	angular-locale_es-419.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-ar.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-bo.js  0%  100%  
+	    Newer     		    2269	angular-locale_es-cl.js  0%  100%  
+	    Newer     		    2265	angular-locale_es-co.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-cr.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-do.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-ea.js  0%  100%  
+	    Newer     		    2269	angular-locale_es-ec.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-es.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-gq.js  0%  100%  
+	    Newer     		    2269	angular-locale_es-gt.js  0%  100%  
+	    Newer     		    2274	angular-locale_es-hn.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-ic.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-mx.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-ni.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-pa.js  0%  100%  
+	    Newer     		    2271	angular-locale_es-pe.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-pr.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-py.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-sv.js  0%  100%  
+	    Newer     		    2269	angular-locale_es-us.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-uy.js  0%  100%  
+	    Newer     		    2273	angular-locale_es-ve.js  0%  100%  
+	    Newer     		    2270	angular-locale_es.js  0%  100%  
+	    Newer     		    2316	angular-locale_et-ee.js  0%  100%  
+	    Newer     		    2313	angular-locale_et.js  0%  100%  
+	    Newer     		    2267	angular-locale_eu-es.js  0%  100%  
+	    Newer     		    2264	angular-locale_eu.js  0%  100%  
+	    Newer     		    3249	angular-locale_fa-af.js  0%  100%  
+	    Newer     		    3345	angular-locale_fa-ir.js  0%  100%  
+	    Newer     		    3342	angular-locale_fa.js  0%  100%  
+	    Newer     		    2392	angular-locale_fi-fi.js  0%  100%  
+	    Newer     		    2389	angular-locale_fi.js  0%  100%  
+	    Newer     		    2224	angular-locale_fil-ph.js  0%  100%  
+	    Newer     		    2221	angular-locale_fil.js  0%  100%  
+	    Newer     		    2293	angular-locale_fr-be.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-bf.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-bi.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-bj.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-bl.js  0%  100%  
+	    Newer     		    2296	angular-locale_fr-ca.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-cd.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-cf.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-cg.js  0%  100%  
+	    Newer     		    2296	angular-locale_fr-ch.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-ci.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-cm.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-dj.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-fr.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-ga.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-gf.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-gn.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-gp.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-gq.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-km.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-lu.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-mc.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-mf.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-mg.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-ml.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-mq.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-ne.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-re.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-rw.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-sn.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-td.js  0%  100%  
+	    Newer     		    2256	angular-locale_fr-tg.js  0%  100%  
+	    Newer     		    2295	angular-locale_fr-yt.js  0%  100%  
+	    Newer     		    2292	angular-locale_fr.js  0%  100%  
+	    Newer     		    2243	angular-locale_gl-es.js  0%  100%  
+	    Newer     		    2240	angular-locale_gl.js  0%  100%  
+	    Newer     		    2286	angular-locale_gsw-ch.js  0%  100%  
+	    Newer     		    2283	angular-locale_gsw.js  0%  100%  
+	    Newer     		    3248	angular-locale_gu-in.js  0%  100%  
+	    Newer     		    3245	angular-locale_gu.js  0%  100%  
+	    Newer     		     926	angular-locale_haw.js  0%  100%  
+	    Newer     		    3228	angular-locale_he-il.js  0%  100%  
+	    Newer     		    3225	angular-locale_he.js  0%  100%  
+	    Newer     		    3266	angular-locale_hi-in.js  0%  100%  
+	    Newer     		    3263	angular-locale_hi.js  0%  100%  
+	    Newer     		    2556	angular-locale_hr-hr.js  0%  100%  
+	    Newer     		    2553	angular-locale_hr.js  0%  100%  
+	    Newer     		    2307	angular-locale_hu-hu.js  0%  100%  
+	    Newer     		    2304	angular-locale_hu.js  0%  100%  
+	    Newer     		    2160	angular-locale_id-id.js  0%  100%  
+	    Newer     		    2157	angular-locale_id.js  0%  100%  
+	    Newer     		    2157	angular-locale_in.js  0%  100%  
+	    Newer     		    2372	angular-locale_is-is.js  0%  100%  
+	    Newer     		    2369	angular-locale_is.js  0%  100%  
+	    Newer     		    2226	angular-locale_it-ch.js  0%  100%  
+	    Newer     		    2259	angular-locale_it-it.js  0%  100%  
+	    Newer     		    2259	angular-locale_it-sm.js  0%  100%  
+	    Newer     		    2256	angular-locale_it.js  0%  100%  
+	    Newer     		    3177	angular-locale_iw.js  0%  100%  
+	    Newer     		    2375	angular-locale_ja-jp.js  0%  100%  
+	    Newer     		    2372	angular-locale_ja.js  0%  100%  
+	    Newer     		    3242	angular-locale_kn-in.js  0%  100%  
+	    Newer     		    3239	angular-locale_kn.js  0%  100%  
+	    Newer     		    2389	angular-locale_ko-kr.js  0%  100%  
+	    Newer     		    2386	angular-locale_ko.js  0%  100%  
+	    Newer     		    2746	angular-locale_ln-cd.js  0%  100%  
+	    Newer     		    2462	angular-locale_ln-cg.js  0%  100%  
+	    Newer     		    2743	angular-locale_ln.js  0%  100%  
+	    Newer     		    2522	angular-locale_lt-lt.js  0%  100%  
+	    Newer     		    2519	angular-locale_lt.js  0%  100%  
+	    Newer     		    2447	angular-locale_lv-lv.js  0%  100%  
+	    Newer     		    2444	angular-locale_lv.js  0%  100%  
+	    Newer     		    3515	angular-locale_ml-in.js  0%  100%  
+	    Newer     		    3512	angular-locale_ml.js  0%  100%  
+	    Newer     		    1387	angular-locale_mo.js  0%  100%  
+	    Newer     		    3243	angular-locale_mr-in.js  0%  100%  
+	    Newer     		    3240	angular-locale_mr.js  0%  100%  
+	    Newer     		    2148	angular-locale_ms-bn.js  0%  100%  
+	    Newer     		    2153	angular-locale_ms-my.js  0%  100%  
+	    Newer     		    2150	angular-locale_ms.js  0%  100%  
+	    Newer     		    2492	angular-locale_mt-mt.js  0%  100%  
+	    Newer     		    2489	angular-locale_mt.js  0%  100%  
+	    Newer     		    2220	angular-locale_nl-aw.js  0%  100%  
+	    Newer     		    2218	angular-locale_nl-be.js  0%  100%  
+	    Newer     		    2231	angular-locale_nl-cw.js  0%  100%  
+	    Newer     		    2231	angular-locale_nl-nl.js  0%  100%  
+	    Newer     		    2231	angular-locale_nl-sx.js  0%  100%  
+	    Newer     		    2228	angular-locale_nl.js  0%  100%  
+	    Newer     		    2254	angular-locale_no.js  0%  100%  
+	    Newer     		    3405	angular-locale_or-in.js  0%  100%  
+	    Newer     		    3402	angular-locale_or.js  0%  100%  
+	    Newer     		    2586	angular-locale_pl-pl.js  0%  100%  
+	    Newer     		    2583	angular-locale_pl.js  0%  100%  
+	    Newer     		    2264	angular-locale_pt-ao.js  0%  100%  
+	    Newer     		    2280	angular-locale_pt-br.js  0%  100%  
+	    Newer     		    2264	angular-locale_pt-gw.js  0%  100%  
+	    Newer     		    2264	angular-locale_pt-mz.js  0%  100%  
+	    Newer     		    2304	angular-locale_pt-pt.js  0%  100%  
+	    Newer     		    2264	angular-locale_pt-st.js  0%  100%  
+	    Newer     		    2277	angular-locale_pt.js  0%  100%  
+	    Newer     		    2344	angular-locale_ro-md.js  0%  100%  
+	    Newer     		    2376	angular-locale_ro-ro.js  0%  100%  
+	    Newer     		    2373	angular-locale_ro.js  0%  100%  
+	    Newer     		    2755	angular-locale_ru-md.js  0%  100%  
+	    Newer     		    3607	angular-locale_ru-ru.js  0%  100%  
+	    Newer     		    2746	angular-locale_ru-ua.js  0%  100%  
+	    Newer     		    3604	angular-locale_ru.js  0%  100%  
+	    Newer     		    2379	angular-locale_sk-sk.js  0%  100%  
+	    Newer     		    2376	angular-locale_sk.js  0%  100%  
+	    Newer     		    2384	angular-locale_sl-si.js  0%  100%  
+	    Newer     		    2381	angular-locale_sl.js  0%  100%  
+	    Newer     		    2269	angular-locale_sq-al.js  0%  100%  
+	    Newer     		    2266	angular-locale_sq.js  0%  100%  
+	    Newer     		    2716	angular-locale_sr-cyrl-ba.js  0%  100%  
+	    Newer     		    2702	angular-locale_sr-cyrl-me.js  0%  100%  
+	    Newer     		    3454	angular-locale_sr-cyrl-rs.js  0%  100%  
+	    Newer     		    2699	angular-locale_sr-cyrl.js  0%  100%  
+	    Newer     		    2520	angular-locale_sr-latn-ba.js  0%  100%  
+	    Newer     		    2519	angular-locale_sr-latn-me.js  0%  100%  
+	    Newer     		    2536	angular-locale_sr-latn-rs.js  0%  100%  
+	    Newer     		    2517	angular-locale_sr-latn.js  0%  100%  
+	    Newer     		    1764	angular-locale_sr-rs.js  0%  100%  
+	    Newer     		    3446	angular-locale_sr.js  0%  100%  
+	    Newer     		    2230	angular-locale_sv-fi.js  0%  100%  
+	    Newer     		    2266	angular-locale_sv-se.js  0%  100%  
+	    Newer     		    2263	angular-locale_sv.js  0%  100%  
+	    Newer     		    2223	angular-locale_sw-ke.js  0%  100%  
+	    Newer     		    2223	angular-locale_sw-tz.js  0%  100%  
+	    Newer     		    2220	angular-locale_sw.js  0%  100%  
+	    Newer     		    3052	angular-locale_ta-in.js  0%  100%  
+	    Newer     		    2543	angular-locale_ta-lk.js  0%  100%  
+	    Newer     		    3049	angular-locale_ta.js  0%  100%  
+	    Newer     		    3343	angular-locale_te-in.js  0%  100%  
+	    Newer     		    3340	angular-locale_te.js  0%  100%  
+	    Newer     		    3244	angular-locale_th-th.js  0%  100%  
+	    Newer     		    3241	angular-locale_th.js  0%  100%  
+	    Newer     		    1251	angular-locale_tl-ph.js  0%  100%  
+	    Newer     		    2220	angular-locale_tl.js  0%  100%  
+	    Newer     		    2227	angular-locale_tr-tr.js  0%  100%  
+	    Newer     		    2224	angular-locale_tr.js  0%  100%  
+	    Newer     		    3476	angular-locale_uk-ua.js  0%  100%  
+	    Newer     		    3473	angular-locale_uk.js  0%  100%  
+	    Newer     		    2374	angular-locale_ur-in.js  0%  100%  
+	    Newer     		    3078	angular-locale_ur-pk.js  0%  100%  
+	    Newer     		    3075	angular-locale_ur.js  0%  100%  
+	    Newer     		    2508	angular-locale_vi-vn.js  0%  100%  
+	    Newer     		    2505	angular-locale_vi.js  0%  100%  
+	    Newer     		    2410	angular-locale_zh-cn.js  0%  100%  
+	    Newer     		    2415	angular-locale_zh-hans-cn.js  0%  100%  
+	    Newer     		    2239	angular-locale_zh-hans-hk.js  0%  100%  
+	    Newer     		    2239	angular-locale_zh-hans-mo.js  0%  100%  
+	    Newer     		    2245	angular-locale_zh-hans-sg.js  0%  100%  
+	    Newer     		    2201	angular-locale_zh-hans.js  0%  100%  
+	    Newer     		    2228	angular-locale_zh-hant-hk.js  0%  100%  
+	    Newer     		    2232	angular-locale_zh-hant-mo.js  0%  100%  
+	    Newer     		    2202	angular-locale_zh-hant-tw.js  0%  100%  
+	    Newer     		    2199	angular-locale_zh-hant.js  0%  100%  
+	    Newer     		    2465	angular-locale_zh-hk.js  0%  100%  
+	    Newer     		    2404	angular-locale_zh-tw.js  0%  100%  
+	    Newer     		    2407	angular-locale_zh.js  0%  100%  
+	    Newer     		    2231	angular-locale_zu-za.js  0%  100%  
+	    Newer     		    2228	angular-locale_zu.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\angular-bootstrap\
+	    New File  		   53012	ui-bootstrap-tpls-0.10.0.min.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\angular-dynamic-locale\
+	    New File  		    2797	tmhDynamicLocale.min.js  0%  100%  
+	    New File  		    3817	tmhDynamicLocale.min.js.map  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\blueimp-load-image\
+	    New File  		   16587	load-image.all.min.js  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\bootstrap\
+	                   7	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\bootstrap\css\
+	    Newer     		   22057	bootstrap-responsive.css  0%  100%  
+	    Newer     		   16858	bootstrap-responsive.min.css  0%  100%  
+	    Newer     		  114358	bootstrap.cosmo.min.css  0%  100%  
+	    Newer     		  105909	bootstrap.css  0%  100%  
+	    New File  		  102601	bootstrap.min.3.0.1.css  0%  100%  
+	    Newer     		  105948	bootstrap.min.css  0%  100%  
+	    Newer     		   16850	responsive.css  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\bootstrap\img\
+	    Newer     		    8777	glyphicons-halflings-white.png  0%  100%  
+	    Newer     		   12799	glyphicons-halflings.png  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\bootstrap\js\
+	    Newer     		   64245	bootstrap.2.3.2.js  0%  100%  
+	    Newer     		   28636	bootstrap.2.3.2.min.js  0%  100%  
+	                  41	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\bootstrap\less\
+	    Newer     		     670	accordion.less  0%  100%  
+	    Newer     		    1448	alerts.less  0%  100%  
+	    Newer     		    1552	bootstrap.less  0%  100%  
+	    Newer     		     455	breadcrumbs.less  0%  100%  
+	    Newer     		    5938	button-groups.less  0%  100%  
+	    Newer     		    4994	buttons.less  0%  100%  
+	    Newer     		    2640	carousel.less  0%  100%  
+	    Newer     		     675	close.less  0%  100%  
+	    Newer     		    1352	code.less  0%  100%  
+	    Newer     		     328	component-animations.less  0%  100%  
+	    Newer     		    5730	dropdowns.less  0%  100%  
+	    Newer     		   16556	forms.less  0%  100%  
+	    Newer     		     450	grid.less  0%  100%  
+	    Newer     		     546	hero-unit.less  0%  100%  
+	    Newer     		    1968	labels-badges.less  0%  100%  
+	    Newer     		     344	layouts.less  0%  100%  
+	    Newer     		     915	media.less  0%  100%  
+	    Newer     		   23744	mixins.less  0%  100%  
+	    Newer     		    2073	modals.less  0%  100%  
+	    Newer     		   12499	navbar.less  0%  100%  
+	    Newer     		    8572	navs.less  0%  100%  
+	    Newer     		     802	pager.less  0%  100%  
+	    Newer     		    2801	pagination.less  0%  100%  
+	    Newer     		    3210	popovers.less  0%  100%  
+	    Newer     		    2980	progress-bars.less  0%  100%  
+	    Newer     		    4417	reset.less  0%  100%  
+	    Newer     		     593	responsive-1200px-min.less  0%  100%  
+	    Newer     		    4113	responsive-767px-max.less  0%  100%  
+	    Newer     		     482	responsive-768px-979px.less  0%  100%  
+	    Newer     		    4517	responsive-navbar.less  0%  100%  
+	    Newer     		    1661	responsive-utilities.less  0%  100%  
+	    Newer     		    1117	responsive.less  0%  100%  
+	    Newer     		     938	scaffolding.less  0%  100%  
+	    Newer     		   11038	sprites.less  0%  100%  
+	    Newer     		    6499	tables.less  0%  100%  
+	    Newer     		    1289	thumbnails.less  0%  100%  
+	    Newer     		    1754	tooltip.less  0%  100%  
+	    Newer     		    5104	type.less  0%  100%  
+	    Newer     		     365	utilities.less  0%  100%  
+	    Newer     		    9443	variables.less  0%  100%  
+	    Newer     		     581	wells.less  0%  100%  
+	                   8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\bootstrap\less\tests\
+	    Newer     		    6550	buttons.html  0%  100%  
+	    Newer     		    5625	css-tests.css  0%  100%  
+	    Newer     		   41537	css-tests.html  0%  100%  
+	    Newer     		    2433	forms-responsive.html  0%  100%  
+	    Newer     		    4258	forms.html  0%  100%  
+	    Newer     		    4796	navbar-fixed-top.html  0%  100%  
+	    Newer     		    4818	navbar-static-top.html  0%  100%  
+	    Newer     		    4904	navbar.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\cssparser\
+	    New File  		  181181	cssparser.js  0%   72%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\datetimepicker\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\datetimepicker\langs\
+	  *EXTRA File 		   30098	bootstrap-datetimepicker.min.js
+	    Newer     		   60823	bootstrap-datetimepicker.js  0%  100%  
+	    Newer     		    5062	bootstrap-datetimepicker.min.css  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\jquery\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.sortable\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\lib\jquery\jquery.upload\
+	  *EXTRA File 		  100978	jquery-2.0.3.min.js
+	  *EXTRA File 		   89016	jquery-ui-1.10.3.custom.min.js
+	  *EXTRA File 		    4292	jquery.ui.core.min.js
+	  *EXTRA File 		   32310	jquery.ui.draggable.js
+	  *EXTRA File 		     596	jquery.ui.effect-highlight.min.js
+	  *EXTRA File 		   12975	jquery.ui.effect.min.js
+	  *EXTRA File 		    2844	jquery.ui.mouse.min.js
+	  *EXTRA File 		   24181	jquery.ui.sortable.min.js
+	  *EXTRA File 		    6491	jquery.ui.widget.min.js
+	    New File  		   83606	jquery.min.js  0%  100%  
+	    New File  		  126587	jquery.min.map  0%  100%  
+	  New Dir          4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\jquery-file-upload\
+	    New File  		   16638	jquery.fileupload-angular.js  0%  100%  
+	    New File  		   11149	jquery.fileupload-image.js  0%  100%  
+	    New File  		    5999	jquery.fileupload-process.js  0%  100%  
+	    New File  		   61124	jquery.fileupload.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\jquery-ui\
+	    New File  		   27250	jquery-ui-1.10.4.custom.min.css  0%  100%  
+	    New File  		  228077	jquery-ui.min.js  0%   57%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\less\
+	    New File  		  101869	less-1.7.0.min.js  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\markdown\
+	    Newer     		   46410	markdown.converter.js  0%  100%  
+	    Newer     		    1658	markdown.css  0%  100%  
+	    Newer     		   78546	markdown.editor.js  0%  100%  
+	    Newer     		    4188	markdown.sanitizer.js  0%  100%  
+	    Newer     		      95	red.css  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\moment\
+	    New File  		  334291	moment-with-locales.js  0%   39%   78%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\rgrove-lazyload\
+	    New File  		   13577	lazyload.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\slider\
+	    Newer     		    4302	slider.css  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\slider\js\
+	    Newer     		   11246	bootstrap-slider.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\spectrum\
+	    Newer     		   15122	spectrum.css  0%  100%  
+	    Newer     		   40684	spectrum.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\
+	    Newer     		   26931	license.txt  0%  100%  
+	    Newer     		  278479	tinymce.min.js  0%   47%   94%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\langs\
+	    Newer     		     154	readme.md  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\advlist\
+	    Newer     		    1260	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\anchor\
+	    Newer     		     477	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\autolink\
+	    Newer     		    1741	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\autoresize\
+	    Newer     		    1234	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\autosave\
+	    Newer     		    2114	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\bbcode\
+	    Newer     		    3146	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\charmap\
+	    Newer     		    6960	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\code\
+	    Newer     		     795	plugin.min.js  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\
+	    New File  		    1141	plugin.min.js  0%  100%  
+	    New File  		    7744	source.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\langs\
+	    New File  		     224	en.js  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\compat3x\
+	    Newer     		    2029	editable_selects.js  0%  100%  
+	    Newer     		    5974	form_utils.js  0%  100%  
+	    Newer     		    4038	mctabs.js  0%  100%  
+	    Newer     		   12837	tiny_mce_popup.js  0%  100%  
+	    Newer     		    6083	validate.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\contextmenu\
+	    Newer     		     773	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\directionality\
+	    Newer     		     726	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\
+	    Newer     		     783	plugin.min.js  0%  100%  
+	                  16	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\img\
+	    Newer     		     354	smiley-cool.gif  0%  100%  
+	    Newer     		     329	smiley-cry.gif  0%  100%  
+	    Newer     		     331	smiley-embarassed.gif  0%  100%  
+	    Newer     		     342	smiley-foot-in-mouth.gif  0%  100%  
+	    Newer     		     340	smiley-frown.gif  0%  100%  
+	    Newer     		     336	smiley-innocent.gif  0%  100%  
+	    Newer     		     338	smiley-kiss.gif  0%  100%  
+	    Newer     		     343	smiley-laughing.gif  0%  100%  
+	    Newer     		     321	smiley-money-mouth.gif  0%  100%  
+	    Newer     		     323	smiley-sealed.gif  0%  100%  
+	    Newer     		     344	smiley-smile.gif  0%  100%  
+	    Newer     		     338	smiley-surprised.gif  0%  100%  
+	    Newer     		     328	smiley-tongue-out.gif  0%  100%  
+	    Newer     		     337	smiley-undecided.gif  0%  100%  
+	    Newer     		     350	smiley-wink.gif  0%  100%  
+	    Newer     		     336	smiley-yell.gif  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\example\
+	    Newer     		     501	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\example_dependency\
+	    Newer     		      73	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullpage\
+	    Newer     		    6177	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullscreen\
+	    Newer     		    1540	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\hr\
+	    Newer     		     322	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\image\
+	    Newer     		    4181	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\importcss\
+	    Newer     		    1814	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\insertdatetime\
+	    Newer     		    1972	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\layer\
+	    Newer     		    2857	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\legacyoutput\
+	    Newer     		    1479	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\link\
+	    Newer     		    3566	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\lists\
+	    Newer     		    7240	plugin.min.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\media\
+	    Newer     		   20017	moxieplayer.swf  0%  100%  
+	    Newer     		    8048	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\nonbreaking\
+	    Newer     		     613	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\noneditable\
+	    Newer     		    4667	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\pagebreak\
+	    Newer     		    1209	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\paste\
+	    Newer     		    9284	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\preview\
+	    Newer     		    1108	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\print\
+	    Newer     		     293	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\save\
+	    Newer     		    1186	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\searchreplace\
+	    Newer     		    6296	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\spellchecker\
+	    Newer     		    6689	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\tabfocus\
+	    Newer     		    1209	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\table\
+	    Newer     		   22434	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\template\
+	    Newer     		    4242	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\textcolor\
+	    Newer     		    1987	plugin.min.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocontextmenu\
+	    Newer     		    2561	editor_plugin_src.js  0%  100%  
+	    Newer     		    2561	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\
+	    Newer     		    8362	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\img\
+	    Newer     		      87	example.gif  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\js\
+	    Newer     		     609	dialog.js  0%  100%  
+	                  14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\langs\
+	    Newer     		      79	en.js  0%  100%  
+	    Newer     		      82	en_dlg.js  0%  100%  
+	    Newer     		      82	en_us.js  0%  100%  
+	    Newer     		      85	en_us_dlg.js  0%  100%  
+	    Newer     		      67	it.js  0%  100%  
+	    Newer     		      71	it_dlg.js  0%  100%  
+	    Newer     		      92	ja.js  0%  100%  
+	    Newer     		      84	ja_dlg.js  0%  100%  
+	    Newer     		      96	ru.js  0%  100%  
+	    Newer     		     105	ru_dlg.js  0%  100%  
+	    Newer     		      76	sv.js  0%  100%  
+	    Newer     		      93	sv_dlg.js  0%  100%  
+	    Newer     		      67	zh.js  0%  100%  
+	    Newer     		      72	zh_dlg.js  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\
+	    Newer     		    3816	dialog.htm  0%  100%  
+	    Newer     		     860	editor_plugin.js  0%  100%  
+	    Newer     		    2984	editor_plugin_src.js  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\img\
+	    Newer     		    1928	ajax-loader.gif  0%  100%  
+	    Newer     		     260	embed.gif  0%  100%  
+	    Newer     		     537	embed.png  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\js\
+	    Newer     		    3260	dialog.js  0%  100%  
+	                  18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\langs\
+	    Newer     		      85	da.js  0%  100%  
+	    Newer     		     251	da_dlg.js  0%  100%  
+	    Newer     		     272	de.js  0%  100%  
+	    Newer     		     272	de_dlg.js  0%  100%  
+	    Newer     		      78	en.js  0%  100%  
+	    Newer     		     232	en_dlg.js  0%  100%  
+	    Newer     		      81	en_us.js  0%  100%  
+	    Newer     		     235	en_us_dlg.js  0%  100%  
+	    Newer     		     236	it.js  0%  100%  
+	    Newer     		     244	it_dlg.js  0%  100%  
+	    Newer     		     267	ja.js  0%  100%  
+	    Newer     		     268	ja_dlg.js  0%  100%  
+	    Newer     		     329	ru.js  0%  100%  
+	    Newer     		     329	ru_dlg.js  0%  100%  
+	    Newer     		     260	sv.js  0%  100%  
+	    Newer     		     260	sv_dlg.js  0%  100%  
+	    Newer     		     235	zh.js  0%  100%  
+	    Newer     		     235	zh_dlg.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoimg\
+	    Newer     		    1739	editor_plugin_src.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoimg\js\
+	    Newer     		   10412	image.js  0%  100%  
+	                   8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoimg\langs\
+	    Newer     		    1495	en_dlg.js  0%  100%  
+	    Newer     		    1498	en_us_dlg.js  0%  100%  
+	    Newer     		    1495	he_dlg.js  0%  100%  
+	    Newer     		    1583	it_dlg.js  0%  100%  
+	    Newer     		    1694	ja_dlg.js  0%  100%  
+	    Newer     		    2314	ru_dlg.js  0%  100%  
+	    Newer     		    1536	sv_dlg.js  0%  100%  
+	    Newer     		    1346	zh_dlg.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracolink\
+	    Newer     		    7060	plugin.min.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\
+	    Newer     		     991	dialog.htm  0%  100%  
+	    Newer     		    6151	editor_plugin_src.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\img\
+	    Newer     		     603	insMacro.gif  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\js\
+	    Newer     		     609	dialog.js  0%  100%  
+	                  14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\langs\
+	    Newer     		      69	en.js  0%  100%  
+	    Newer     		      82	en_dlg.js  0%  100%  
+	    Newer     		      72	en_us.js  0%  100%  
+	    Newer     		      85	en_us_dlg.js  0%  100%  
+	    Newer     		      79	he.js  0%  100%  
+	    Newer     		      82	he_dlg.js  0%  100%  
+	    Newer     		      75	ja.js  0%  100%  
+	    Newer     		      90	ja_dlg.js  0%  100%  
+	    Newer     		      86	ru.js  0%  100%  
+	    Newer     		      81	ru_dlg.js  0%  100%  
+	    Newer     		      69	sv.js  0%  100%  
+	    Newer     		      92	sv_dlg.js  0%  100%  
+	    Newer     		      66	zh.js  0%  100%  
+	    Newer     		      72	zh_dlg.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracopaste\
+	    Newer     		    1753	editor_plugin_src.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoshortcut\
+	    Newer     		    1255	editor_plugin_src.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\
+	    Newer     		    1153	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\css\
+	    Newer     		    4952	visualblocks.css  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualchars\
+	    Newer     		    1055	plugin.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\wordcount\
+	    Newer     		     899	plugin.min.js  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\lightgray\
+	    Newer     		     980	content.inline.min.css  0%  100%  
+	    Newer     		    1404	content.min.css  0%  100%  
+	    Newer     		   30581	skin.classic.min.css  0%  100%  
+	    Newer     		   32768	skin.ie7.min.css  0%  100%  
+	    Newer     		   32961	skin.min.css  0%  100%  
+	                  17	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\lightgray\fonts\
+	    Newer     		    8344	icomoon-small.eot  0%  100%  
+	    Newer     		   26060	icomoon-small.svg  0%  100%  
+	    Newer     		    8160	icomoon-small.ttf  0%  100%  
+	    Newer     		    8336	icomoon-small.woff  0%  100%  
+	    Newer     		    8268	icomoon.eot  0%  100%  
+	    Newer     		   26229	icomoon.svg  0%  100%  
+	    Newer     		    8104	icomoon.ttf  0%  100%  
+	    Newer     		    8400	icomoon.woff  0%  100%  
+	    Newer     		      68	readme.md  0%  100%  
+	    Newer     		    8348	tinymce-small.eot  0%  100%  
+	    Newer     		   26060	tinymce-small.svg  0%  100%  
+	    Newer     		    8164	tinymce-small.ttf  0%  100%  
+	    Newer     		    8340	tinymce-small.woff  0%  100%  
+	    Newer     		    8276	tinymce.eot  0%  100%  
+	    Newer     		   26229	tinymce.svg  0%  100%  
+	    Newer     		    8112	tinymce.ttf  0%  100%  
+	    Newer     		    8408	tinymce.woff  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\lightgray\img\
+	    Newer     		      53	anchor.gif  0%  100%  
+	    Newer     		    2608	loader.gif  0%  100%  
+	    Newer     		     152	object.gif  0%  100%  
+	    Newer     		      43	trans.gif  0%  100%  
+	    Newer     		      46	wline.gif  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\
+	    Newer     		    2364	content.min.css  0%  100%  
+	    Newer     		   30624	skin.classic.min.css  0%  100%  
+	    Newer     		   30481	skin.ie7.min.css  0%  100%  
+	    Newer     		   30624	skin.min.css  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\fonts\
+	    Newer     		    8196	icomoon.eot  0%  100%  
+	    Newer     		   33681	icomoon.svg  0%  100%  
+	    Newer     		    8032	icomoon.ttf  0%  100%  
+	    Newer     		    8340	icomoon.woff  0%  100%  
+	    Newer     		      68	readme.md  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\img\
+	    Newer     		      53	anchor.gif  0%  100%  
+	    Newer     		    2608	loader.gif  0%  100%  
+	    Newer     		     152	object.gif  0%  100%  
+	    Newer     		      43	trans.gif  0%  100%  
+	    Newer     		      46	wline.gif  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\themes\
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\themes\modern\
+	    Newer     		    6069	theme.min.js  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\tinymce\themes\umbraco\
+	    Newer     		    4762	theme.min.js  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\typeahead-js\
+	    New File  		   29675	typeahead.bundle.min.js  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\umbraco\
+	    Newer     		    1223	compat.js  0%  100%  
+	    Newer     		   11364	Extensions.js  0%  100%  
+	    Newer     		    2438	LegacySpeechBubble.js  0%  100%  
+	    Newer     		   18614	LegacyUmbClientMgr.js  0%  100%  
+	    Newer     		     839	NamespaceManager.js  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\lib\underscore\
+	  *EXTRA File 		   41778	underscore.js
+	    Newer     		   15626	underscore-min.js  0%  100%  
+	    New File  		   25382	underscore-min.map  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Masterpages\
+	    Newer     		     234	default.Master  0%  100%  
+	    Newer     		    1767	umbracoDialog.Master  0%  100%  
+	    Newer     		    2281	umbracoPage.Master  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Members\
+	    Newer     		    1010	EditMemberGroup.aspx  0%  100%  
+	    Newer     		    1770	EditMemberType.aspx  0%  100%  
+	    Newer     		    1838	MemberSearch.ascx  0%  100%  
+	    Newer     		     798	search.aspx  0%  100%  
+	    Newer     		    1913	ViewMembers.aspx  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\PartialViewMacros\
+	                  20	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\PartialViewMacros\Templates\
+	    Newer     		     887	Breadcrumb.cshtml  0%  100%  
+	    Newer     		    2658	EditProfile.cshtml  0%  100%  
+	    Newer     		      53	Empty (ForUseWithCustomViews).cshtml  0%  100%  
+	    Newer     		      49	Empty.cshtml  0%  100%  
+	    Newer     		    1684	Gallery.cshtml  0%  100%  
+	    Newer     		     859	ListAncestorsFromCurrentPage.cshtml  0%  100%  
+	    Newer     		     994	ListChildPagesFromChangeableSource.cshtml  0%  100%  
+	    Newer     		     319	ListChildPagesFromCurrentPage.cshtml  0%  100%  
+	    Newer     		     338	ListChildPagesOrderedByDate.cshtml  0%  100%  
+	    Newer     		     293	ListChildPagesOrderedByName.cshtml  0%  100%  
+	    Newer     		     879	ListChildPagesOrderedByProperty.cshtml  0%  100%  
+	    Newer     		     851	ListChildPagesWithDoctype.cshtml  0%  100%  
+	    Newer     		    2083	ListDescendantsFromCurrentPage.cshtml  0%  100%  
+	    Newer     		    1025	ListImagesFromMediaFolder.cshtml  0%  100%  
+	    Newer     		    1310	Login.cshtml  0%  100%  
+	    Newer     		    1402	LoginStatus.cshtml  0%  100%  
+	    Newer     		     649	MultinodeTree-picker.cshtml  0%  100%  
+	    Newer     		     608	Navigation.cshtml  0%  100%  
+	    Newer     		    4381	RegisterMember.cshtml  0%  100%  
+	    Newer     		    1251	SiteMap.cshtml  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Plugins\
+	                   6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Plugins\Tinymce3\
+	    Newer     		    1621	InsertAnchor.aspx  0%  100%  
+	    Newer     		    2962	insertChar.aspx  0%  100%  
+	    Newer     		    9412	insertImage.aspx  0%  100%  
+	    Newer     		    6194	insertLink.aspx  0%  100%  
+	    Newer     		    6617	insertMacro.aspx  0%  100%  
+	    Newer     		     171	tinymce3tinymceCompress.aspx  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\preview\
+	    New File  		    8137	index.html  0%  100%  
+	  New Dir         11	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\preview\editors\
+	    New File  		    2507	background.html  0%  100%  
+	    New File  		     983	border.html  0%  100%  
+	    New File  		      93	color.html  0%  100%  
+	    New File  		    1521	googlefontpicker.html  0%  100%  
+	    New File  		     202	gridRow.html  0%  100%  
+	    New File  		     342	layout.html  0%  100%  
+	    New File  		     466	margin.html  0%  100%  
+	    New File  		     474	padding.html  0%  100%  
+	    New File  		     900	radius.html  0%  100%  
+	    New File  		     198	shadow.html  0%  100%  
+	    New File  		     218	slider.html  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Scripting\
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Scripting\templates\
+	                  15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Scripting\templates\cshtml\
+	    Newer     		     822	Breadcrumb.cshtml  0%  100%  
+	    Newer     		     340	EmptyTemplate.cshtml  0%  100%  
+	    Newer     		    1058	Gallery.cshtml  0%  100%  
+	    Newer     		     545	ListAncestorsFromCurrentPage.cshtml  0%  100%  
+	    Newer     		     607	ListChildPagesFromChangeableSource.cshtml  0%  100%  
+	    Newer     		     529	ListChildPagesFromCurrentPage.cshtml  0%  100%  
+	    Newer     		     301	ListChildPagesOrderedByDate.cshtml  0%  100%  
+	    Newer     		     258	ListChildPagesOrderedByName.cshtml  0%  100%  
+	    Newer     		     516	ListChildPagesOrderedByProperty.cshtml  0%  100%  
+	    Newer     		     979	ListChildPagesWithDoctype.cshtml  0%  100%  
+	    Newer     		    2045	ListDescendantsFromCurrentPage.cshtml  0%  100%  
+	    Newer     		     679	ListImagesFromMediaFolder.cshtml  0%  100%  
+	    Newer     		     647	MultinodeTree-picker.cshtml  0%  100%  
+	    Newer     		     534	Navigation.cshtml  0%  100%  
+	    Newer     		    1062	SiteMap.cshtml  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Search\
+	    Newer     		    1100	QuickSearch.ascx  0%  100%  
+	    Newer     		    3887	quickSearch.js  0%  100%  
+	    Newer     		     139	QuickSearchHandler.ashx  0%  100%  
+	                   6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Settings\
+	    Newer     		     688	DictionaryItemList.aspx  0%  100%  
+	    Newer     		     726	EditDictionaryItem.aspx  0%  100%  
+	    Newer     		     899	editLanguage.aspx  0%  100%  
+	    Newer     		     783	EditMediaType.aspx  0%  100%  
+	    Newer     		    2823	EditNodeTypeNew.aspx  0%  100%  
+	    Newer     		    8552	editTemplate.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Settings\Modals\
+	    Newer     		    3355	ShowUmbracoTags.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Settings\Scripts\
+	    Newer     		    2866	editScript.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Settings\Stylesheet\
+	    Newer     		    2863	editstylesheet.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Settings\Stylesheet\Property\
+	    Newer     		    2658	EditStyleSheetProperty.aspx  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Settings\Views\
+	    Newer     		    3551	EditView.aspx  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Translation\
+	    Newer     		    2595	default.aspx  0%  100%  
+	    Newer     		    1856	details.aspx  0%  100%  
+	    Newer     		    1325	preview.aspx  0%  100%  
+	    Newer     		     220	xml.aspx  0%  100%  
+	                   6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Users\
+	    Newer     		     723	EditUser.aspx  0%  100%  
+	    Newer     		    1445	EditUserType.aspx  0%  100%  
+	    Newer     		    1572	NodePermissions.ascx  0%  100%  
+	    Newer     		    2296	PermissionEditor.aspx  0%  100%  
+	    Newer     		    6683	PermissionsEditor.js  0%  100%  
+	    Newer     		     130	PermissionsHandler.asmx  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\templates\
+	    Newer     		    2140	AuthorizeUpgrade.cshtml  0%  100%  
+	    Newer     		    3116	Default.cshtml  0%  100%  
+	                   3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\common\
+	    Newer     		    1275	dashboard.html  0%  100%  
+	    Newer     		     198	legacy.html  0%  100%  
+	    Newer     		      62	login.html  0%  100%  
+	                  15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\common\dialogs\
+	  *EXTRA File 		    2240	contentpicker.html
+	  *EXTRA File 		    2338	memberpicker.html
+	    New File  		     352	approvedcolorpicker.html  0%  100%  
+	    Newer     		    2158	help.html  0%  100%  
+	    Newer     		    2380	iconpicker.html  0%  100%  
+	    Newer     		    2109	insertmacro.html  0%  100%  
+	    Newer     		     405	legacydelete.html  0%  100%  
+	    Newer     		    2776	linkpicker.html  0%  100%  
+	    Newer     		    1403	login.html  0%  100%  
+	    Newer     		    1324	macropicker.html  0%  100%  
+	    Newer     		    5992	mediapicker.html  0%  100%  
+	    Newer     		    1171	membergrouppicker.html  0%  100%  
+	    Newer     		      24	property.html  0%  100%  
+	    Newer     		    1826	rteembed.html  0%  100%  
+	    Newer     		    2450	treepicker.html  0%  100%  
+	    Newer     		    1525	user.html  0%  100%  
+	    Newer     		     986	ysod.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\common\dialogs\content\
+	    Newer     		    2389	edit.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\common\dialogs\template\
+	    New File  		    4914	querybuilder.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\common\notifications\
+	    Newer     		     367	confirmroutechange.html  0%  100%  
+	                   8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\content\
+	    Newer     		    2966	copy.html  0%  100%  
+	    Newer     		    1503	create.html  0%  100%  
+	    Newer     		     404	delete.html  0%  100%  
+	    Newer     		    3922	edit.html  0%  100%  
+	    Newer     		     272	emptyrecyclebin.html  0%  100%  
+	    Newer     		    2709	move.html  0%  100%  
+	    Newer     		     499	recyclebin.html  0%  100%  
+	    New File  		     206	umbpreview.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\contenttype\
+	    Newer     		    2902	edit.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\
+	    Newer     		     471	ChangePassword.html  0%  100%  
+	                   6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\default\
+	    Newer     		   75730	ourumbraco.png  0%  100%  
+	    Newer     		    2466	StartupDashboardIntro.html  0%  100%  
+	    Newer     		    1251	StartupDashboardKits.html  0%  100%  
+	    Newer     		       0	StartupDashboardLastEdits.html100%  
+	    Newer     		     829	StartupDashboardVideos.html  0%  100%  
+	    Newer     		  106574	umbracotv.png  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\developer\
+	    Newer     		    1108	developerdashboardintro.html  0%  100%  
+	    Newer     		     948	developerdashboardvideos.html  0%  100%  
+	    New File  		   11188	examinemanagement.html  0%  100%  
+	    New File  		    1355	xmldataintegrityreport.html  0%  100%  
+	  New Dir          1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\forms\
+	    New File  		    1559	formsdashboardintro.html  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\media\
+	    Newer     		    1756	desktopmediauploader.html  0%  100%  
+	    Newer     		     895	mediadashboardintro.html  0%  100%  
+	    Newer     		     829	mediadashboardvideos.html  0%  100%  
+	    Newer     		     214	mediafolderbrowser.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\members\
+	    Newer     		     366	membersdashboardintro.html  0%  100%  
+	    Newer     		     813	membersdashboardvideos.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\dashboard\settings\
+	    Newer     		    1110	settingsdashboardintro.html  0%  100%  
+	    Newer     		     829	settingsdashboardvideos.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\datatype\
+	    Newer     		     389	delete.html  0%  100%  
+	    Newer     		    2752	edit.html  0%  100%  
+	                  18	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\directives\
+	    Newer     		     859	button-group.html  0%  100%  
+	    Newer     		      70	umb-avatar.html  0%  100%  
+	    Newer     		     433	umb-confirm.html  0%  100%  
+	    Newer     		     738	umb-content-name.html  0%  100%  
+	    Newer     		     579	umb-contextmenu.html  0%  100%  
+	    Newer     		      51	umb-editor.html  0%  100%  
+	    Newer     		     434	umb-header.html  0%  100%  
+	    Newer     		    1472	umb-item-sorter.html  0%  100%  
+	    Newer     		     572	umb-login.html  0%  100%  
+	    Newer     		    4575	umb-navigation.html  0%  100%  
+	    Newer     		     738	umb-notifications.html  0%  100%  
+	    Newer     		     873	umb-optionsmenu.html  0%  100%  
+	    Newer     		     692	umb-property.html  0%  100%  
+	    Newer     		    2067	umb-sections.html  0%  100%  
+	    Newer     		     146	umb-tab-view.html  0%  100%  
+	    Newer     		     130	umb-tab.html  0%  100%  
+	    New File  		     581	umb-tree-search-box.html  0%  100%  
+	    New File  		     738	umb-tree-search-results.html  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\directives\html\
+	    Newer     		     494	umb-control-group.html  0%  100%  
+	    Newer     		      47	umb-pane.html  0%  100%  
+	    Newer     		      58	umb-panel.html  0%  100%  
+	    Newer     		     994	umb-photo-folder.html  0%  100%  
+	    Newer     		     239	umb-upload-dropzone.html  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\directives\imaging\
+	    Newer     		     571	umb-image-crop.html  0%  100%  
+	    New File  		    1213	umb-image-folder.html  0%  100%  
+	    Newer     		     260	umb-image-gravity.html  0%  100%  
+	    Newer     		     210	umb-image-thumbnail.html  0%  100%  
+	                   8	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\install\
+	    Newer     		     404	continueinstall.html  0%  100%  
+	    Newer     		    4579	database.html  0%  100%  
+	    Newer     		     329	error.html  0%  100%  
+	    Newer     		    1009	permissionsreport.html  0%  100%  
+	    Newer     		     904	starterkit.html  0%  100%  
+	    Newer     		     516	upgrade.html  0%  100%  
+	    Newer     		    2938	user.html  0%  100%  
+	    Newer     		    1018	version7upgradereport.html  0%  100%  
+	                   6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\media\
+	    Newer     		    1629	create.html  0%  100%  
+	    Newer     		     386	delete.html  0%  100%  
+	    Newer     		    2631	edit.html  0%  100%  
+	    Newer     		     254	emptyrecyclebin.html  0%  100%  
+	    Newer     		    1224	move.html  0%  100%  
+	    New File  		     497	recyclebin.html  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\member\
+	    Newer     		     872	create.html  0%  100%  
+	    Newer     		     403	delete.html  0%  100%  
+	    Newer     		    2579	edit.html  0%  100%  
+	    New File  		     845	list.html  0%  100%  
+	                  14	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\prevalueeditors\
+	    Newer     		     101	boolean.html  0%  100%  
+	    Newer     		      84	hidden.html  0%  100%  
+	    New File  		     681	imagepicker.html  0%  100%  
+	    Newer     		     709	mediapicker.html  0%  100%  
+	    Newer     		     698	multivalues.html  0%  100%  
+	    Newer     		     166	nodetype.html  0%  100%  
+	    Newer     		     435	number.html  0%  100%  
+	    New File  		     198	radiobuttonlist.html  0%  100%  
+	    Newer     		     222	readonlykeyvalues.html  0%  100%  
+	    Newer     		     414	requiredfield.html  0%  100%  
+	    Newer     		     101	textarea.html  0%  100%  
+	    Newer     		      78	textstring.html  0%  100%  
+	    Newer     		     726	treepicker.html  0%  100%  
+	    Newer     		    2750	treesource.html  0%  100%  
+	                   0	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\boolean\
+	    Newer     		     189	boolean.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\changepassword\
+	    Newer     		    3399	changepassword.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\checkboxlist\
+	    Newer     		     468	checkboxlist.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\colorpicker\
+	    Newer     		     595	colorpicker.html  0%  100%  
+	    Newer     		     680	colorpicker.prevalues.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\contentpicker\
+	    Newer     		    1907	contentpicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\datepicker\
+	    Newer     		     792	datepicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\dropdown\
+	    Newer     		     782	dropdown.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\email\
+	    Newer     		     609	email.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\entitypicker\
+	    Newer     		     661	entitypicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\fileupload\
+	    Newer     		    1300	fileupload.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\folderbrowser\
+	    Newer     		     250	folderbrowser.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\googlemaps\
+	    Newer     		     185	googlemaps.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\grid\css\
+	*EXTRA Dir        -1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\Umbraco\Views\propertyeditors\grid\js\
+	  *EXTRA File 		    1850	iframe.html
+	    Newer     		   14973	grid.html  0%  100%  
+	    New File  		    6347	grid.prevalues.html  0%  100%  
+	  New Dir          2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\config\
+	    New File  		    7328	grid.default.config.js  0%  100%  
+	    New File  		     265	grid.default.rtestyles.css  0%  100%  
+	  New Dir          5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\dialogs\
+	    New File  		     509	additem.html  0%  100%  
+	    New File  		    1440	config.html  0%  100%  
+	    New File  		    1470	editconfig.html  0%  100%  
+	    New File  		    5724	layoutconfig.html  0%  100%  
+	    New File  		    4216	rowconfig.html  0%  100%  
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\editors\
+	    New File  		     387	embed.html  0%  100%  
+	    New File  		     114	error.html  0%  100%  
+	    New File  		     412	macro.html  0%  100%  
+	    New File  		     644	media.html  0%  100%  
+	    New File  		     121	rte.html  0%  100%  
+	    New File  		     302	textstring.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\imagecropper\
+	    Newer     		    2038	imagecropper.html  0%  100%  
+	    Newer     		    1975	imagecropper.prevalues.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\integer\
+	    Newer     		     440	integer.html  0%  100%  
+	                   4	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\listview\
+	    New File  		    2482	includeproperties.prevalues.html  0%  100%  
+	    Newer     		    7044	listview.html  0%  100%  
+	    New File  		     462	orderDirection.prevalues.html  0%  100%  
+	    New File  		     199	sortby.prevalues.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\macrocontainer\
+	    Newer     		    1112	macrocontainer.html  0%  100%  
+	    New File  		     217	macrolist.prevalues.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\markdowneditor\
+	    Newer     		     372	markdowneditor.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\mediapicker\
+	    Newer     		     863	mediapicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\membergrouppicker\
+	    Newer     		     691	membergrouppicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\membergroups\
+	    Newer     		     598	membergroups.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\memberpicker\
+	    Newer     		     825	memberpicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\multipletextbox\
+	    Newer     		     749	multipletextbox.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\radiobuttons\
+	    Newer     		     477	radiobuttons.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\readonlyvalue\
+	    Newer     		     136	readonlyvalue.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\relatedlinks\
+	    Newer     		    4848	relatedlinks.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\rte\
+	    Newer     		     317	rte.html  0%  100%  
+	    Newer     		    1375	rte.prevalues.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\slider\
+	    Newer     		     309	orientation.prevalues.html  0%  100%  
+	    Newer     		     146	slider.html  0%  100%  
+	                   2	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\tags\
+	    Newer     		     925	tags.html  0%  100%  
+	    New File  		     209	tags.prevalues.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\templatepicker\
+	    Newer     		     113	templatepicker.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\test\
+	    Newer     		     476	test.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\textarea\
+	    Newer     		     241	textarea.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\textbox\
+	    Newer     		     458	textbox.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\ultrasimple\
+	    Newer     		     243	ultrasimple.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\urllist\
+	    Newer     		     349	urllist.html  0%  100%  
+	                   1	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Views\propertyeditors\validationtest\
+	    Newer     		     561	validationtest.html  0%  100%  
+	                  20	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Webservices\
+	    Newer     		   26403	ajax.js  0%  100%  
+	    Newer     		     125	CacheRefresher.asmx  0%  100%  
+	    Newer     		     130	CheckForUpgrade.asmx  0%  100%  
+	    Newer     		     111	CMSNode.asmx  0%  100%  
+	    Newer     		     125	codeEditorSave.asmx  0%  100%  
+	    Newer     		     102	Developer.asmx  0%  100%  
+	    Newer     		     127	legacyAjaxCalls.asmx  0%  100%  
+	    Newer     		     142	MacroContainerService.asmx  0%  100%  
+	    Newer     		     134	MediaUploader.ashx  0%  100%  
+	    Newer     		     117	nodeSorter.asmx  0%  100%  
+	    Newer     		     125	progressStatus.asmx  0%  100%  
+	    Newer     		     106	publication.asmx  0%  100%  
+	    Newer     		     100	Settings.asmx  0%  100%  
+	    Newer     		     154	TagsAutoCompleteHandler.ashx  0%  100%  
+	    Newer     		     102	templates.asmx  0%  100%  
+	    Newer     		     113	trashcan.asmx  0%  100%  
+	    Newer     		     134	TreeClientService.asmx  0%  100%  
+	    Newer     		     130	TreeDataService.ashx  0%  100%  
+	    Newer     		     174	UltimatePickerAutoCompleteHandler.ashx  0%  100%  
+	    Newer     		    8404	wsdl.xslt  0%  100%  
+	                   5	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Xslt\
+	    Newer     		     667	macroGetCurrent.xsl  0%  100%  
+	    Newer     		    1178	macroGetSubs.xsl  0%  100%  
+	    Newer     		    1114	searchResult.xslt  0%  100%  
+	    Newer     		    1756	sqlNodeHierachy.xslt  0%  100%  
+	    Newer     		     594	Web.config  0%  100%  
+	                  15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Xslt\Templates\
+	    Newer     		    1085	Breadcrumb.xslt  0%  100%  
+	    Newer     		     527	Clean.xslt  0%  100%  
+	    Newer     		    1264	ListSubPagesAsThumbnails.xslt  0%  100%  
+	    Newer     		    1063	ListSubPagesByDateAndLimit.xslt  0%  100%  
+	    Newer     		     918	ListSubPagesByDocumentType.xslt  0%  100%  
+	    Newer     		     886	ListSubPagesByLevel.xslt  0%  100%  
+	    Newer     		     956	ListSubPagesFromAChangableSource.xslt  0%  100%  
+	    Newer     		     756	ListSubPagesFromCurrentPage.xslt  0%  100%  
+	    Newer     		    1151	ListThumbnailsFromCurrentPage.xslt  0%  100%  
+	    Newer     		     771	ListWholeStructureFromCurrentPage.xslt  0%  100%  
+	    Newer     		    1280	NavigationPrototype.xslt  0%  100%  
+	    Newer     		    1701	RelatedLinks.xslt  0%  100%  
+	    Newer     		    3263	RSSFeed.xslt  0%  100%  
+	    Newer     		    1579	Sitemap.xslt  0%  100%  
+	    Newer     		    1586	TablePrototype.xslt  0%  100%  
+	                  15	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\packages\UmbracoCms.7.2.4\UmbracoFiles\Umbraco\Xslt\Templates\Schema2\
+	    Newer     		    1066	Breadcrumb.xslt  0%  100%  
+	    Newer     		     527	Clean.xslt  0%  100%  
+	    Newer     		    1015	ListSubPagesAsThumbnails.xslt  0%  100%  
+	    Newer     		    1055	ListSubPagesByDateAndLimit.xslt  0%  100%  
+	    Newer     		     891	ListSubPagesByDocumentType.xslt  0%  100%  
+	    Newer     		     875	ListSubPagesByLevel.xslt  0%  100%  
+	    Newer     		     948	ListSubPagesFromAChangableSource.xslt  0%  100%  
+	    Newer     		     748	ListSubPagesFromCurrentPage.xslt  0%  100%  
+	    Newer     		     893	ListThumbnailsFromCurrentPage.xslt  0%  100%  
+	    Newer     		     763	ListWholeStructureFromCurrentPage.xslt  0%  100%  
+	    Newer     		    1267	NavigationPrototype.xslt  0%  100%  
+	    Newer     		    1714	RelatedLinks.xslt  0%  100%  
+	    Newer     		    3251	RSSFeed.xslt  0%  100%  
+	    Newer     		    1567	Sitemap.xslt  0%  100%  
+	    Newer     		    1560	TablePrototype.xslt  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       237        21         0         0         0         8
+   Files :      1439      1438         1         0         0        15
+   Bytes :   12.53 m   12.52 m    11.4 k         0         0   361.3 k
+   Times :   0:00:01   0:00:01                       0:00:00   0:00:00
+
+
+   Speed :             8169685 Bytes/sec.
+   Speed :             467.473 MegaBytes/min.
+   Ended : 07 May 2015 13:10:25
+

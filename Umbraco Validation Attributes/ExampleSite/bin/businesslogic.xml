@@ -124,6 +124,43 @@
             To use, inhirite the ApplicationBase Class and add an empty constructor. 
             </summary>
         </member>
+        <member name="T:umbraco.BusinessLogic.ApplicationRegistrar">
+            <summary>
+            A startup handler for putting the app config in the config file based on attributes found
+            </summary>
+            /// <remarks>
+            TODO: This is really not a very ideal process but the code is found here because tree plugins are in the Web project or the legacy business logic project.
+            Moving forward we can put the base tree plugin classes in the core and then this can all just be taken care of normally within the service.
+            </remarks>
+        </member>
+        <member name="M:umbraco.BusinessLogic.ApplicationRegistrar.ConfigureMappings(AutoMapper.IConfiguration,Umbraco.Core.ApplicationContext)">
+            <summary>
+            Configure a few auto-mappings
+            </summary>
+            <param name="config"></param>
+            <param name="applicationContext"></param>
+        </member>
+        <member name="T:umbraco.BusinessLogic.ApplicationRegistrar.LazyEnumerableSections">
+            <summary>
+            This class is here so that we can provide lazy access to tree scanning for when it is needed
+            </summary>
+        </member>
+        <member name="M:umbraco.BusinessLogic.ApplicationRegistrar.LazyEnumerableSections.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1"/> that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:umbraco.BusinessLogic.ApplicationRegistrar.LazyEnumerableSections.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.
+            </returns>
+        </member>
         <member name="T:umbraco.businesslogic.ApplicationStartupHandler">
             <summary>
             ApplicationStartupHandler provides an easy to use base class to install event handlers in umbraco.
@@ -807,6 +844,13 @@
             UmbracoEnsuredPage is the standard protected page in the umbraco backend, and forces authentication.
             </summary>
         </member>
+        <member name="M:umbraco.BasePages.UmbracoEnsuredPage.OnPreInit(System.EventArgs)">
+            <summary>
+            Checks if the page exists outside of the /umbraco route, in which case the request will not have been authenticated for the back office 
+            so we'll force authentication.
+            </summary>
+            <param name="e"></param>
+        </member>
         <member name="M:umbraco.BasePages.UmbracoEnsuredPage.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:umbraco.BasePages.UmbracoEnsuredPage"/> class.
@@ -851,6 +895,12 @@
             Gets the current user.
             </summary>
             <value>The current user.</value>
+        </member>
+        <member name="T:umbraco.BasePages.UmbracoEnsuredPage.WebformsPageTreeAuthorizeAttribute">
+            <summary>
+            Used to assign a webforms page's security to a specific tree which will in turn check to see
+            if the current user has access to the specified tree's registered section
+            </summary>
         </member>
         <member name="T:umbraco.businesslogic.Exceptions.UserAuthorizationException">
             <summary>
@@ -1419,21 +1469,6 @@
             Provides access to language settings and language files used in the umbraco back-end.
             </summary>
         </member>
-        <member name="M:umbraco.ui.Culture(umbraco.BusinessLogic.User)">
-            <summary>
-            Gets the current Culture for the logged-in users
-            </summary>
-            <param name="u">The user.</param>
-            <returns></returns>
-        </member>
-        <member name="M:umbraco.ui.GetLanguage">
-            <summary>
-            Check if th user is logged in, if they are, return their language specified in the database.
-            If they aren't logged in, check the current thread culture and return it, however if that is
-            null, then return the default Umbraco culture.
-            </summary>
-            <returns></returns>
-        </member>
         <member name="M:umbraco.ui.Text(System.String,umbraco.BusinessLogic.User)">
             <summary>
             Returns translated UI text with a specific key based on the specified user's language settings
@@ -1535,6 +1570,13 @@
             Gets the language file as a xml document.
             </summary>
             <param name="language">The language.</param>
+            <returns></returns>
+        </member>
+        <member name="M:umbraco.ui.ConvertToDictionaryVars(System.String[])">
+            <summary>
+            Convert an array of strings to a dictionary of indicies -> values
+            </summary>
+            <param name="variables"></param>
             <returns></returns>
         </member>
         <member name="T:umbraco.UmbracoSettings">
@@ -2109,10 +2151,21 @@
             Initializes the notifications and caches them.
             </summary>
         </member>
+        <member name="M:umbraco.BusinessLogic.User.ClearApplications">
+            <summary>
+            Clears the list of applications the user has access to, ensure to call Save afterwords
+            </summary>
+        </member>
         <member name="M:umbraco.BusinessLogic.User.clearApplications">
             <summary>
             Clears the list of applications the user has access to.
             </summary>
+        </member>
+        <member name="M:umbraco.BusinessLogic.User.AddApplication(System.String)">
+            <summary>
+            Adds a application to the list of allowed applications, ensure to call Save() afterwords
+            </summary>
+            <param name="appAlias"></param>
         </member>
         <member name="M:umbraco.BusinessLogic.User.addApplication(System.String)">
             <summary>

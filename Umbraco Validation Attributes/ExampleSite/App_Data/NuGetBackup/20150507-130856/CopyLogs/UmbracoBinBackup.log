@@ -1,0 +1,131 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 07 May 2015 13:08:56
+   Source : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\bin\
+     Dest : D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\App_Data\NuGetBackup\20150507-130856\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  79	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\bin\
+	    New File  		  144384	AutoMapper.dll  0%   90%  100%  
+	    New File  		   28160	AutoMapper.Net4.dll  0%  100%  
+	    New File  		   78138	AutoMapper.xml  0%  100%  
+	    New File  		  110592	businesslogic.dll  0%  100%  
+	    New File  		  118960	businesslogic.xml  0%  100%  
+	    New File  		  142336	ClientDependency.Core.dll  0%   92%  100%  
+	    New File  		   23552	ClientDependency.Core.Mvc.dll  0%  100%  
+	    New File  		   85504	ClientDependency.Core.Mvc.pdb  0%  100%  
+	    New File  		  372224	ClientDependency.Core.pdb  0%   35%   70%  100%  
+	    New File  		  507904	cms.dll  0%   25%   51%   77%  100%  
+	    New File  		  328331	cms.xml  0%   39%   79%  100%  
+	    New File  		   51712	controls.dll  0%  100%  
+	    New File  		    9068	controls.xml  0%  100%  
+	    New File  		  122880	CookComputing.XmlRpcV2.dll  0%  100%  
+	    New File  		   87040	Examine.dll  0%  100%  
+	    New File  		    9728	ExampleSite.dll  0%  100%  
+	    New File  		   15598	ExampleSite.dll.config  0%  100%  
+	    New File  		   15872	ExampleSite.pdb  0%  100%  
+	    New File  		  134656	HtmlAgilityPack.dll  0%   97%  100%  
+	    New File  		  271872	HtmlAgilityPack.pdb  0%   48%   96%  100%  
+	    New File  		  122991	HtmlAgilityPack.xml  0%  100%  
+	    New File  		  200704	ICSharpCode.SharpZipLib.dll  0%   65%  100%  
+	    New File  		   80896	ImageProcessor.dll  0%  100%  
+	    New File  		   49152	ImageProcessor.Web.dll  0%  100%  
+	    New File  		   24576	interfaces.dll  0%  100%  
+	    New File  		   11197	interfaces.xml  0%  100%  
+	    New File  		  258048	log4net.dll  0%   50%  100%  
+	    New File  		  786432	Lucene.Net.dll  0%   33%   66%  100%  
+	    New File  		   1.5 m	Lucene.Net.xml  0%   16%   33%   49%   66%   82%   99%  100%  
+	    New File  		   11264	Microsoft.ApplicationBlocks.Data.dll  0%  100%  
+	    New File  		   71016	Microsoft.Web.Helpers.dll  0%  100%  
+	    New File  		   45416	Microsoft.Web.Infrastructure.dll  0%  100%  
+	    New File  		   23664	Microsoft.Web.Mvc.FixedDisplayModes.dll  0%  100%  
+	    New File  		  396288	MiniProfiler.dll  0%   33%   66%   99%  100%  
+	    New File  		  341504	MiniProfiler.pdb  0%   38%   76%  100%  
+	    New File  		  230981	MiniProfiler.xml  0%   56%  100%  
+	    New File  		  391680	MySql.Data.dll  0%   33%   66%  100%  
+	    New File  		  491008	Newtonsoft.Json.dll  0%   26%   53%   80%  100%  
+	    New File  		  474463	Newtonsoft.Json.xml  0%   27%   55%   82%  100%  
+	    New File  		   19968	SQLCE4Umbraco.dll  0%  100%  
+	    New File  		  470240	System.Data.SqlServerCe.dll  0%   27%   55%   83%  100%  
+	    New File  		  240352	System.Data.SqlServerCe.Entity.dll  0%   54%  100%  
+	    New File  		  168520	System.Net.Http.Formatting.dll  0%   77%  100%  
+	    New File  		  137872	System.Net.Http.Formatting.xml  0%   95%  100%  
+	    New File  		  138352	System.Web.Helpers.dll  0%   94%  100%  
+	    New File  		   74208	System.Web.Helpers.xml  0%  100%  
+	    New File  		  323168	System.Web.Http.dll  0%   40%   81%  100%  
+	    New File  		   73312	System.Web.Http.WebHost.dll  0%  100%  
+	    New File  		   10071	System.Web.Http.WebHost.xml  0%  100%  
+	    New File  		  379561	System.Web.Http.xml  0%   34%   69%  100%  
+	    New File  		  506976	System.Web.Mvc.dll  0%   25%   51%   77%  100%  
+	    New File  		  847872	System.Web.Mvc.xml  0%   30%   61%   92%  100%  
+	    New File  		  264792	System.Web.Razor.dll  0%   49%   98%  100%  
+	    New File  		  365160	System.Web.Razor.xml  0%   35%   71%  100%  
+	    New File  		   41048	System.Web.WebPages.Deployment.dll  0%  100%  
+	    New File  		    2812	System.Web.WebPages.Deployment.xml  0%  100%  
+	    New File  		  204400	System.Web.WebPages.dll  0%   64%  100%  
+	    New File  		   39536	System.Web.WebPages.Razor.dll  0%  100%  
+	    New File  		   17776	System.Web.WebPages.Razor.xml  0%  100%  
+	    New File  		  223301	System.Web.WebPages.xml  0%   58%  100%  
+	    New File  		  192512	TidyNet.dll  0%   68%  100%  
+	    New File  		   1.7 m	Umbraco.Core.dll  0%   14%   28%   42%   57%   71%   85%   99%  100%  
+	    New File  		   1.3 m	Umbraco.Core.xml  0%   19%   38%   57%   76%   96%  100%  
+	    New File  		   38912	umbraco.DataLayer.dll  0%  100%  
+	    New File  		  115002	umbraco.DataLayer.xml  0%  100%  
+	    New File  		   1.7 m	umbraco.dll  0%   14%   29%   43%   58%   73%   87%  100%  
+	    New File  		  372736	umbraco.editorControls.dll  0%   35%   70%  100%  
+	    New File  		  170154	umbraco.editorControls.xml  0%   77%  100%  
+	    New File  		  131072	umbraco.MacroEngines.dll  0%  100%  
+	    New File  		    5678	umbraco.MacroEngines.xml  0%  100%  
+	    New File  		   37888	umbraco.providers.dll  0%  100%  
+	    New File  		   51453	umbraco.providers.xml  0%  100%  
+	    New File  		   57344	Umbraco.Web.UI.dll  0%  100%  
+	    New File  		   1.2 m	umbraco.xml  0%   19%   38%   58%   77%   96%  100%  
+	    New File  		   78336	umbraco.XmlSerializers.dll  0%  100%  
+	    New File  		   34304	UmbracoExamine.dll  0%  100%  
+	    New File  		   19456	UmbracoValidationAttributes.dll  0%  100%  
+	    New File  		   65024	UmbracoValidationAttributes.pdb  0%  100%  
+	    New File  		   22528	UrlRewritingNet.UrlRewriter.dll  0%  100%  
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\bin\amd64\
+	    New File  		  463584	sqlceca40.dll  0%   28%   56%   84%  100%  
+	    New File  		  106720	sqlcecompact40.dll  0%  100%  
+	    New File  		  154848	sqlceer40EN.dll  0%   84%  100%  
+	    New File  		   81120	sqlceme40.dll  0%  100%  
+	    New File  		  909536	sqlceqp40.dll  0%   28%   57%   86%  100%  
+	    New File  		  561888	sqlcese40.dll  0%   46%   93%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\bin\amd64\Microsoft.VC90.CRT\
+	    New File  		    1862	Microsoft.VC90.CRT.manifest  0%  100%  
+	    New File  		  624448	msvcr90.dll  0%   41%   83%  100%  
+	    New File  		     406	README_ENU.txt  0%  100%  
+	  New Dir          6	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\bin\x86\
+	    New File  		  349920	sqlceca40.dll  0%   37%   74%  100%  
+	    New File  		   90848	sqlcecompact40.dll  0%  100%  
+	    New File  		  154336	sqlceer40EN.dll  0%   84%  100%  
+	    New File  		   67296	sqlceme40.dll  0%  100%  
+	    New File  		  642784	sqlceqp40.dll  0%   40%   81%  100%  
+	    New File  		  406240	sqlcese40.dll  0%   32%   64%   96%  100%  
+	  New Dir          3	D:\Umbraco-Validation-Attributes\Umbraco Validation Attributes\ExampleSite\bin\x86\Microsoft.VC90.CRT\
+	    New File  		    1860	Microsoft.VC90.CRT.manifest  0%  100%  
+	    New File  		  653120	msvcr90.dll  0%   40%   80%  100%  
+	    New File  		     406	README_ENU.txt  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         5         4         0         0         0         0
+   Files :        97        97         0         0         0         0
+   Bytes :   24.62 m   24.62 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           286874033 Bytes/sec.
+   Speed :           16415.063 MegaBytes/min.
+   Ended : 07 May 2015 13:08:56
+
