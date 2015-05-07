@@ -8,10 +8,15 @@ namespace UmbracoValidationAttributes
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false)]
     public class UmbracoRequired : RequiredAttribute, IClientValidatable
     {
+        private readonly string _errorMessageDictionaryKey;
+
+
         public UmbracoRequired(string errorMessageDictionaryKey)
         {
-            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(errorMessageDictionaryKey);
+            _errorMessageDictionaryKey = errorMessageDictionaryKey;   
         }
+
+
         /// <summary>
         /// 
         /// </summary>
@@ -20,6 +25,8 @@ namespace UmbracoValidationAttributes
         /// <returns></returns>
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
+            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(_errorMessageDictionaryKey);
+
             var error   = FormatErrorMessage(metadata.DisplayName);
             var rule    = new ModelClientValidationRequiredRule(error);
 
