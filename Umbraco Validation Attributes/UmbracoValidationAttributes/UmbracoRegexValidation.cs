@@ -17,7 +17,7 @@ namespace UmbracoValidationAttributes
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            UmbracoValidationHelper.GetDictionaryItem(_errorMessageDictionaryKey);
+            ErrorMessage = UmbracoValidationHelper.GetDictionaryItem(_errorMessageDictionaryKey);
 
             var error           = FormatErrorMessage(metadata.DisplayName);
             var rule            = new ModelClientValidationRule();
